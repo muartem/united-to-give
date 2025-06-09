@@ -1,3 +1,5 @@
+import {gray} from 'next/dist/lib/picocolors'
+
 const config = {
 	darkMode: 'class',
 	content: [
@@ -11,8 +13,17 @@ const config = {
 				'1440': '1440px',
 			},
 			colors: {
-				background: 'var(--background)',
-				foreground: 'var(--foreground)',
+				background: 'var(--color-bg)',
+				primary: 'var(--color-primary)',
+				'light-gray': 'var(--color-light-gray)',
+				'mid-gray': 'var(--color-mid-gray)',
+				'dark-gray': 'var(--color-dark-gray)',
+				'logo-gray': 'var(--color-logo-gray)',
+				'black-text': 'var(--color-black-text)',
+				'light-black': 'var(--color-light-black)',
+				'mid-link': 'var(--color-link)',
+				'golden-yellow': 'var(--color-golden-yellow)',
+				'card-bg': 'var(--color-card-bg)',
 			},
 			animation: {
 				scroll:

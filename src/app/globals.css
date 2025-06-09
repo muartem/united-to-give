@@ -34,47 +34,43 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -.02em;
 }
 
 h2, .h2 {
     font-size: 32px;
-    line-height: 44px;
+    line-height: 140%;
 }
 
 h3, .h3 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 26px;
+    line-height: 130%;
 }
 
-h4, .h4 {
-    font-size: 16px;
-    line-height: 22px;
-}
 
 .b1 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 130%;
 }
 
-.b2 {
+.b2, button {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 140%;
+    letter-spacing: .02em;
 }
 
 .b3 {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: .02em;
 }
 
-.b4 {
-    font-size: 12px;
-    line-height: 16px;
-}
 
 a {
     text-decoration: none;
+    color: var(--color-link);
 }
 
 a:hover {
@@ -90,6 +86,16 @@ button {
 @layer base {
     :root {
         /* Colors */
-        --color-primary: #0073E6;
+        --color-primary: #C5161D;
+        --color-bg: #FFFAFE;
+        --color-light-gray: #F5F5F5;
+        --color-mid-gray: #E5E5E7;
+        --color-dark-gray: #CFCFD0;
+        --color-logo-gray: #777777CC;
+        --color-black-text: #464646;
+        --color-light-black: #222222;
+        --color-link: #1900D9;
+        --color-golden-yellow: #FFD56A;
+        --color-card-bg: #F2EDEA;
     }
 }
