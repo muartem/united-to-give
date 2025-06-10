@@ -1,7 +1,4 @@
-import {gray} from 'next/dist/lib/picocolors'
-
 const config = {
-	darkMode: 'class',
 	content: [
 		'./src/pages/**/*.{js,ts,jsx,tsx,mdx}',
 		'./src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,11 +7,12 @@ const config = {
 	theme: {
 		extend: {
 			screens: {
-				'1440': '1440px',
+				'xs': '380px',
 			},
 			colors: {
 				background: 'var(--color-bg)',
 				primary: 'var(--color-primary)',
+				'dark-primary': 'var(--color-dark-primary)',
 				'light-gray': 'var(--color-light-gray)',
 				'mid-gray': 'var(--color-mid-gray)',
 				'dark-gray': 'var(--color-dark-gray)',
@@ -41,6 +39,17 @@ const config = {
 			},
 			transitionProperty: {
 				spacing: 'padding-left',
+			},
+			backgroundImage: {
+				'main-gradient': `linear-gradient(
+          180deg,
+          #e7e7e7 0%,
+          #e6e6e6 19%,
+          #dcdcdc 51%,
+          #d6d6d6 65%,
+          #d1d1d1 85%,
+          #d0d0d0 100%
+        )`,
 			},
 		},
 	},

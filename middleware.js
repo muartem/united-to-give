@@ -1,24 +1,11 @@
-import { NextResponse } from 'next/server'
+import createMiddleware from 'next-intl/middleware'
+import locales from '@/i18n/locales'
 
-export const locales = ['en', 'fr', 'ua']
+export default createMiddleware({
+	locales,
+	defaultLocale: 'en',
+})
 
-function getLocale(request) {
-	return 'en'
-}
-
-export function middleware(request) {
-	const { pathname } = request.nextUrl
-	const pathnameHasLocale = locales.some(
-		(locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-	)
-	console.log('sdklnkds')
-	if (pathnameHasLocale) return
-
-	// Redirect if there is no locale
-	const locale = getLocale(request)
-	request.nextUrl.pathname = `/${locale}${pathname}`
-
-	// e.g. incoming request is /products
-	// The new URL is now /en-US/products
-	return NextResponse.redirect(request.nextUrl)
+export const config = {
+	matcher: ['/', `/(${locales.join('|')})/:path*`],
 }
