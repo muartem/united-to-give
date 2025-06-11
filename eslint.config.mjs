@@ -17,13 +17,32 @@ const eslintConfig = [
       sourceType: 'module',
     },
     rules: {
-      semi: ['error', 'never'],
+      semi: ['warn', 'never'],
       indent: ['error', 'tab'],
       quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
       'jsx-quotes': ['error', 'prefer-double'],
       'import/extensions': 'off',
       'import/no-extraneous-dependencies': 'off',
       'react/react-in-jsx-scope': 'off',
+      'padding-line-between-statements': [
+        'warn',
+        {
+          blankLine: 'always',
+          prev: 'import',
+          next: '*',
+        },
+        {
+          blankLine: 'always',
+          prev: '*',
+          next: 'return',
+        },
+        {
+          blankLine: 'always',
+          prev: '*',
+          next: 'export',
+        },
+      ],
+      'eol-last': ['warn', 'always'],
     },
   },
 ]

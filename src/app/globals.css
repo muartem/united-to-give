@@ -14,7 +14,7 @@ html {
     font-size: 16px;
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
-    background: #464646;
+    background: var(--color-bg);
 }
 
 body {
@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: Arial, sans-serif;
     font-weight: bold;
-    line-height: 1.33;
 }
 
 h1, .h1 {
@@ -66,15 +65,47 @@ h3, .h3 {
     letter-spacing: .02em;
 }
 
+@media (max-width: 767px) {
+    h1, .h1 {
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: -.02em;
+    }
+
+    h2, .h2 {
+        font-size: 26px;
+        line-height: 140%;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+
+    .b1 {
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .b2, button {
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: .02em;
+    }
+
+    .b3 {
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: .02em;
+    }
+}
 
 a {
     text-decoration: none;
     color: var(--color-link);
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 button {
     cursor: pointer;

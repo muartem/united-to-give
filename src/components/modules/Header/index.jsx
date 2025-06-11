@@ -83,8 +83,8 @@ const Header = ({ locale }) => {
 								<div
 									className={`
 										flex flex-col gap-1.5
-                    overflow-hidden border-none px-4 w-max
-                    md:absolute md:top-full md:left-0 md:bg-light-black
+                    overflow-hidden border-none px-4 md:px-8 w-max
+                    md:absolute md:top-full md:left-1/2 md:-translate-x-1/2 md:bg-light-black
 								    md:border md:border-blue md:rounded-lg
 								    ${isSubmenuOpen ? 'opacity-100 max-h-max visible py-2 md:py-4' : 'opacity-0 h-0 invisible md:py-0'}
 								    transition-all duration-300
