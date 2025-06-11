@@ -15,6 +15,7 @@ export default function LanguageSwitcher({ locale, classNames }) {
 
 	return (
 		<select
+			aria-label="Language Switcher"
 			value={locale}
 			onChange={handleLanguageChange}
 			className={`rounded-md px-4 py-2 bg-transparent hover:outline-none focus:outline-none ${classNames}`}

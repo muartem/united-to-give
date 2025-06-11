@@ -28,11 +28,6 @@ const eslintConfig = [
         'warn',
         {
           blankLine: 'always',
-          prev: 'import',
-          next: '*',
-        },
-        {
-          blankLine: 'always',
           prev: '*',
           next: 'return',
         },

@@ -8,7 +8,7 @@ const Numbers = () => {
 			className="max-h-dvh w-dvw text-light-black py-10"
 		>
 			<div
-				className="max-w-screen-xl m-auto px-4 md:px-0 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 b2 text-black-text"
+				className="max-w-screen-xl m-auto px-4 xl:px-0 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 b2 text-black-text"
 			>
 				<div>
 					<h2 className="text-primary">{t('1.title')}</h2>

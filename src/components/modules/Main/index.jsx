@@ -14,7 +14,7 @@ const Main = () => {
 				className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
 			>
 				<div
-					className="flex z-10 flex-col justify-between gap-12 py-12 px-4 md:px-0 md:py-24"
+					className="flex z-10 flex-col justify-between gap-12 py-12 px-4 xl:px-0 md:py-24"
 				>
 					<div className="flex flex-col gap-4">
 						<h1 className="uppercase font-normal">

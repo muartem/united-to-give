@@ -14,6 +14,7 @@ const Button = ({
         ${classNames}
       `}
 			onClick={onClick}
+			aria-label={children}
 		>
 			{children}
 		</button>

@@ -4,5 +4,40 @@
     "CharityEvent": "Événement caritatif",
     "BecomePartner": "Devenir partenaire",
     "DonateFunds": "Faire un don"
+  },
+  "home": {
+    "main": {
+      "title": "Donnez votre sang, offrez un ",
+      "time": "avenir",
+      "subTitle": "Aidez comme vous le pouvez - rejoignez-nous entre le ",
+      "dateRange": "20 avril et 10 mai.",
+      "text1": "quelqu’un attend son lendemain",
+      "donateBtn": "Donner son sang"
+    },
+    "numbers": {
+      "1": {
+        "title": "1000+",
+        "text": "Notre objectif est d’attirer un millier de nouveaux donneurs à Toronto"
+      },
+      "2": {
+        "title": "3000+",
+        "text": "Vies sauvées au Canada"
+      },
+      "3": {
+        "title": "6 MOIS",
+        "text1": "La durée du",
+        "#": "#unitedtogive",
+        "text2": "défi de don de sang"
+      },
+      "4": {
+        "title": "5 000 $",
+        "text": "Collecter des fonds pour soutenir le centre de sang ukrainien"
+      }
+    },
+    "video": {
+      "title": "Regardez l’histoire : Un Ukrainien a donné son sang 9 fois au Canada",
+      "text1": "Quand la tragédie a frappé, l’espoir est venu d’un donneur de sang.",
+      "text2": "Voici l’histoire réelle d’un jeune Ukrainien, arrivé récemment au Canada."
+    }
   }
 }

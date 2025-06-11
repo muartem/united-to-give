@@ -109,7 +109,9 @@ const Header = ({ locale }) => {
 							</Link>
 						)
 					))}
-					<LanguageSwitcher classNames='py-6 m-auto md:hidden' locale={locale}/>
+					<div className="md:hidden p-6 m-auto">
+						<LanguageSwitcher locale={locale}/>
+					</div>
 				</nav>
 				<LanguageSwitcher classNames='hidden md:block' locale={locale}/>
 			</div>
