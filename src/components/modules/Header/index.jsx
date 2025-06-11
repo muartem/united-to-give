@@ -19,8 +19,8 @@ const Header = ({ locale }) => {
 		<header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white" >
 			<div className="max-w-screen-xl m-auto flex items-center justify-between">
 				<div className="flex items-center">
-					<Link href="/">
-						<Image src={logo} alt="HRUN Logo" width={164} height={82} className="w-24 md:w-40"/>
+					<Link className="flex items-center" href="/">
+						<Image src={logo} alt="HRUN Logo" width={164} height={82} />
 					</Link>
 				</div>
 				<button

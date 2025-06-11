@@ -8,7 +8,7 @@ const Main = () => {
 
 	return (
 		<main
-			className="max-h-dvh md:h-[752px] w-dvw bg-main-gradient text-light-black"
+			className="md:h-[752px] w-dvw bg-main-gradient text-light-black"
 		>
 			<div
 				className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
@@ -28,11 +28,11 @@ const Main = () => {
 						<h2 className="text-black-text uppercase">
 							{t('text1')}
 						</h2>
-						<Button classNames="w-64">{t('donateBtn')}</Button>
+						<Button classNames="w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
 					</div>
 				</div>
 				<div
-					className="absolute opacity-50 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
+					className="max-h-dvh absolute opacity-50 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
 					<Image className="h-full" src={Kid} width={568} alt={'kid'}/>
 				</div>
 			</div>

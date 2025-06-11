@@ -5,7 +5,7 @@ const Video = () => {
 
 	return (
 		<section
-			className="max-h-dvh w-dvw text-light-black py-10 bg-white"
+			className="w-dvw text-light-black py-10 bg-white"
 		>
 			<div
 				className="max-w-screen-xl m-auto px-4 xl:px-0 b2 text-black-text flex flex-col"

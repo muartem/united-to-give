@@ -38,6 +38,25 @@
       "title": "Watch the Story: A Ukrainian donated blood 9 times in Canada",
       "text1": "When tragedy struck, hope came through a blood donor.",
       "text2": "This is the real story of a young Ukrainian man who, after moving to Canada."
+    },
+    "whoNeeds": {
+      "title": "who needs the donated blood?",
+      "1": {
+        "title": "Children with Cancer",
+        "text": "During chemotherapy, young patients often require regular blood transfusions to support their treatment and recovery."
+      },
+      "2": {
+        "title": "People Injured in Car Crashes or Accidents",
+        "text": "Blood is needed urgently in emergencies — it can’t be bought, only donated in advance to save lives when seconds matter."
+      },
+      "3": {
+        "title": "Patients with Chronic Illnesses",
+        "text": "Conditions like anemia, hemophilia, or kidney failure often require long-term treatment with blood components."
+      },
+      "4": {
+        "title": "Mothers in Complicated Births",
+        "text": "In some cases, childbirth can involve severe bleeding — donated blood can save both the mother and the baby."
+      }
     }
   }
 }

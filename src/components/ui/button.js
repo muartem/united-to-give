@@ -7,7 +7,7 @@ const Button = ({
 	return (
 		<button
 			className={`
-        p-3.5 rounded-2xl md:rounded-full
+        p-3.5 rounded-xl md:rounded-full
         b2
         ${variant === 'primary' ? 'bg-primary text-white hover:bg-dark-primary' : ''}
         ${variant === 'secondary' ? 'bg-white text-primary border-2 border-primary hover:border-dark-primary hover:text-dark-primary' : ''}
