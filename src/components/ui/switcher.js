@@ -3,7 +3,7 @@
 import locales from '@/i18n/locales'
 import { usePathname, useRouter } from 'next/navigation'
 
-export default function LanguageSwitcher({ locale, classNames }) {
+const LanguageSwitcher = ({ locale, classNames }) => {
 	const router = useRouter()
 	const pathname = usePathname()
 
@@ -24,3 +24,5 @@ export default function LanguageSwitcher({ locale, classNames }) {
 		</select>
 	)
 }
+
+export default LanguageSwitcher
