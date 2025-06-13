@@ -11,9 +11,9 @@ const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2
 const schema = (t) => yup.object().shape({
 	fullName: yup.string().required(t('required')),
 	email: yup.string().email(t('emailER')).required(t('required')),
-	dobYear: yup.string().required(),
-	dobMonth: yup.string().required(),
-	dobDay: yup.string().required(),
+	dobYear: yup.string().required(t('required')),
+	dobMonth: yup.string().required(t('required')),
+	dobDay: yup.string().required(t('required')),
 	phone: yup.string().matches(phoneRegExp, t('numberER')).required(t('required')),
 	hasDonated: yup.string().required(t('required')),
 	availableTime: yup.string().required(t('required')),
@@ -66,8 +66,8 @@ const JoinDonationForm = () => {
 				<div className="flex gap-2">
 					<select {...register('dobYear')} className="input">
 						<option value="">t('yyyy')</option>
-						{Array.from({length: 100}, (_, i) => (
-							<option key={i} value={2025 - i}>{2025 - i}</option>
+						{Array.from({length: 65}, (_, i) => (
+							<option key={i} value={2009 - i}>{2009 - i}</option>
 						))}
 					</select>
 					<select {...register('dobMonth')} className="input">
@@ -87,6 +87,7 @@ const JoinDonationForm = () => {
 						))}
 					</select>
 				</div>
+				<p className="error">{errors.dobYear?.message || errors.dobMonth?.message || errors.dobDay?.message}</p>
 			</div>
 
 			<div>

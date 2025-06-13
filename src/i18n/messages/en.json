@@ -58,7 +58,15 @@
         "text": "In some cases, childbirth can involve severe bleeding — donated blood can save both the mother and the baby."
       }
     },
-    "groupDonation": {},
+    "groupDonation": {
+      "date": "13 of may",
+      "text1": "\uD83D\uDD52 Time:",
+      "text2": "10:00 AM – 12:00 PM",
+      "text3": "1:00 PM – 3:00 PM",
+      "text4": "\uD83D\uDCCD Location: Canadian Blood Services, 163 King St W, Toronto, ON, M5H 4H2",
+      "text5": "Before registering, please check your",
+      "eligibility": "donation eligibility."
+    },
     "form": {
       "title": "COMPLETE THE FORM TO JOIN THE",
       "groupForm": "GROUP DONATION",

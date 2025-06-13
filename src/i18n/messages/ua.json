@@ -58,7 +58,9 @@
         "text": "In some cases, childbirth can involve severe bleeding — donated blood can save both the mother and the baby."
       }
     },
-    "groupDonation": {},
+    "groupDonation": {
+
+    },
     "form": {
       "title": "COMPLETE THE FORM TO JOIN THE",
       "groupForm": "GROUP DONATION",
