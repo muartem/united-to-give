@@ -1,12 +1,11 @@
 import {useTranslations} from 'next-intl'
+import Card from '@/components/ui/card'
 
 const Event = () => {
 	const t = useTranslations('home.groupDonation')
 
 	return (
-		<div
-			className="w-full p-10 b2 text-black-text flex flex-col bg-card-bg rounded-b-xl md:rounded-b-3xl"
-		>
+		<Card>
 			<h1 className="uppercase text-primary font-normal mb-1">{t('date')}</h1>
 			<span>{t('text1')}</span>
 			<ul className="list-disc list-inside ml-2">
@@ -19,7 +18,7 @@ const Event = () => {
 				{t('text5')}
 				<a href="/"> {t('eligibility')}</a>
 			</span>
-		</div>
+		</Card>
 	)
 }
 

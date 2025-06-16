@@ -1,5 +1,5 @@
+import BloodUl from '@/components/ui/bloodUl'
 import {useTranslations} from 'next-intl'
-import Blood from '@/assets/svg/blood'
 
 const FirstVolunteers = () => {
 	const t = useTranslations('home.groupDonation')
@@ -10,11 +10,7 @@ const FirstVolunteers = () => {
 		>
 			<h2 className="uppercase text-primary ">{t('firstUnited')}</h2>
 			<span className="b1">{t('text6')}</span>
-			<ul className={`b2 list-none [&>li]:flex [&>li]:gap-6`}>
-				<li><Blood/>{t('text7')}</li>
-				<li><Blood/>{t('text8')}</li>
-				<li><Blood/>{t('text9')}</li>
-			</ul>
+			<BloodUl lis={[t('text7'), t('text8'), t('text9')]}/>
 		</div>
 	)
 }
