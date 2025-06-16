@@ -9,7 +9,7 @@ const Event = () => {
 		>
 			<h1 className="uppercase text-primary font-normal mb-1">{t('date')}</h1>
 			<span>{t('text1')}</span>
-			<ul className="list-disc & > * ml-5">
+			<ul className="list-disc list-inside ml-2">
 				<li>{t('text2')}</li>
 				<li>{t('text3')}</li>
 			</ul>

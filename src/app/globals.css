@@ -33,18 +33,23 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
     font-size: 64px;
+    font-weight: normal;
     line-height: 120%;
     letter-spacing: -.02em;
 }
 
 h2, .h2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 32px;
+    font-weight: bold;
     line-height: 140%;
 }
 
 h3, .h3 {
     font-size: 26px;
     line-height: 130%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -61,8 +66,14 @@ h3, .h3 {
 
 .b3 {
     font-size: 16px;
+    font-family: "Arial Narrow", Arial, sans-serif;
     line-height: 140%;
     letter-spacing: .02em;
+}
+
+button {
+    font-weight: bold;
+
 }
 
 .input {
