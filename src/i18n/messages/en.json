@@ -3,7 +3,9 @@
     "BloodDonation": "Blood Donation",
     "CharityEvent": "Charity Event",
     "BecomePartner": "Become Partner",
-    "DonateFunds": "Donate Funds"
+    "DonateFunds": "Donate Funds",
+    "ReferralProgram": "Referral Program",
+    "Challenge": "United to give challenge"
   },
   "home": {
     "main": {
@@ -157,6 +159,9 @@
       "eligibility": "donation eligibility.",
       "more1": "For more information or to book an appointment, visit ",
       "more2": "or call "
+    },
+    "footer": {
+
     }
   }
 }

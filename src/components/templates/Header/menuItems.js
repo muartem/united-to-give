@@ -26,4 +26,17 @@ const menuItems = (t) => [
 	},
 ]
 
+export const menu2Footer = (t) => [
+	{
+		name: t('ReferralProgram'),
+		href: '/referral-program',
+		submenu: null,
+	},
+	{
+		name: t('Challenge'),
+		href: '/challenge',
+		submenu: null,
+	},
+]
+
 export default menuItems

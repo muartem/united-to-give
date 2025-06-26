@@ -1,7 +1,7 @@
 'use client'
 
 import arrowLogo from '@/assets/svg/arrow-down.svg'
-import logo from '@/assets/svg/logo.svg'
+import logo from '@/assets/svg/logo-w.svg'
 import menuItems from './menuItems'
 import LanguageSwitcher from '@/components/ui/switcher'
 import {useTranslations} from 'next-intl'
@@ -21,7 +21,7 @@ const Header = ({locale}) => {
 			<div className="max-w-screen-xl m-auto flex items-center justify-between">
 				<div className="flex items-center">
 					<Link className="flex items-center" href="/">
-						<Image src={logo} alt="HRUN Logo" width={164} height={82}/>
+						<Image src={logo} alt="Logo" width={189} height={40}/>
 					</Link>
 				</div>
 				<button
