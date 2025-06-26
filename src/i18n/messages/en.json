@@ -144,6 +144,19 @@
       "2": "People Injured in Car Crashes or Accidents",
       "3": "Patients with Chronic Illnesses",
       "4": "Mothers in Complicated Births"
+    },
+    "donateWhen": {
+      "title": "Donate when it works for you",
+      "available": "Available: May 15 - June 15",
+      "location": "\uD83D\uDCCD Location: Any Canadian Blood Services location in Toronto",
+      "your": "Your schedule. Your impact. One simple act that saves lives.",
+      "li1": "Receive a digital certificate of appreciation",
+      "li2": "Get a free ticket to our charity event in Toronto",
+      "li3": "Join our Telegram group for easy reminders, support & next steps",
+      "before": "Before registering, please, check your ",
+      "eligibility": "donation eligibility.",
+      "more1": "For more information or to book an appointment, visit ",
+      "more2": "or call "
     }
   }
 }

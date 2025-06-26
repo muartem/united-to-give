@@ -5,8 +5,8 @@ const BloodUl = ({
 	lis,
 }) => {
 	return (
-		<ul className={`b2 list-none [&>li]:flex [&>li]:gap-6 ${classNames}`}>
-			{lis.map(li => (<li key={li}><Blood/>{li}</li>))}
+		<ul className={`b2 flex flex-col gap-2 list-none [&>li]:flex [&>li]:gap-6 ${classNames}`}>
+			{lis.map(li => (<li key={li}><Blood />{li}</li>))}
 		</ul>
 	)
 }
