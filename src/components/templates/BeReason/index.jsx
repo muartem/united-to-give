@@ -20,7 +20,6 @@ const BeReason = () => {
 				<WhoNeeds />
 			</div>
 			<div>
-
 			</div>
 		</Container>
 	)

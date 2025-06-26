@@ -1,7 +1,7 @@
-import BeReason from '@/components/modules/BeReason'
-import Main from '@/components/modules/Main'
-import Numbers from '@/components/modules/Numbers'
-import Video from '@/components/modules/Video'
+import BeReason from '@/components/templates/BeReason'
+import Main from '@/components/templates/Main'
+import Numbers from '@/components/templates/Numbers'
+import Video from '@/components/templates/Video'
 
 export default async function BloodDonationPage() {
 	return (

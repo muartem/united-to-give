@@ -1,4 +1,4 @@
-import Header from '@/components/modules/Header'
+import Header from '@/components/templates/Header'
 import { NextIntlClientProvider } from 'next-intl'
 import {getMessages} from 'next-intl/server'
 import { Geist, Geist_Mono } from 'next/font/google'
