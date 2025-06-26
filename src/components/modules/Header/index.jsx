@@ -28,7 +28,7 @@ const Header = ({ locale }) => {
 					onClick={() => setIsMenuOpen(!isMenuOpen)}
 					className="
 						w-12 h-12
-						p-3
+						p-3 -mr-3
 						rounded-full display-none
 						block md:hidden
 					"

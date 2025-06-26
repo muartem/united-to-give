@@ -2,20 +2,12 @@ const menuItems = (t) => [
 	{
 		name: t('BloodDonation'),
 		href: '/blood-donation',
-		submenu: [
+		/*submenu: [
 			{
 				name: 'Military',
 				href: '/industries',
 			},
-			{
-				name: 'Gas & Oil',
-				href: '/industries',
-			},
-			{
-				name: 'Construction',
-				href: '/industries',
-			},
-		],
+		],*/
 	},
 	{
 		name: t('CharityEvent'),

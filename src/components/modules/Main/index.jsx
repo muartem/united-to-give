@@ -4,7 +4,7 @@ import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
 const Main = () => {
-	const t = useTranslations('home.main')
+	const t = useTranslations('blood.main')
 
 	return (
 		<main
@@ -28,11 +28,11 @@ const Main = () => {
 						<h2 className="text-black-text uppercase">
 							{t('text1')}
 						</h2>
-						<Button classNames="w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
+						<Button classNames="w-full md:w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
 					</div>
 				</div>
 				<div
-					className="max-h-dvh absolute opacity-50 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
+					className="max-h-dvh absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
 					<Image className="h-full" src={Kid} width={568} alt={'kid'}/>
 				</div>
 			</div>
