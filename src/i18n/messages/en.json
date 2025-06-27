@@ -160,6 +160,23 @@
       "more1": "For more information or to book an appointment, visit ",
       "more2": "or call "
     },
+    "donateTogether": {
+      "title": "donate together with other 20 volunteers in Toronto",
+      "description": "We post information about group donation in our Instagram. Check our profile to be updated",
+      "li1": "Our goal is to give a chance to 90+ people who need donated blood.",
+      "li2": "We plan to attract 1000+ new blood donors with Ukrainian roots in Canada",
+      "li3": "By donating blood in Canada, we will attract more investments to Ukraine.",
+      "igshare": "Share your donation story. Inspire others.",
+      "igdesc1": "Every drop counts - and your donation could save up to three lives. Join the ",
+      "igdesc2": " movement and stand with Canadians and Ukrainians uniting for a life-saving cause.",
+      "iglink1": "Join the ",
+      "iglink2": " Challenge",
+      "#": "#UnitedToGive",
+      "view": "View updates",
+      "tgshare": "Join Our Telegram Community.",
+      "tgdesc": "Stay in the loop about upcoming events, updates, and ways to get involved - all in one place.",
+      "tglink": "Join now"
+    },
     "footer": {
 
     }

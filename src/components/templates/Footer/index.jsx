@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-const Footer = () => {
+const BeReason = () => {
 	const t = useTranslations('nav')
 
 	return (
@@ -54,4 +54,4 @@ const Footer = () => {
 	)
 }
 
-export default Footer
+export default BeReason
