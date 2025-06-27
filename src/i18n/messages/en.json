@@ -177,6 +177,27 @@
       "tgdesc": "Stay in the loop about upcoming events, updates, and ways to get involved - all in one place.",
       "tglink": "Join now"
     },
+    "howDonate": {
+      "title": "How to Donate Blood in 4 Easy Steps",
+      "1": {
+        "title": "Book Your Appointment",
+        "text1": "Schedule online through out partner’s website or call ",
+        "check": " Check eligibility ",
+        "text2": "before booking."
+      },
+      "2": {
+        "title": "Prepare to Donate",
+        "text": "Stay hydrated, eat a salty snack, and bring a valid photo ID."
+      },
+      "3": {
+        "title": "Screen & Donate",
+        "text": "Complete a health questionnaire, get a quick check, and donate (takes ~10 mins)."
+      },
+      "4": {
+        "title": "Recover & Refresh",
+        "text": "Enjoy a snack, relax, and feel great knowing you helped save lives."
+      }
+    },
     "footer": {
 
     }

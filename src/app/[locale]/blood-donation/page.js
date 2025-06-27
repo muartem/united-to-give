@@ -1,5 +1,6 @@
 import BeReason from '@/components/templates/BeReason'
 import DonateTogether from '@/components/templates/DonateTogether'
+import HowDonate from '@/components/templates/HowDonate'
 import Main from '@/components/templates/Main'
 import Numbers from '@/components/templates/Numbers'
 import Video from '@/components/templates/Video'
@@ -12,6 +13,7 @@ export default async function BloodDonationPage() {
 			<Video/>
 			<BeReason/>
 			<DonateTogether/>
+			<HowDonate />
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolores explicabo ipsa maiores minima
 				obcaecati porro repudiandae, sapiente ullam unde vero voluptatibus. Debitis ducimus et eum fugiat neque numquam
 				porro. Ad alias atque aut cumque, ducimus eaque eos esse excepturi illo iusto minus nesciunt nostrum numquam,
