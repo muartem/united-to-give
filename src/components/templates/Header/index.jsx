@@ -1,26 +1,27 @@
 'use client'
 
 import arrowLogo from '@/assets/svg/arrow-down.svg'
-import logo from '@/assets/svg/logo.svg'
+import logo from '@/assets/svg/logo-w.svg'
+import menuItems from './menuItems'
 import LanguageSwitcher from '@/components/ui/switcher'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
-import menuItems from './menuItems'
-import {  useState } from 'react'
+import {useState} from 'react'
 
 
-const Header = ({ locale }) => {
+
+const Header = ({locale}) => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 	const [isSubmenuOpen, setIsSubmenuOpen] = useState(false)
-	const t = useTranslations('nav');
+	const t = useTranslations('nav')
 
 	return (
-		<header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white" >
+		<header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white">
 			<div className="max-w-screen-xl m-auto flex items-center justify-between">
 				<div className="flex items-center">
 					<Link className="flex items-center" href="/">
-						<Image src={logo} alt="HRUN Logo" width={164} height={82} />
+						<Image src={logo} alt="Logo" width={189} height={40}/>
 					</Link>
 				</div>
 				<button
@@ -28,7 +29,7 @@ const Header = ({ locale }) => {
 					onClick={() => setIsMenuOpen(!isMenuOpen)}
 					className="
 						w-12 h-12
-						p-3
+						p-3 -mr-3
 						rounded-full display-none
 						block md:hidden
 					"
@@ -113,7 +114,7 @@ const Header = ({ locale }) => {
 						<LanguageSwitcher locale={locale}/>
 					</div>
 				</nav>
-				<LanguageSwitcher classNames='hidden md:block' locale={locale}/>
+				<LanguageSwitcher classNames="hidden md:block" locale={locale}/>
 			</div>
 		</header>
 	)

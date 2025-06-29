@@ -1,7 +1,7 @@
-import GroupDonation from '@/components/modules/GroupDonation'
-import Main from '@/components/modules/Main'
-import Numbers from '@/components/modules/Numbers'
-import Video from '@/components/modules/Video'
+import GroupDonation from '@/components/templates/GroupDonation'
+import Main from '@/components/templates/Main'
+import Numbers from '@/components/templates/Numbers'
+import Video from '@/components/templates/Video'
 import WhoNeeds from '@/components/modules/WhoNeeds'
 
 export default async function Home() {

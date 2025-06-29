@@ -2,20 +2,12 @@ const menuItems = (t) => [
 	{
 		name: t('BloodDonation'),
 		href: '/blood-donation',
-		submenu: [
+		/*submenu: [
 			{
 				name: 'Military',
 				href: '/industries',
 			},
-			{
-				name: 'Gas & Oil',
-				href: '/industries',
-			},
-			{
-				name: 'Construction',
-				href: '/industries',
-			},
-		],
+		],*/
 	},
 	{
 		name: t('CharityEvent'),
@@ -30,6 +22,19 @@ const menuItems = (t) => [
 	{
 		name: t('DonateFunds'),
 		href: '/donate-funds',
+		submenu: null,
+	},
+]
+
+export const menu2Footer = (t) => [
+	{
+		name: t('ReferralProgram'),
+		href: '/referral-program',
+		submenu: null,
+	},
+	{
+		name: t('Challenge'),
+		href: '/challenge',
 		submenu: null,
 	},
 ]

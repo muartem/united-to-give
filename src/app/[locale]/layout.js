@@ -1,4 +1,5 @@
-import Header from '@/components/modules/Header'
+import Footer from '@/components/templates/Footer'
+import Header from '@/components/templates/Header'
 import { NextIntlClientProvider } from 'next-intl'
 import {getMessages} from 'next-intl/server'
 import { Geist, Geist_Mono } from 'next/font/google'
@@ -35,6 +36,7 @@ export default async function RootLayout({
 					<div className="w-dvw h-dvh">
 						<Header locale={locale}/>
 						{children}
+						<Footer />
 					</div>
 				</NextIntlClientProvider>
 			</body>
