@@ -11,7 +11,7 @@ const DonateTogether = () => {
 
 	return (
 		<Container
-			outerCls="bg-card-bg"
+			outerCls="bg-background"
 			innerCls="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 xl:gap-20 md:justify-between"
 		>
 			<div className="flex flex-col gap-2">
