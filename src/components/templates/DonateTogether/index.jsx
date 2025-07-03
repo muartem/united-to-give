@@ -1,7 +1,7 @@
 import ig from '@/assets/images/ig.png'
 import tg from '@/assets/images/tg.png'
 import ArrowRight from '@/assets/svg/Arrow-right'
-import BloodUl from '@/components/ui/bloodUl'
+import Ul from '@/components/ui/ul'
 import Container from '@/components/ui/container'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
@@ -17,7 +17,7 @@ const DonateTogether = () => {
 			<div className="flex flex-col gap-2">
 				<h2 className="text-light-black uppercase text-center md:text-left">{t('title')}</h2>
 				<span className="b1 text-black-text mb-2">{t('description')}</span>
-				<BloodUl classNames="mb-2" lis={[t('li1'), t('li2'), t('li3')]}/>
+				<Ul variant='blood' classNames="mb-2" lis={[t('li1'), t('li2'), t('li3')]}/>
 				<a href="#" className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
 					<Image src={ig} className="hidden md:block" alt="instagram"/>
 					{t('view')}

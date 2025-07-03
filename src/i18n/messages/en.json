@@ -158,7 +158,8 @@
       "before": "Before registering, please, check your ",
       "eligibility": "donation eligibility.",
       "more1": "For more information or to book an appointment, visit ",
-      "more2": "or call "
+      "more2": "or call ",
+      "donate": "Donate Blood"
     },
     "donateTogether": {
       "title": "donate together with other 20 volunteers in Toronto",
@@ -209,8 +210,23 @@
       "title": "Donate blood once - save three lives",
       "button": "Donate Blood"
     },
-    "footer": {
-
+    "other": {
+      "title": "other ways to donate",
+      "attend": {
+        "title": "Attend Charity Event",
+        "date": "17 of May",
+        "location": "\uD83D\uDCCD Location: Sheraton Centre Toronto Hotel, 123 Queen St W, Toronto, ON M5H 2M9",
+        "text": "If you want to join the event, but have not donated blood - you are welcome too! Attend Charity Event - all ticket sales and financial donations go to Ukraine.",
+        "li1": "One of the biggest charity Ukrainian parties in Toronto",
+        "li2": "Networking opportunities with Ukrainian and Canadian-Ukrainian business owners, partners and bloggers.",
+        "li3": "Listen to famous speakers",
+        "li4": "Make business connections and give away job applications",
+        "button": "Attend Event"
+      }
     }
+
+  },
+  "footer": {
+
   }
 }

@@ -1,14 +1,13 @@
 'use client'
 
-import arrowLogo from '@/assets/svg/arrow-down.svg'
+import ArrowDown from '@/assets/svg/arrow-down'
 import logo from '@/assets/svg/logo-w.svg'
-import menuItems from './menuItems'
 import LanguageSwitcher from '@/components/ui/switcher'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 import {useState} from 'react'
-
+import menuItems from './menuItems'
 
 
 const Header = ({locale}) => {
@@ -76,8 +75,7 @@ const Header = ({locale}) => {
 									className="flex items-center gap-0.5 w-full md:w-max justify-between"
 								>
 									<span>{item.name}</span>
-									<Image
-										src={arrowLogo} alt="Arrow icon" width={24} height={24}
+									<ArrowDown
 										className={`transition-all duration-300 ${isSubmenuOpen ? 'translate-y-0.5 rotate-180' : 'translate-y-0'}`}
 									/>
 								</button>

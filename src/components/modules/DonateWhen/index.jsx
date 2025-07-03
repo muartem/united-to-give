@@ -1,5 +1,5 @@
-import BloodUl from '@/components/ui/bloodUl'
 import Button from '@/components/ui/button'
+import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 
 const DonateWhen = () => {
@@ -14,7 +14,7 @@ const DonateWhen = () => {
 			</div>
 			<div className="flex flex-col gap-4">
 				<span className="b1">{t('your')}</span>
-				<BloodUl lis={[t('li1'), t('li2'), t('li3')]}/>
+				<Ul variant="blood" lis={[t('li1'), t('li2'), t('li3')]}/>
 				<span>
 					<span className="text-primary">*</span>
 					{t('before')}
@@ -22,7 +22,7 @@ const DonateWhen = () => {
 				</span>
 			</div>
 			<div className="flex flex-col gap-2">
-				<Button>Donate Blood</Button>
+				<Button>{t('donate')}</Button>
 				<span className="b3 text-logo-gray">
 					{t('more1')}
 					<a className="text-logo-gray underline" target="_blank" href="https://blood.ca/">blood.ca </a>

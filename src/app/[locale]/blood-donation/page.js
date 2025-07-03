@@ -5,6 +5,7 @@ import FAQ from '@/components/templates/FAQ'
 import HowDonate from '@/components/templates/HowDonate'
 import Main from '@/components/templates/Main'
 import Numbers from '@/components/templates/Numbers'
+import OtherWays from '@/components/templates/OtherWays'
 import Video from '@/components/templates/Video'
 
 export default async function BloodDonationPage() {
@@ -18,6 +19,7 @@ export default async function BloodDonationPage() {
 			<HowDonate />
 			<FAQ />
 			<DonateOnes />
+			<OtherWays />
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolores explicabo ipsa maiores minima
 				obcaecati porro repudiandae, sapiente ullam unde vero voluptatibus. Debitis ducimus et eum fugiat neque numquam
 				porro. Ad alias atque aut cumque, ducimus eaque eos esse excepturi illo iusto minus nesciunt nostrum numquam,

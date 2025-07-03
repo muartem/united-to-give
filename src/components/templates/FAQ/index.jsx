@@ -13,8 +13,8 @@ const Faq = () => {
 		>
 			<h2 className="uppercase text-center text-light-black">{t('title')}</h2>
 			<div className="flex flex-col gap-2">
-				{faqList(t).map(({title, desc}) => (
-					<Accordion title={title}>{desc}</Accordion>
+				{faqList(t).map(({title, desc}, i) => (
+					<Accordion title={title} key={i}>{desc}</Accordion>
 				))}
 			</div>
 		</Container>
