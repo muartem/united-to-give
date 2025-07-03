@@ -11,7 +11,7 @@ const AttendEvent = () => {
 		<div
 			className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 xl:gap-20 md:justify-stretch md:items-center"
 		>
-			<div className="flex flex-col gap-8 justify-evenly text-black-text">
+			<div className="flex flex-col gap-4 md:gap-8 justify-evenly text-black-text">
 				<div className="flex flex-col gap-2">
 					<h2 className="text-light-black">{t('title')}</h2>
 					<span className="b2 font-bold text-primary">{t('date')}</span>

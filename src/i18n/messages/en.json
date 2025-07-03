@@ -222,6 +222,16 @@
         "li3": "Listen to famous speakers",
         "li4": "Make business connections and give away job applications",
         "button": "Attend Event"
+      },
+      "help": {
+        "title": "Help Ukraine",
+        "text1": "We’re raising funds to support the Ukrainian Blood Donation Center - because every life saved begins with someone who cares. Through ",
+        "link": "United Together Humanitarian Relief Inc.",
+        "text2": ", your donation will help provide critical medical supplies, equipment, and hope to those who need it most.",
+        "li1": "100% of funds go to Ukrainian hospitals",
+        "li2": "Make a difference from anywhere",
+        "li3": "Donate as a partner",
+        "donate": "Donate Funds"
       }
     }
 
