@@ -9,7 +9,7 @@ const HowDonate = () => {
 			outerCls="bg-light-gray"
 			innerCls="flex flex-col gap-10"
 		>
-			<h2 className="text-light-black uppercase">{t('title')}</h2>
+			<h2 className="text-light-black uppercase text-center md:text-left">{t('title')}</h2>
 			<div className="grid md:grid-flow-col grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8 xl:gap-10">
 				<div className="flex gap-8 items-center">
 					<div className="bg-card-bg rounded-3xl px-8 w-24 h-24 flex justify-center items-center">

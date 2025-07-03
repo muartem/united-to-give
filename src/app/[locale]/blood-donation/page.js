@@ -1,4 +1,5 @@
 import BeReason from '@/components/templates/BeReason'
+import DonateOnes from '@/components/templates/DonateOnes'
 import DonateTogether from '@/components/templates/DonateTogether'
 import FAQ from '@/components/templates/FAQ'
 import HowDonate from '@/components/templates/HowDonate'
@@ -16,6 +17,7 @@ export default async function BloodDonationPage() {
 			<DonateTogether/>
 			<HowDonate />
 			<FAQ />
+			<DonateOnes />
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolores explicabo ipsa maiores minima
 				obcaecati porro repudiandae, sapiente ullam unde vero voluptatibus. Debitis ducimus et eum fugiat neque numquam
 				porro. Ad alias atque aut cumque, ducimus eaque eos esse excepturi illo iusto minus nesciunt nostrum numquam,
@@ -36,21 +38,7 @@ export default async function BloodDonationPage() {
 				temporibus. Accusantium aliquam in praesentium reiciendis! Aliquid aut autem consequatur culpa cupiditate error
 				expedita ipsam necessitatibus praesentium ratione recusandae, saepe sit, tempore temporibus ullam veritatis,
 				voluptatem! Animi atque minus nemo vitae? Alias aliquam consequatur corporis, doloribus eaque eligendi enim
-				fugit maxime minus mollitia nemo neque nulla placeat porro repudiandae sint tempora tempore ullam unde
-				voluptates. Commodi doloremque ducimus ex fugiat iusto, nesciunt numquam tenetur vel veritatis voluptatibus!
-				Deleniti distinctio eius iste nemo nostrum praesentium provident quia, quidem veniam voluptate! Ab accusamus
-				aliquam asperiores consequatur, culpa deleniti doloribus earum est eveniet iure laboriosam libero, magnam magni
-				nulla numquam odit perspiciatis placeat praesentium quidem reprehenderit repudiandae soluta sunt ut! Adipisci
-				aperiam consequatur eveniet facere iste laborum magni modi nobis nostrum obcaecati quibusdam, quidem quo
-				reiciendis sequi sit! A alias aliquid aspernatur at autem corporis dignissimos dolor dolore dolorem doloribus ea
-				enim et eum expedita fugit laboriosam magnam magni minus nisi odio odit officiis, quae quis quisquam repellendus
-				reprehenderit sint sit soluta unde voluptatum? Amet est facilis illo voluptatibus. Aliquam atque cum dicta
-				ducimus esse id illo illum laborum, maiores minima mollitia quis quisquam quo reprehenderit sapiente, sed, totam
-				vero! Exercitationem repellat, sunt. Molestias optio quos totam? Accusamus consequatur earum expedita fugiat
-				quo. Amet, animi at commodi culpa cumque doloremque exercitationem fugiat, laboriosam molestiae neque, nihil
-				obcaecati officia officiis quae quasi qui ratione sunt temporibus vero voluptatum. Ad cupiditate dicta dolore
-				ducimus, ea, hic labore maxime modi nihil officiis, porro quis unde veniam. Delectus et eum maxime nihil
-				perferendis ratione rerum, unde ut velit.
+				fugit maxime minus mollitia nemo neque nulla placeat porro repudiandae sint tempora tempore ullam.
 			</div>
 		</>
 	)

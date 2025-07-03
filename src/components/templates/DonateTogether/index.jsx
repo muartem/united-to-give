@@ -15,7 +15,7 @@ const DonateTogether = () => {
 			innerCls="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 xl:gap-20 md:justify-between"
 		>
 			<div className="flex flex-col gap-2">
-				<h2 className="text-light-black uppercase">{t('title')}</h2>
+				<h2 className="text-light-black uppercase text-center md:text-left">{t('title')}</h2>
 				<span className="b1 text-black-text mb-2">{t('description')}</span>
 				<BloodUl lis={[t('li1'), t('li2'), t('li3')]}/>
 				<a href="#" className="hidden md:flex b2 text-primary font-bold items-center gap-4 hover:text-dark-primary">
@@ -35,9 +35,9 @@ const DonateTogether = () => {
 						<a href="#">{t('#')}</a>
 						{t('igdesc2')}
 					</span>
-					<a href="#" className="b2 text-light-black font-bold flex items-center gap-1 hover:text-dark-primary">
+					<a href="#" className="b2 text-light-black font-bold flex justify-end md:justify-start items-center gap-1 hover:text-dark-primary">
 						{t('iglink1')}
-						<a href="#">{t('#')}</a>
+						<span className="text-mid-link">{t('#')}</span>
 						{t('iglink2')}
 						<ArrowRight className="[&>path:hover]:fill-dark-primary ml-2"/>
 					</a>
@@ -48,7 +48,7 @@ const DonateTogether = () => {
 						{t('tgshare')}
 					</h3>
 					<span className="b2 text-black-text mb-2">{t('tgdesc')}</span>
-					<a href="#" className="b2 text-primary font-bold flex items-center gap-4 hover:text-dark-primary">
+					<a href="#" className="b2 text-primary font-bold flex justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
 						{t('tglink')}
 						<ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
 					</a>
