@@ -21,7 +21,7 @@ const HelpUkraine = () => {
 					</span>
 					<Ul variant="blood" lis={[t('li1'), t('li2'), t('li3')]}/>
 				</div>
-				<Button variant="secondary">{t('donate')}</Button>
+				<Button variant="secondary">{t('button')}</Button>
 			</div>
 			<Image className="md:order-1 rounded-xl md:rounded-3xl" src={helpU} alt={t('title')}/>
 		</div>

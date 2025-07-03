@@ -231,7 +231,12 @@
         "li1": "100% of funds go to Ukrainian hospitals",
         "li2": "Make a difference from anywhere",
         "li3": "Donate as a partner",
-        "donate": "Donate Funds"
+        "button": "Donate Funds"
+      },
+      "partner": {
+        "title": "become our  partner",
+        "text": "Whether you're a business, organization, or passionate individual, partnering with us means unlocking new ways to grow, connect, and make a difference.",
+        "button": "Explore partnership"
       }
     }
 
