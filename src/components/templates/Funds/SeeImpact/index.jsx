@@ -33,7 +33,7 @@ const SeeImpact = () => {
 				<Image
 					className="
 					rounded-xl md:rounded-l-full md:rounded-r-[100%]
-					w-full h-full
+					w-full h-full object-cover
 				"
 					src={impact}
 					alt={t('title')}
