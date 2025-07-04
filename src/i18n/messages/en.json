@@ -290,6 +290,14 @@
         "title": "They work directly with hospitals in Ukraine",
         "text": "Your money helps buy medicine, equipment, and emergency supplies where it's needed most."
       }
+    },
+    "seeImpact": {
+      "title": "See the Impact",
+      "description": "We’ll be sharing:",
+      "li1": "Photos of supplies being delivered",
+      "li2": "Messages from doctors and patients",
+      "li3": "Updates on what your donation helped achieve",
+      "iglink": "View updates"
     }
   },
   "footer": {

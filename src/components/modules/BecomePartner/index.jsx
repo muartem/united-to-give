@@ -3,7 +3,7 @@ import Button from '@/components/ui/button'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
-const AttendEvent = () => {
+const BecomePartner = () => {
 	const t = useTranslations('blood.other.partner')
 
 	return (
@@ -32,4 +32,4 @@ const AttendEvent = () => {
 	)
 }
 
-export default AttendEvent
+export default BecomePartner
