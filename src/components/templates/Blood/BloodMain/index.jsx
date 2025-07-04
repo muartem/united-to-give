@@ -3,7 +3,7 @@ import Button from '@/components/ui/button'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
-const Main = () => {
+const BloodMain = () => {
 	const t = useTranslations('blood.main')
 
 	return (
@@ -40,4 +40,4 @@ const Main = () => {
 	)
 }
 
-export default Main
+export default BloodMain

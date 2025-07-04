@@ -1,4 +1,4 @@
-import BloodUl from '@/components/ui/bloodUl'
+import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 
 const FirstVolunteers = () => {
@@ -10,7 +10,7 @@ const FirstVolunteers = () => {
 		>
 			<h2 className="uppercase text-primary ">{t('firstUnited')}</h2>
 			<span className="b1">{t('text6')}</span>
-			<BloodUl lis={[t('text7'), t('text8'), t('text9')]}/>
+			<Ul variant="blood" lis={[t('text7'), t('text8'), t('text9')]}/>
 		</div>
 	)
 }

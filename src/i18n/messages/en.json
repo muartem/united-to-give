@@ -241,6 +241,19 @@
     }
 
   },
+  "funds": {
+    "main": {
+      "Help": "Help ",
+      "U": "U",
+      "k": "k",
+      "raine": "raine",
+      "subTitle": "We’re raising funds to support the Ukrainian Blood Donation Center - because every life saved begins with someone who cares.",
+      "li1": "100% of funds go to Ukrainian hospitals",
+      "li2": "Make a difference from anywhere",
+      "li3": "Donate as a partner",
+      "button": "Donate Funds"
+    }
+  },
   "footer": {
 
   }

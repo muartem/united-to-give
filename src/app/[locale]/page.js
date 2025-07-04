@@ -1,7 +1,7 @@
 import GroupDonation from '@/components/templates/GroupDonation'
-import Main from '@/components/templates/Main'
-import Numbers from '@/components/templates/Numbers'
-import Video from '@/components/templates/Video'
+import Main from '@/components/templates/Blood/BloodMain'
+import Numbers from '@/components/templates/Blood/Numbers'
+import Video from '@/components/templates/Blood/Video'
 import WhoNeeds from '@/components/modules/WhoNeeds'
 
 export default async function Home() {
