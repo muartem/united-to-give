@@ -270,6 +270,11 @@
         "title": "Equipment",
         "text": "Purchased equipment for a children’s clinic in Dnipro"
       }
+    },
+    "whereGoes": {
+      "title": "Where Your Donation Goes",
+      "text": "We’ve partnered with United Together Humanitarian Relief Inc.: a trusted Canadian nonprofit helping Ukrainians affected by the war. They work directly with hospitals and local charities in Ukraine to deliver life-saving medical supplies, equipment, and aid.",
+      "button": "Donate Funds"
     }
   },
   "footer": {
