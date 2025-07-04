@@ -275,6 +275,21 @@
       "title": "Where Your Donation Goes",
       "text": "We’ve partnered with United Together Humanitarian Relief Inc.: a trusted Canadian nonprofit helping Ukrainians affected by the war. They work directly with hospitals and local charities in Ukraine to deliver life-saving medical supplies, equipment, and aid.",
       "button": "Donate Funds"
+    },
+    "whyTrust": {
+      "title": "Why We Trust Them",
+      "1": {
+        "title": "They’re local and registered in Canada",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      },
+      "2": {
+        "title": "They keep things transparent",
+        "text": "You’ll see real updates on how your donation is used — including photos and impact stories."
+      },
+      "3": {
+        "title": "They work directly with hospitals in Ukraine",
+        "text": "Your money helps buy medicine, equipment, and emergency supplies where it's needed most."
+      }
     }
   },
   "footer": {
