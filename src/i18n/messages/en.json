@@ -252,6 +252,24 @@
       "li2": "Make a difference from anywhere",
       "li3": "Donate as a partner",
       "button": "Donate Funds"
+    },
+    "numbers": {
+      "1": {
+        "title": "$98,439",
+        "text": "Total funds raised"
+      },
+      "2": {
+        "title": "2022",
+        "text": "Initiative active since 2022"
+      },
+      "3": {
+        "title": "3 000+",
+        "text": "Families helped"
+      },
+      "4": {
+        "title": "Equipment",
+        "text": "Purchased equipment for a children’s clinic in Dnipro"
+      }
     }
   },
   "footer": {
