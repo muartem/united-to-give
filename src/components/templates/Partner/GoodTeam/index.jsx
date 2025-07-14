@@ -9,7 +9,7 @@ const GoodTeam = () => {
 
 	return (
 		<Container
-			innerCls="flex flex-col items-stretch gap-2 md:gap-2 xl:gap-2"
+			innerCls="flex flex-col items-stretch !gap-2 md:gap-2 xl:gap-2"
 		>
 			<h2 className="text-light-black uppercase text-center">{t('title')}</h2>
 			<span className="b1 text-center text-black-text mb-6 md:mb-12">{t('desc')}</span>

@@ -328,6 +328,13 @@
         "title": "Canadian Blood services",
         "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
       }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "1": {
+        "title": "I'm nervous about donating alone. Can I still participate?",
+        "desc": "Absolutely! \nMany first-time donors feel nervous. You can bring a friend or join a group donation event om ... of ..."
+      }
     }
   },
   "footer": {
