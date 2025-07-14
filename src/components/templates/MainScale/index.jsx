@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const MainScale = () => {
 	return (
-		<div className="w-dvw text-light-black mb-12 px-28">
+		<div className="w-dvw text-light-black mb-12 px-6 md:px-28">
 			<div className="relative max-w-screen-xl m-auto text-center md:text-left">
 				<div className="h2 text-transform-uppercase text-[#222222] mb-8 text-center">
 					Scale of the Initiative
@@ -15,7 +15,7 @@ const MainScale = () => {
 				<div className="b1 text-[#222222] mb-10 text-center">
 					👥 Target: Engage thousands of donors across Canada
 				</div>
-				<div className="flex justify-between gap-6">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 					<div className="flex-1">
 						<div className="flex justify-center items-center h-[140px] px-[10px] bg-[#F5F5F5] rounded-3xl mb-8">
 							<Image src={CbsLogo} alt="Hero background" width={236} height={48} />

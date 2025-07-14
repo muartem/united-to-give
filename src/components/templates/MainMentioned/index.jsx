@@ -14,9 +14,17 @@ const MainMentioned = () => {
 
 	const responsive = {
     desktop: {
-      breakpoint: { max: 30000, min: 0 },
+      breakpoint: { max: 1024, min: 0 },
       items: 3,
     },
+		tablet: {
+			breakpoint: { max: 1024, min: 768 },
+			items: 3,
+		},
+		mobile: {
+			breakpoint: { max: 768, min: 0 },
+			items: 1,
+		},
   };
 	
 	const slides = [
@@ -53,7 +61,7 @@ const MainMentioned = () => {
 	];
 
 	return (
-		<div className="w-dvw mb-16 px-28">
+		<div className="w-dvw mb-16 px-6 lg:px-28">
 			<div className="relative max-w-screen-xl m-auto">
 				<div className="h2 uppercase text-[#222222] mb-2 text-center">
 					where have we been mentioned
@@ -74,7 +82,7 @@ const MainMentioned = () => {
 						containerClass="flex justify-between"
 					>
 						{slides.map((slide, index) => (
-							<div key={`slide-${index}`}>
+							<div key={`slide-${index}`} className="flex flex-col items-center">
 								<div className="flex justify-center items-center h-[280px] w-[325px] px-[10px] bg-[#F5F5F5] rounded-3xl mb-8 overflow-hidden">
 									<Image src={slide.img} alt="Hero background" width={325} height={380} className="object-contain" />
 								</div>

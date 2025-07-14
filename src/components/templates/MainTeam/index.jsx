@@ -93,11 +93,11 @@ const MainTeam = () => {
 	]
 
 	return (
-		<div className="w-dvw bg-[#F5F5F5] px-28 py-16">
+		<div className="w-dvw bg-[#F5F5F5] px-6 xl:px-28 py-16">
 			<div className="max-w-screen-xl m-auto">
-				<div className="flex gap-20 mb-16">
+				<div className="flex flex-col lg:flex-row gap-4 lg:gap-20 mb-16">
 					<div>
-						<div className="h2 text-[#222222] mb-10 uppercase">
+						<div className="h2 text-[#222222] mb-0 lg:mb-10 uppercase">
 							Who is our <span className="text-[#EC0F16]">team?</span>
 						</div>
 					</div>
@@ -107,7 +107,7 @@ const MainTeam = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-6 gap-8 mb-12">
+				<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
 					{team.map((item, index) => (
 						<div key={index}>
 							<Image src={item.image} alt={item.name} width={200} height={200} className="object-cover rounded-2xl mb-8" />

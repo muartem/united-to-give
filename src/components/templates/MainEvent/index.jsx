@@ -6,11 +6,11 @@ import BloodIcon from '@/assets/images/icons/blood-droplet.svg'
 
 const MainEvent = () => {
 	return (
-		<div className="w-dvw mb-16 px-28">
+		<div className="w-dvw mb-16 px-6 xl:px-28">
 			<div className="relative max-w-screen-xl m-auto border-[#CFCFD0] rounded-3xl border-2 bg-[#F5F5F5] overflow-hidden">
-				<Image src={EventBg} alt="Hero background" className="absolute top-0 right-0 bottom-0 left-0 object-cover" />
-				<div className="pl-20 relative z-10 flex items-center">
-					<div className="flex-1">
+				<Image src={EventBg} alt="Hero background" className="absolute w-full h-full object-cover" />
+				<div className="pl-6 xl:pl-20 pr-6 xl:pr-0 relative z-10 flex items-center flex-col lg:flex-row">
+					<div className="flex-1 py-4 xl:py-0 mb-4 xl:mb-0">
 						<div className="h3 text-[#222222] mb-4 leading-[21px] uppercase">Already donated Blood?</div>
 						<div className="h2 text-[#464646] mb-10 uppercase">
 							Get <span className="text-[#FFC75F]">free ticket</span> to charity event!

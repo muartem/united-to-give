@@ -5,8 +5,8 @@ import Button from '@/components/ui/button'
 
 const MainAttend = () => {
 	return (
-		<div className="w-dvw text-light-black mb-16 py-16 px-28">
-			<div className="max-w-screen-xl m-auto h-full flex justify-between gap-20">
+		<div className="w-dvw text-light-black mb-0 lg:mb-16 py-16 px-6 xl:px-28">
+			<div className="max-w-screen-xl m-auto h-full flex justify-between items-center lg:items-start gap-20 flex-col lg:flex-row">
 				<div className="flex-1">
 					<Image src={AttendImage} alt="Attend" width={592} height={487} className="object-cover rounded-2xl" />
 				</div>

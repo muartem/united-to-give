@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const MainWhatIs = () => {
 	return (
-		<div className="w-dvw bg-[#F5F5F5] text-light-black mb-16 py-16 px-28">
-			<div className="relative max-w-screen-xl m-auto h-full flex justify-between items-center text-center md:text-left">
+		<div className="w-dvw bg-[#F5F5F5] text-light-black mb-16 py-16 px-6 md:px-28">
+			<div className="relative max-w-screen-xl m-auto h-full flex flex-col md:flex-row justify-between items-center text-center md:text-left">
 				<div className="flex-1">
-					<div className="text-6xl font-normal text-transform-uppercase text-[#222222] tracking-[-0.02em]">
+					<div className="text-6xl font-normal text-transform-uppercase text-[#222222] tracking-[-0.02em] mb-8 md:mb-0">
 						What Is 
 						<div className="text-[#C5161D]">“United to Give”?</div>
 					</div>
