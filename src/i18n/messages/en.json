@@ -84,7 +84,7 @@
       "emailPH": "Enter your email",
       "dob": "Date of birth",
       "yyyy": "YYYY",
-      "mm":"MM",
+      "mm": "MM",
       "dd": "DD",
       "number": "Phone number",
       "donated": "Have you donated blood before?",
@@ -239,7 +239,6 @@
         "button": "Explore partnership"
       }
     }
-
   },
   "funds": {
     "main": {
@@ -304,7 +303,77 @@
       "quest": "Still have questions? Reach out to us anytime:"
     }
   },
+  "partner": {
+    "main": {
+      "title": "become our  partner",
+      "text": "Whether you're a business, organization, or passionate individual, partnering with us means unlocking new ways to grow, connect, and make a difference.",
+      "button": "Explore partnership"
+    },
+    "goodTeam": {
+      "title": "you are in a good team",
+      "desc": "Business can save lives. Will yours?",
+      "1": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      },
+      "2": {
+        "title": "United Together Humanitarian Relief Inc.",
+        "text": "Official nonprofit based in Toronto."
+      },
+      "3": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      },
+      "4": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      }
+    },
+    "packages": {
+      "title": "Sponsorship Packages for charity event",
+      "1": {
+        "title": "Silver Partner",
+        "desc": "Package for businesses that want to lead with purpose.",
+        "price": "$1,000",
+        "li": {
+          "1": "Stage Presence",
+          "2": "2-minute speech during the main program"
+        },
+        "perks": {
+          "1": {
+            "title": "Logo on",
+            "1": "Main screen during event",
+            "2": "Food area signage",
+            "3": "Event banners"
+          },
+          "2": {
+            "title": "Social Media Coverage:",
+            "1": "Dedicated Instagram post",
+            "2": "Mention in photo/video recap"
+          },
+          "3": {
+            "title": "On-Site Promotion",
+            "1": "Booth space (table + banners)"
+          },
+          "4": {
+            "title": "VIP Access",
+            "1": "4 event tickets included"
+          }
+        },
+        "button": "Apply Now"
+      }
+    },
+    "faq": {
+      "title": "event perks for partners",
+      "1": {
+        "title": "I'm nervous about donating alone. Can I still participate?",
+        "desc": "Absolutely! \nMany first-time donors feel nervous. You can bring a friend or join a group donation event om ... of ..."
+      }
+    },
+    "partners": {
+      "title": "our partners"
+    }
+  },
   "footer": {
-
   }
 }
