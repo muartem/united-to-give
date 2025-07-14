@@ -329,6 +329,40 @@
         "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
       }
     },
+    "packages": {
+      "title": "Sponsorship Packages for charity event",
+      "1": {
+        "title": "Silver Partner",
+        "desc": "Package for businesses that want to lead with purpose.",
+        "price": "$1,000",
+        "li": {
+          "1": "Stage Presence",
+          "2": "2-minute speech during the main program"
+        },
+        "perks": {
+          "1": {
+            "title": "Logo on",
+            "1": "Main screen during event",
+            "2": "Food area signage",
+            "3": "Event banners"
+          },
+          "2": {
+            "title": "Social Media Coverage:",
+            "1": "Dedicated Instagram post",
+            "2": "Mention in photo/video recap"
+          },
+          "3": {
+            "title": "On-Site Promotion",
+            "1": "Booth space (table + banners)"
+          },
+          "4": {
+            "title": "VIP Access",
+            "1": "4 event tickets included"
+          }
+        },
+        "button": "Apply Now"
+      }
+    },
     "faq": {
       "title": "Frequently Asked Questions",
       "1": {

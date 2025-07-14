@@ -1,5 +1,6 @@
 import FAQ from '@/components/templates/Partner/FAQ'
 import GoodTeam from '@/components/templates/Partner/GoodTeam'
+import Packages from '@/components/templates/Partner/Packages'
 import PartnerMain from '@/components/templates/Partner/PartnerMain'
 
 export default async function BloodDonationPage() {
@@ -7,6 +8,7 @@ export default async function BloodDonationPage() {
 		<>
 			<PartnerMain />
 			<GoodTeam />
+			<Packages />
 			<FAQ />
 		</>
 	)
