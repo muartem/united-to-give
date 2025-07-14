@@ -84,7 +84,7 @@
       "emailPH": "Enter your email",
       "dob": "Date of birth",
       "yyyy": "YYYY",
-      "mm":"MM",
+      "mm": "MM",
       "dd": "DD",
       "number": "Phone number",
       "donated": "Have you donated blood before?",
@@ -239,7 +239,6 @@
         "button": "Explore partnership"
       }
     }
-
   },
   "funds": {
     "main": {
@@ -304,7 +303,13 @@
       "quest": "Still have questions? Reach out to us anytime:"
     }
   },
+  "partner": {
+    "main": {
+      "title": "become our  partner",
+      "text": "Whether you're a business, organization, or passionate individual, partnering with us means unlocking new ways to grow, connect, and make a difference.",
+      "button": "Explore partnership"
+    }
+  },
   "footer": {
-
   }
 }
