@@ -308,6 +308,26 @@
       "title": "become our  partner",
       "text": "Whether you're a business, organization, or passionate individual, partnering with us means unlocking new ways to grow, connect, and make a difference.",
       "button": "Explore partnership"
+    },
+    "goodTeam": {
+      "title": "you are in a good team",
+      "desc": "Business can save lives. Will yours?",
+      "1": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      },
+      "2": {
+        "title": "United Together Humanitarian Relief Inc.",
+        "text": "Official nonprofit based in Toronto."
+      },
+      "3": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      },
+      "4": {
+        "title": "Canadian Blood services",
+        "text": "United Together Humanitarian Relief Inc. is an official nonprofit based in Toronto."
+      }
     }
   },
   "footer": {
