@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background: var(--color-bg);
+}
+
+body {
+    line-height: 1.33;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1, .h1 {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 120%;
+    letter-spacing: -.02em;
+}
+
+h2, .h2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+h3, .h3 {
+    font-size: 26px;
+    line-height: 130%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.b1 {
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.b2, button {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: .02em;
+}
+
+.b3 {
+    font-size: 16px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    line-height: 140%;
+    letter-spacing: .02em;
+}
+
+button {
+    font-weight: bold;
+
+}
+
+.input {
+    @apply w-full px-6 py-3 border border-gray-300 rounded-xl md:rounded-full focus:outline-none focus:ring-2 focus:ring-red-500 mt-0.5 ;
+}
+.error {
+    @apply text-dark-primary text-sm mt-1;
+}
+
+@media (max-width: 767px) {
+    h1, .h1 {
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: -.02em;
+    }
+
+    h2, .h2 {
+        font-size: 26px;
+        line-height: 140%;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+
+    .b1 {
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .b2, button {
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: .02em;
+    }
+
+    .b3 {
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: .02em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+
+button {
+    cursor: pointer;
+    outline: none;
+    background: none;
+}
+
+@layer base {
+    :root {
+        /* Colors */
+        --color-primary: #C5161D;
+        --color-dark-primary: #9c1116;
+        --color-bg: #FFFAFE;
+        --color-light-gray: #F5F5F5;
+        --color-mid-gray: #E5E5E7;
+        --color-dark-gray: #CFCFD0;
+        --color-logo-gray: #777777CC;
+        --color-black-text: #464646;
+        --color-light-black: #222222;
+        --color-link: #1900D9;
+        --color-golden-yellow: #FFD56A;
+        --color-card-bg: #F2EDEA;
+    }
+}
