@@ -394,6 +394,30 @@
         "li2": "Producing media content and storytelling that inspires action",
         "li3": "Developing partnerships with businesses and nonprofits to expand impact"
       }
+    },
+    "haveQ": {
+      "support": "“Your support becomes part of a larger mission - saving lives where it matters most.”",
+      "still": "Still have questions? Reach out to us anytime:",
+      "form": {
+        "title": "Have questions? Let’s Talk.",
+        "desc": "Let us contact you during next 24 hours",
+        "fName": "Full name",
+        "fnPH": "Enter your first and last name",
+        "email": "Email",
+        "emailPH": "Enter your email",
+        "number": "Phone number",
+        "company": "Company",
+        "companyPH": "Enter your company name",
+        "message": "Your message",
+        "messagePH": "Enter your message",
+        "reminders": "By submitting this form you agree to receive reminders.",
+        "terms": "By submitting this form, you agree to our Privacy Policy and Terms of Service.",
+        "submit": "Contact Me",
+        "required": "Required",
+        "emailER": "Email is not valid",
+        "numberER": "Phone number is not valid",
+        "termsER": "You must accept terms"
+      }
     }
   },
   "footer": {
