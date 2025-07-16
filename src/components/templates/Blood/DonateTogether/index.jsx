@@ -44,7 +44,7 @@ const DonateTogether = () => {
 				</div>
 				<div className="flex flex-col gap-2">
 					<h3 className="text-light-black uppercase flex items-center gap-4">
-						<Image src={tg} alt="instagram"/>
+						<Image src={tg} alt="telegram"/>
 						{t('tgshare')}
 					</h3>
 					<span className="b2 text-black-text mb-2">{t('tgdesc')}</span>

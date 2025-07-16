@@ -1,5 +1,9 @@
 'use client'
 
+import ig from '@/assets/images/ig.png'
+import tg from '@/assets/images/tg.png'
+import fb from '@/assets/images/fb.png'
+import li from '@/assets/images/li.png'
 import logo from '@/assets/svg/logo-b.svg'
 import menuItems, {menu2Footer} from '@/components/templates/Header/menuItems'
 import {useTranslations} from 'next-intl'
@@ -19,10 +23,10 @@ const Footer = () => {
 						<Image src={logo} alt="Logo"/>
 					</Link>
 					<div className="flex gap-6 justify-between">
-						<div>TG</div>
-						<div>FB</div>
-						<div>IG</div>
-						<div>LI</div>
+						<a href="#"><Image src={tg} alt="Telegram" className="w-[40px] h-auto" width={40} height={40}/></a>
+						<a href="#"><Image src={fb} alt="Facebook" className="w-[40px] h-auto" width={40} height={40}/></a>
+						<a href="#"><Image src={ig} alt="Instagram" className="w-[40px] h-auto" width={40} height={40}/></a>
+						<a href="#"><Image src={li} alt="LinkedIn" className="w-[48px] h-auto" width={48} height={40}/></a>
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">

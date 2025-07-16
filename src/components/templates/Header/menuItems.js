@@ -37,6 +37,11 @@ export const menu2Footer = (t) => [
 		href: '/challenge',
 		submenu: null,
 	},
+	{
+		name: t('Availability'),
+		href: '/availability',
+		submenu: null,
+	},
 ]
 
 export default menuItems
