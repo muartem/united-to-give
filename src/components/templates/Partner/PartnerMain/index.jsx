@@ -8,7 +8,7 @@ const PartnerMain = () => {
 
 	return (
 		<main
-			className="md:h-[752px] w-dvw bg-main-gradient text-light-black"
+			className="md:h-[752px] w-dvw bg-light-gray text-light-black"
 		>
 			<div
 				className="relative max-w-screen-xl m-auto h-full grid grid-cols-1 gap-6

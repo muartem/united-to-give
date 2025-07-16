@@ -372,6 +372,28 @@
     },
     "partners": {
       "title": "our partners"
+    },
+    "money": {
+      "title": "Where Your Money Goes",
+      "text": "All funds are carefully managed and tracked in partnership with our registered nonprofit partner, United Together Humanitarian Relief Inc.\u2028If you'd like to see reports or have questions about where your donation goes, just reach out - we’re here to share.",
+      "1": {
+        "title": "Blood Donation Campaigns in Canada",
+        "li1": "Promotion and coordination of donation drives with Canadian Blood Services",
+        "li2": "Creation of educational materials and targeted digital outreach",
+        "li3": "Logistics and volunteer coordination to run safe, high-impact events"
+      },
+      "2": {
+        "title": "Event Venue, Catering & Hospitality",
+        "li1": "Renting welcoming and accessible event spaces",
+        "li2": "Providing catering, drinks, and hospitality for guests and donors",
+        "li3": "Covering event logistics and staff support to ensure a high-quality experience"
+      },
+      "3": {
+        "title": "Community Engagement & Awareness",
+        "li1": "Organizing charity events that unite Ukrainian and Canadian communities",
+        "li2": "Producing media content and storytelling that inspires action",
+        "li3": "Developing partnerships with businesses and nonprofits to expand impact"
+      }
     }
   },
   "footer": {
