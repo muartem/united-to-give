@@ -50,6 +50,12 @@ const config = {
           #d1d1d1 85%,
           #d0d0d0 100%
         )`,
+				'bw-gradient': `linear-gradient(
+          90deg,
+          #e7e7e7 50%,
+          #363B42 50%
+        )`,
+
 			},
 		},
 	},

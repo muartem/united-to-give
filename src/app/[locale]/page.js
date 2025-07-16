@@ -1,29 +1,29 @@
-import MainHero from '@/components/templates/MainHero'
-import MainPartners from '@/components/templates/MainPartners'
-import MainGoals from '@/components/templates/MainGoals'
-import MainWhatIs from '@/components/templates/MainWhatIs'
-import MainScale from '@/components/templates/MainScale'
-import BecomeAPartner from '@/components/templates/BecomeAPartner'
-import MainMentioned from '@/components/templates/MainMentioned'
-import MainReason from '@/components/templates/MainReason'
-import MainEvent from '@/components/templates/MainEvent'
-import MainAttend from '@/components/templates/MainAttend'
-import MainTeam from '@/components/templates/MainTeam'
+import BeReason from '@/components/templates/common/BeReason'
+import MainAttend from '@/components/templates/Main/MainAttend'
+import MainEvent from '@/components/templates/Main/MainEvent'
+import MainGoals from '@/components/templates/Main/MainGoals'
+import MainHero from '@/components/templates/Main/MainHero'
+import MainMentioned from '@/components/templates/Main/MainMentioned'
+import MainPartners from '@/components/templates/Main/MainPartners'
+import MainScale from '@/components/templates/Main/MainScale'
+import MainTeam from '@/components/templates/Main/MainTeam'
+import MainWhatIs from '@/components/templates/Main/MainWhatIs'
+import BecomeAPartner from '@/components/templates/Main/BecomeAPartner'
 
 export default async function Home() {
 	return (
 		<>
-			<MainHero />
-			<MainPartners />
-			<MainGoals />
-			<MainWhatIs />
-			<MainScale />
-			<BecomeAPartner />
-			<MainMentioned />
-			<MainReason />
-			<MainEvent />
-			<MainAttend />
-			<MainTeam />
+			<MainHero/>
+			<MainPartners/>
+			<MainGoals/>
+			<MainWhatIs/>
+			<MainScale/>
+			<BecomeAPartner/>
+			<MainMentioned/>
+			<BeReason/>
+			<MainEvent/>
+			<MainAttend/>
+			<MainTeam/>
 		</>
 	)
 }

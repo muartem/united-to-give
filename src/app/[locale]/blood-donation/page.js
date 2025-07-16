@@ -1,4 +1,4 @@
-import BeReason from '@/components/templates/Blood/BeReason'
+import BeReason from '@/components/templates/common/BeReason'
 import DonateOnes from '@/components/templates/Blood/DonateOnes'
 import DonateTogether from '@/components/templates/Blood/DonateTogether'
 import FAQ from '@/components/templates/Blood/FAQ'
