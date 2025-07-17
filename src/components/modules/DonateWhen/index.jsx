@@ -22,12 +22,12 @@ const DonateWhen = () => {
 				</span>
 			</div>
 			<div className="flex flex-col gap-2">
-				<Button>{t('donate')}</Button>
+				<a className="contents" target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
+					<Button>{t('donate')}</Button>
+				</a>
 				<span className="b3 text-logo-gray">
-					{t('more1')}
-					<a className="text-logo-gray underline" target="_blank" href="https://blood.ca/">blood.ca </a>
-					{t('more2')}
-					<a className="text-logo-gray underline" target="_blank" href="tel:18882366283">1-888-236-6283.</a>
+					{t('more')}
+					<a className="text-logo-gray underline" target="_blank" href="mailto:unitedtogive@gmail.com">unitedtogive@gmail.com</a>
 				</span>
 			</div>
 		</div>

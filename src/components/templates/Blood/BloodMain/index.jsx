@@ -28,7 +28,9 @@ const BloodMain = () => {
 						<h2 className="text-black-text uppercase">
 							{t('text1')}
 						</h2>
-						<Button classNames="w-full md:w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
+						<a target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
+							<Button classNames="w-full md:w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
+						</a>
 					</div>
 				</div>
 				<div

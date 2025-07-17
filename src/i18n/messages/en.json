@@ -14,7 +14,7 @@
       "title": "Donate blood add someone’s ",
       "time": "time",
       "subTitle": "Help in the way you can - join anytime between ",
-      "dateRange": "April 20 to May 10.",
+      "dateRange": "July 15 to December 15.",
       "text1": "someone’s waiting for their tomorrow",
       "donateBtn": "Donate Blood"
     },
@@ -34,14 +34,14 @@
         "text2": "blood donation challenge"
       },
       "4": {
-        "title": "$5000",
+        "title": "$50,000",
         "text": "Collect funds that will be sent to support Ukrainian blood center"
       }
     },
     "video": {
       "title": "Watch the Story: A Ukrainian donated blood 9 times in Canada",
-      "text1": "When tragedy struck, hope came through a blood donor.",
-      "text2": "This is the real story of a young Ukrainian man who, after moving to Canada."
+      "text1": "When tragedy struck, hope came through a blood donation.",
+      "text2": "This is the real story of a young Ukrainian man who, after moving to Canada..."
     },
     "reason": {
       "be": "be the ",
@@ -58,24 +58,23 @@
     },
     "donateWhen": {
       "title": "Donate when it works for you",
-      "available": "Available: May 15 - June 15",
-      "location": "\uD83D\uDCCD Location: Any Canadian Blood Services location in Toronto",
+      "available": "Available: July 15 - December 15",
+      "location": "\uD83D\uDCCD Any Canadian Blood Services location",
       "your": "Your schedule. Your impact. One simple act that saves lives.",
       "li1": "Receive a digital certificate of appreciation",
-      "li2": "Get a free ticket to our charity event in Toronto",
+      "li2": "Get a chance to win a free ticket to our charity event in Toronto",
       "li3": "Join our Telegram group for easy reminders, support & next steps",
       "before": "Before registering, please, check your ",
       "eligibility": "donation eligibility.",
-      "more1": "For more information or to book an appointment, visit ",
-      "more2": "or call ",
+      "more": "For more information please contact as at ",
       "donate": "Donate Blood"
     },
     "donateTogether": {
       "title": "donate together with other 20 volunteers in Toronto",
-      "description": "We post information about group donation in our Instagram. Check our profile to be updated",
+      "description": "We post information about group donation on our Instagram. Subscribe our profile to be updated.",
       "li1": "Our goal is to give a chance to 90+ people who need donated blood.",
       "li2": "We plan to attract 1000+ new blood donors with Ukrainian roots in Canada",
-      "li3": "By donating blood in Canada, we will attract more investments to Ukraine.",
+      "li3": "On our events we will collect money to support blood donation center in Ukraine.",
       "igshare": "Share your donation story. Inspire others.",
       "igdesc1": "Every drop counts - and your donation could save up to three lives. Join the ",
       "igdesc2": " movement and stand with Canadians and Ukrainians uniting for a life-saving cause.",
