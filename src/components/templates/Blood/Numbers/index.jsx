@@ -1,4 +1,5 @@
 import Container from '@/components/ui/container'
+import {ModalHandler} from '@/components/ui/modal..js'
 import {useTranslations} from 'next-intl'
 
 const Numbers = () => {
@@ -18,7 +19,11 @@ const Numbers = () => {
 			</div>
 			<div>
 				<h2 className="text-primary">{t('3.title')}</h2>
-				{t('3.text1')} <a href="/">{t('3.#')}</a> {t('3.text2')}
+				{t('3.text1')}
+				<ModalHandler
+					handler={<span className="text-mid-link"> {t('3.#')} </span>}
+				/>
+				{t('3.text2')}
 			</div>
 			<div>
 				<h2 className="text-primary">{t('4.title')}</h2>
