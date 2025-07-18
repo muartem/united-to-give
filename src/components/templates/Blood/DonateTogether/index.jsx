@@ -1,8 +1,10 @@
 import ig from '@/assets/images/ig.png'
 import tg from '@/assets/images/tg.png'
 import ArrowRight from '@/assets/svg/Arrow-right'
-import Ul from '@/components/ui/ul'
+import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
 import Container from '@/components/ui/container'
+import {ModalHandler} from '@/components/ui/modal..js'
+import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
@@ -17,8 +19,9 @@ const DonateTogether = () => {
 			<div className="flex flex-col gap-2">
 				<h2 className="text-light-black uppercase text-center md:text-left">{t('title')}</h2>
 				<span className="b1 text-black-text mb-2">{t('description')}</span>
-				<Ul variant='blood' classNames="mb-2" lis={[t('li1'), t('li2'), t('li3')]}/>
-				<a href="https://www.instagram.com/united_to_give" target="_blank" className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
+				<Ul variant="blood" classNames="mb-2" lis={[t('li1'), t('li2'), t('li3')]}/>
+				<a href="https://www.instagram.com/united_to_give" target="_blank"
+					 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
 					<Image src={ig} className="hidden md:block" alt="instagram"/>
 					{t('view')}
 					<ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
@@ -32,15 +35,28 @@ const DonateTogether = () => {
 					</h3>
 					<span className="b2 text-black-text mb-2">
 						{t('igdesc1')}
-						<a href="#">{t('#')}</a>
+						<ModalHandler
+							handler={<span className="text-mid-link"> {t('#')} </span>}
+							modalContent={<ChallengeModal/>}
+							modalStyles="!pb-0"
+						/>
 						{t('igdesc2')}
 					</span>
-					<a href="#" className="b2 text-light-black font-bold flex justify-end md:justify-start items-center gap-1 hover:text-dark-primary">
-						{t('iglink1')}
-						<span className="text-mid-link">{t('#')}</span>
-						{t('iglink2')}
-						<ArrowRight className="[&>path:hover]:fill-dark-primary ml-2"/>
-					</a>
+					<ModalHandler
+						handler={
+							<span
+								className="b2 text-light-black font-bold flex justify-end md:justify-start items-center gap-1 hover:text-dark-primary"
+							>
+								{t('iglink1')}
+								<span className="text-mid-link">{t('#')}</span>
+								{t('iglink2')}
+								<ArrowRight className="[&>path:hover]:fill-dark-primary ml-2"/>
+							</span>
+						}
+						modalContent={<ChallengeModal/>}
+						modalStyles="!pb-0"
+					/>
+
 				</div>
 				<div className="flex flex-col gap-2">
 					<h3 className="text-light-black uppercase flex items-center gap-4">
@@ -48,7 +64,8 @@ const DonateTogether = () => {
 						{t('tgshare')}
 					</h3>
 					<span className="b2 text-black-text mb-2">{t('tgdesc')}</span>
-					<a href="#" className="b2 text-primary font-bold flex justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
+					<a href="#"
+						 className="b2 text-primary font-bold flex justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
 						{t('tglink')}
 						<ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
 					</a>
