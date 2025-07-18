@@ -38,7 +38,7 @@ const DonateTogether = () => {
 						<ModalHandler
 							handler={<span className="text-mid-link"> {t('#')} </span>}
 							modalContent={<ChallengeModal/>}
-							modalStyles="!pb-0"
+							modalStyles="md:!pb-0"
 						/>
 						{t('igdesc2')}
 					</span>
@@ -54,7 +54,7 @@ const DonateTogether = () => {
 							</span>
 						}
 						modalContent={<ChallengeModal/>}
-						modalStyles="!pb-0"
+						modalStyles="md:!pb-0"
 					/>
 
 				</div>

@@ -24,7 +24,7 @@ const Numbers = () => {
 				<ModalHandler
 					handler={<span className="text-mid-link"> {t('3.#')} </span>}
 					modalContent={<ChallengeModal/>}
-					modalStyles="!pb-0"
+					modalStyles="md:!pb-0"
 				/>
 				{t('3.text2')}
 			</div>

@@ -28,20 +28,20 @@ export function Modal({isOpen, onClose, classNames, children}) {
 		>
 			<div
 				className={`
-          bg-background rounded-3xl w-full h-full max-w-screen-xl relative
+          bg-background w-full h-full max-w-screen-xl relative
           md:h-auto md:max-h-[90vh] md:w-full md:mx-4 md:my-10 md:rounded-3xl
-          p-12 md:p-20
+          px-8 py-20 md:p-20
           ${classNames}
         `}
 			>
 				<button
 					onClick={onClose}
-					className="absolute top-10 right-16 text-light-black hover:text-black-text text-xl p-4 hover:opacity-80"
+					className="absolute top-8 right-4 md:top-10 md:right-16 text-light-black hover:text-black-text text-xl p-4 hover:opacity-80"
 					aria-label="Close modal"
 				>
 					<CloseModal/>
 				</button>
-				<div className="overflow-y-auto max-h-full">{children}</div>
+				<div className="overflow-y-auto h-full">{children}</div>
 			</div>
 		</div>
 	)
