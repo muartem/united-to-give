@@ -329,5 +329,21 @@
     }
   },
   "footer": {
+  },
+  "modals": {
+    "challenge": {
+      "#u2g": "#UnitedToGive",
+      "@u2g": "@UnitedToGive",
+      "challenge": " challenge",
+      "text": "Every drop counts — your blood donation can save up to 3 lives",
+      "join": "Join our team to help in the way you can!",
+      "li": {
+        "1" : "Donate blood at any Canadian Blood Services location.",
+        "2" : "Take a photo or video at your donation.",
+        "3" : "Post it on Instagram with the hashtag ",
+        "4" : "Subscribe to our social media ",
+        "5" : "Feel proud - you just saved lives."
+      }
+    }
   }
 }

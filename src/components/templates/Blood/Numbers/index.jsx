@@ -1,3 +1,4 @@
+import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
 import Container from '@/components/ui/container'
 import {ModalHandler} from '@/components/ui/modal..js'
 import {useTranslations} from 'next-intl'
@@ -22,6 +23,8 @@ const Numbers = () => {
 				{t('3.text1')}
 				<ModalHandler
 					handler={<span className="text-mid-link"> {t('3.#')} </span>}
+					modalContent={<ChallengeModal/>}
+					modalStyles="!pb-0"
 				/>
 				{t('3.text2')}
 			</div>
