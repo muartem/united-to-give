@@ -344,6 +344,12 @@
         "4" : "Subscribe to our social media ",
         "5" : "Feel proud - you just saved lives."
       }
+    },
+    "donate": {
+      "title": "Donate in the Way That Works for You",
+      "text": "Blood or funds - both make a real impact.",
+      "mono": "Donate in familiar way",
+      "scan": "Scan QR to make it easy."
     }
   }
 }

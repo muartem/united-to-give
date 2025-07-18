@@ -1,6 +1,8 @@
 import certificate from '@/assets/images/certificate.png'
+import DonateModal from '@/components/modules/DonateModal/index.jsx'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
+import {ModalHandler} from '@/components/ui/modal..js'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
@@ -17,7 +19,11 @@ const WhereGoes = () => {
 					{t('title')}
 				</h2>
 				<span className="b1 text-black-text">{t('text')}</span>
-				<Button variant="secondary" classNames="w-full mt-8 md:w-80 mx-auto md:mx-0">{t('button')}</Button>
+				<ModalHandler
+					handler={<Button variant="secondary" classNames="w-full mt-8 md:w-80 mx-auto md:mx-0">{t('button')}</Button>}
+					modalContent={<DonateModal/>}
+					modalStyles="bg-light-gray md:bg-pay-gradient"
+				/>
 			</div>
 			<Image className="rounded-xl md:rounded-3xl" src={certificate} alt="Certificate"/>
 		</Container>

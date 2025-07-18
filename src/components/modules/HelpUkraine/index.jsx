@@ -1,5 +1,7 @@
 import helpU from '@/assets/images/helpU.png'
+import DonateModal from '@/components/modules/DonateModal/index.jsx'
 import Button from '@/components/ui/button'
+import {ModalHandler} from '@/components/ui/modal..js'
 import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
@@ -21,7 +23,11 @@ const HelpUkraine = () => {
 					</span>
 					<Ul variant="blood" lis={[t('li1'), t('li2'), t('li3')]}/>
 				</div>
-				<Button variant="secondary">{t('button')}</Button>
+				<ModalHandler
+					handler={<Button classNames="w-full" variant="secondary">{t('button')}</Button>}
+					modalContent={<DonateModal/>}
+					modalStyles="bg-light-gray md:bg-pay-gradient"
+				/>
 			</div>
 			<Image className="md:order-1 rounded-xl md:rounded-3xl" src={helpU} alt={t('title')}/>
 		</div>

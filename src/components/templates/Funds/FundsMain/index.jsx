@@ -1,5 +1,7 @@
 import funds from '@/assets/images/fundsImg.png'
+import DonateModal from '@/components/modules/DonateModal/index.jsx'
 import Button from '@/components/ui/button'
+import {ModalHandler} from '@/components/ui/modal..js'
 import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
@@ -27,7 +29,12 @@ const FundsMain = () => {
 							{t('subTitle')}
 						</span>
 					<Ul variant="blood" lis={[t('li1'), t('li2'), t('li3')]}/>
-					<Button variant="secondary" classNames="w-full mt-8 md:w-80 mx-auto md:mx-0">{t('button')}</Button>
+					<ModalHandler
+						handler={<Button variant="secondary"
+														 classNames="w-full mt-8 md:w-80 mx-auto md:mx-0">{t('button')}</Button>}
+						modalContent={<DonateModal/>}
+						modalStyles="bg-light-gray md:bg-pay-gradient"
+					/>
 				</div>
 				<div
 					className="max-h-dvh absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
