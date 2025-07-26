@@ -7,14 +7,14 @@ import WhyTrust from '@/components/templates/Funds/WhyTrust'
 
 
 export default async function DonateFundsPage() {
-	return (
-		<>
-			<FundsMain/>
-			<Numbers/>
-			<WhereGoes/>
-			<WhyTrust/>
-			<SeeImpact/>
-			<UTHR/>
-		</>
-	)
+  return (
+    <>
+      <FundsMain/>
+      <Numbers/>
+      <WhereGoes/>
+      <WhyTrust/>
+      <SeeImpact/>
+      <UTHR/>
+    </>
+  )
 }

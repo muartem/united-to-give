@@ -7,15 +7,15 @@ import PartnerMain from '@/components/templates/Partner/PartnerMain'
 import Partners from '@/components/templates/Partner/Partners'
 
 export default async function BloodDonationPage() {
-	return (
-		<>
-			<PartnerMain />
-			<GoodTeam />
-			<Packages />
-			<FAQ />
-			<Partners />
-			<Money />
-			<HaveQuestions />
-		</>
-	)
+  return (
+    <>
+      <PartnerMain />
+      <GoodTeam />
+      <Packages />
+      <FAQ />
+      <Partners />
+      <Money />
+      <HaveQuestions />
+    </>
+  )
 }

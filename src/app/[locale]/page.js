@@ -11,19 +11,19 @@ import MainWhatIs from '@/components/templates/Main/MainWhatIs'
 import BecomeAPartner from '@/components/templates/Main/BecomeAPartner'
 
 export default async function Home() {
-	return (
-		<>
-			<MainHero/>
-			<MainPartners/>
-			<MainGoals/>
-			<MainWhatIs/>
-			<MainScale/>
-			<BecomeAPartner/>
-			<MainMentioned/>
-			<BeReason/>
-			<MainEvent/>
-			<MainAttend/>
-			<MainTeam/>
-		</>
-	)
+  return (
+    <>
+      <MainHero/>
+      <MainPartners/>
+      <MainGoals/>
+      <MainWhatIs/>
+      <MainScale/>
+      <BecomeAPartner/>
+      <MainMentioned/>
+      <BeReason/>
+      <MainEvent/>
+      <MainAttend/>
+      <MainTeam/>
+    </>
+  )
 }
