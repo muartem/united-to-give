@@ -18,7 +18,7 @@ const LanguageSwitcher = ({ locale, classNames }) => {
       aria-label="Language Switcher"
       value={locale}
       onChange={handleLanguageChange}
-      className={`rounded-md px-4 py-2 bg-transparent hover:outline-none focus:outline-none ${classNames}`}
+      className={`!hidden rounded-md px-4 py-2 bg-transparent hover:outline-none focus:outline-none ${classNames}`}
     >
       {locales.map( locale => (<option key={locale} value={locale}>{locale.toLocaleUpperCase()}</option>))}
     </select>

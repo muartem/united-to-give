@@ -9,11 +9,11 @@ const menuItems = (t) => [
 			},
 		],*/
   },
-  {
+  /*{
     name: t('CharityEvent'),
     href: '/charity-event',
     submenu: null,
-  },
+  },*/
   {
     name: t('BecomePartner'),
     href: '/become-partner',

@@ -1,5 +1,5 @@
-import Footer from '@/components/templates/Footer'
-import Header from '@/components/templates/Header'
+import Footer from '@/components/templates/Footer/index.jsx'
+import Header from '@/components/templates/Header/index.jsx'
 import { NextIntlClientProvider } from 'next-intl'
 import {getMessages} from 'next-intl/server'
 import { Geist, Geist_Mono } from 'next/font/google'
