@@ -1,8 +1,8 @@
 import certificate from '@/assets/images/certificate.png'
-import DonateModal from '@/components/modules/DonateModal/index.jsx'
+import DonateModal from '@/components/modules/DonateModal'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
-import {ModalHandler} from '@/components/ui/modal..js'
+import {ModalHandler} from '@/components/ui/modal'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 

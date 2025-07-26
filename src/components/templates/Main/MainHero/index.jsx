@@ -11,8 +11,8 @@ const MainHero = () => {
             <h1 className="uppercase text-black-text mb-0.5 md:mr-16">
 							Join the <span className="text-primary">Blood Donation</span> Initiative
             </h1>
-            <div className="b2 text-light-black mb-6 md:mb-4">
-							Donate once - save three lives anytime between <span className="text-primary">April 20 to May 10</span>. Help in the way you can.
+            <div className="b2 text-light-black mb-6 md:mb-4 md:pr-40">
+							Donate once - save three lives anytime between <span className="text-primary">July 16 to December 16</span>. Help in the way you can.
             </div>
           </div>
           <div>
@@ -47,7 +47,7 @@ const MainHero = () => {
             <h1 className="uppercase text-background mb-[2px]">
               <span className="text-primary">Attend</span> charity networking event
             </h1>
-            <div className="b2 text-background mb-[29px]">
+            <div className="b2 text-background mb-[29px] md:pr-24">
 							Made by Ukrainians, for Ukrainians and friends. Do not hesitate - you know our quality and taste. You&apos;re going to love it.
             </div>
             <div className="mb-4 md:mb-12">

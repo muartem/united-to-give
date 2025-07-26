@@ -18,7 +18,9 @@ const PartnerMain = () => {
           <div className="flex flex-col gap-4 text-black-text md:py-36 md:w-[120%]">
             <h1 className="text-light-black uppercase">{t('title')}</h1>
             <span className="b1 md:mb-8">{t('text')}</span>
-            <Button variant="secondary">{t('button')}</Button>
+            <a className="w-max" href={'#packages'}>
+              <Button classNames="w-full md:w-64" variant="secondary">{t('button')}</Button>
+            </a>
           </div>
         </div>
         <Image

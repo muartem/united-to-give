@@ -1,4 +1,4 @@
-import faqList from '@/components/templates/Blood/FAQ/faq'
+import faqList from './faq'
 import Accordion from '@/components/ui/accordion'
 import Container from '@/components/ui/container'
 import {useTranslations} from 'next-intl'

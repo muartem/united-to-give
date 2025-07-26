@@ -9,8 +9,9 @@ const Packages = () => {
   return (
     <Container
       outerCls="bg-light-gray"
-      innerCls="flex flex-col gap-10"
+      innerCls="relative flex flex-col gap-10"
     >
+      <div id="packages" className="absolute -top-10 md:-top-16"/>
       <h2 className="text-light-black uppercase text-center">{t('title')}</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
         <div className="flex flex-col gap-2 bg-background p-10 rounded-xl md:rounded-3xl">
