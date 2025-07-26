@@ -13,7 +13,7 @@ const Accordion = ({classNames, title, children}) => {
 			onClick={() => setIsExpanded(s => !s)}
 		>
 			<div className="flex-1 min-h-12 py-2">{title}
-				{isExpanded && <div className="b2 mt-2 md:mt-4">{children}</div>}
+				{isExpanded && <pre className="b2 mt-2 md:mt-4 text-wrap">{children}</pre>}
 			</div>
 			<div className="cursor-pointer w-10">
 				{isExpanded ? <Collapse/> : <Expand/>}

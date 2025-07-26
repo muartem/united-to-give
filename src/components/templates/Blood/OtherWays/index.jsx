@@ -13,7 +13,7 @@ const OtherWays = () => {
 			innerCls="flex flex-col gap-12 md:gap-16 xl:gap-16  items-stretch"
 		>
 			<h2 className="uppercase text-center text-light-black">{t('title')}</h2>
-			<AttendEvent/>
+			{/*<AttendEvent/>*/}
 			<HelpUkraine/>
 			<BecomePartner/>
 		</Container>

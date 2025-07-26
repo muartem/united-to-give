@@ -4,7 +4,7 @@ import ArrowRight from '@/assets/svg/Arrow-right'
 import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
 import Container from '@/components/ui/container'
 import {ModalHandler} from '@/components/ui/modal..js'
-import Ul from '@/components/ui/ul'
+import Ol from '@/components/ui/ol'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
@@ -17,13 +17,18 @@ const DonateTogether = () => {
 			innerCls="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 xl:gap-20 md:justify-between"
 		>
 			<div className="flex flex-col gap-2">
-				<h2 className="text-light-black uppercase text-center md:text-left">{t('title')}</h2>
+				<h2 className="text-light-black uppercase text-center md:text-left">
+					{t('title')}
+					<span className="text-primary">{t('date')}</span>
+				</h2>
+				<span className="b2 font-bold text-primary">{t('time')}</span>
+				<span className="b3 mb-4 md:mb-10">{t('location')}</span>
 				<span className="b1 text-black-text mb-2">{t('description')}</span>
-				<Ul variant="blood" classNames="mb-2" lis={[t('li1'), t('li2'), t('li3')]}/>
+				<Ol classNames="mb-2" lis={[t('li1'), t('li2'), t('li3'), t('li4')]}/>
 				<a href="https://www.instagram.com/united_to_give" target="_blank"
 					 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
-					<Image src={ig} className="hidden md:block" alt="instagram"/>
-					{t('view')}
+					<Image src={tg} alt="telegram"/>
+					{t('jointg')}
 					<ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
 				</a>
 			</div>

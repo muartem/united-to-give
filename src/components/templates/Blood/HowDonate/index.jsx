@@ -19,9 +19,7 @@ const HowDonate = () => {
 						<h3 className="text-black-text mb-2">{t('1.title')}</h3>
 						<span className="b2 text-black-text">
 								{t('1.text1')}
-							<a className="text-black-text underline text-nowrap" target="_blank"
-								 href="tel:18882366283">1-888-236-6283.</a>
-								<a target="_blank" href="https://blood.ca/am-i-eligible">{t('1.check')}</a>
+							<a target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">{t('1.cbs')}</a>
 							{t('1.text2')}
 							</span>
 					</div>
@@ -34,7 +32,8 @@ const HowDonate = () => {
 					<div>
 						<h3 className="text-black-text mb-2">{t('2.title')}</h3>
 						<span className="b2 text-black-text">
-								{t('2.text')}
+							<a target="_blank" href="https://www.blood.ca/en/blood/am-i-eligible-donate-blood">{t('2.check')}</a>
+							{t('2.text')}
 							</span>
 					</div>
 
