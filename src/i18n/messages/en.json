@@ -8,7 +8,29 @@
     "Challenge": "United to give challenge",
     "Availability": "Check donation eligibility"
   },
-  "main": {},
+  "main": {
+    "hero": {
+      "join": "Join the ",
+      "bd": "Blood Donation ",
+      "initiative": "Initiative",
+      "text1": "Donate once - save three lives anytime between ",
+      "date": "July 16 and December 16 ",
+      "text2": "Help in the way you can.",
+      "donateBtn": "Donate Blood",
+      "donors": "1000+",
+      "text3": "Our goal is to attract a thousand of new donors in Toronto.",
+      "funds": "$50,000",
+      "text4": "Collect funds that will be sent to support Ukrainian blood center.",
+      "attend" : "Attend ",
+      "charity" : "charity networking event",
+      "text5" : "Made by Ukrainians, for Ukrainians and friends. Do not hesitate - you know our quality and taste. You're going to love it.",
+      "attendBtn": "Attend Event",
+      "speakers": "speakers",
+      "text6": "People you all know will share their experiences in Canada.",
+      "attendee": "500+",
+      "text7": "Event attendees."
+    }
+  },
   "blood": {
     "main": {
       "title": "Donate blood add someone’s ",
