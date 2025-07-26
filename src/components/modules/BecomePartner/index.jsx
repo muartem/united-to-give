@@ -18,8 +18,8 @@ const BecomePartner = () => {
         <div className="flex flex-col gap-4 text-black-text md:pl-20 md:py-20 md:w-[120%]">
           <h1 className="text-light-black uppercase">{t('title')}</h1>
           <span className="b1 md:mb-8">{t('text')}</span>
-          <Link className="flex items-center" href={'/become-partner'}>
-            <Button variant="secondary">{t('button')}</Button>
+          <Link className="flex items-center w-max" href={'/become-partner'}>
+            <Button variant="secondary" classNames="!px-16 !py-4">{t('button')}</Button>
           </Link>
         </div>
       </div>

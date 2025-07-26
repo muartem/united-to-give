@@ -23,7 +23,6 @@ const eslintConfig = [
       indent: ['error', 2],
       quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
       'jsx-quotes': ['error', 'prefer-double'],
-      'import/extensions': 'off',
       'import/no-extraneous-dependencies': 'off',
       'react/react-in-jsx-scope': 'off',
       'padding-line-between-statements': [

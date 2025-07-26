@@ -1,6 +1,6 @@
 import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
 import Container from '@/components/ui/container'
-import {ModalHandler} from '@/components/ui/modal..js'
+import {ModalHandler} from '@/components/ui/modal.jsx'
 import {useTranslations} from 'next-intl'
 
 const Numbers = () => {

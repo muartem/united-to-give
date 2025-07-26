@@ -1,6 +1,6 @@
 import ig from '@/assets/images/ig.png'
 import bloggers from '@/assets/images/team/bloggers.png'
-import Ul from '@/components/ui/ul.js'
+import Ul from '@/components/ui/ul'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
