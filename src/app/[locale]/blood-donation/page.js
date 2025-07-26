@@ -9,17 +9,17 @@ import OtherWays from '@/components/templates/Blood/OtherWays'
 import Video from '@/components/templates/Blood/Video'
 
 export default async function BloodDonationPage() {
-	return (
-		<>
-			<BloodMain/>
-			<Numbers/>
-			<Video/>
-			<BeReason/>
-			<DonateTogether/>
-			<HowDonate />
-			<FAQ />
-			<DonateOnes />
-			<OtherWays />
-		</>
-	)
+  return (
+    <>
+      <BloodMain/>
+      <Numbers/>
+      <Video/>
+      <BeReason/>
+      <DonateTogether/>
+      <HowDonate />
+      <FAQ />
+      <DonateOnes />
+      <OtherWays />
+    </>
+  )
 }
