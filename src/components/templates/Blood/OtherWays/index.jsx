@@ -1,4 +1,3 @@
-import AttendEvent from '@/components/modules/AttendEvent'
 import BecomePartner from '@/components/modules/BecomePartner'
 import HelpUkraine from '@/components/modules/HelpUkraine'
 import Container from '@/components/ui/container'
@@ -15,7 +14,9 @@ const OtherWays = () => {
       <h2 className="uppercase text-center text-light-black">{t('title')}</h2>
       {/*<AttendEvent/>*/}
       <HelpUkraine/>
-      <BecomePartner/>
+      <BecomePartner   />
+
+
     </Container>
   )
 }
