@@ -1,5 +1,6 @@
-import GoalImage from '@/assets/images/goal.jpg'
-import HeroBg from '@/assets/images/hero-bg.jpg'
+import GoalImage from '@/assets/images/goal.png'
+import GirlSun from '@/assets/images/girls-sunflowers.png'
+import GirlFun from '@/assets/images/young-adults-having-fun-while-folk-dancing.png'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
 import Ul from '@/components/ui/ul'
@@ -28,13 +29,13 @@ const MainGoals = () => {
 						responsible, and engaged global partner committed to humanitarian values and civic contribution.
           </div>
         </div>
-        <Image className="order-1 md:order-2 m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={HeroBg}
-							 alt="Goal Image" width={235} height={235}
+        <Image className="order-1 md:order-2 m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={GirlSun}
+							 alt="Goal Image"
         />
       </div>
       <div className="flex justify-between items-center gap-10 md:gap-20 mb-16 flex-col md:flex-row">
-        <Image className="m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={HeroBg}
-							 alt="Goal Image" width={235} height={235}
+        <Image className="m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={GirlFun}
+							 alt="young-adults-having-fun-while-folk-dancing"
         />
         <div className="flex-1">
           <h3 className="text-light-black mb-4">
@@ -50,7 +51,7 @@ const MainGoals = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center gap-20 mb-8 flex-col md:flex-row">
+      <div className="flex justify-between items-stretch md:items-center gap-20 mb-8 flex-col md:flex-row">
         <div className="flex flex-col gap-4 flex-1 order-2 md:order-1">
           <h3 className="text-light-black">
 						Help Ukraine
@@ -65,14 +66,13 @@ const MainGoals = () => {
           <Ul variant="blood" lis={[
             '100% of funds go to Ukrainian hospitals', 'Make a difference from anywhere', 'Donate as a partner'
           ]}/>
-          <Button variant="secondary" classNames="!px-20 w-max mt-2">
+          <Button variant="secondary" classNames="w-full md:w-max !px-20 mt-2">
 						Donate Funds
           </Button>
         </div>
-        <div className="flex-1 flex justify-center items-center order-1 md:order-2">
-          <Image src={GoalImage} alt="Goal Image" width={592} height={403}
-								 className="w-full h-full object-cover object-center"/>
-        </div>
+        <Image className="order-1 md:order-2 m-auto h-max w-auto md:h-auto rounded-xl md:rounded-3xl" src={GoalImage}
+          alt="Goal Image"
+        />
       </div>
     </Container>
   )
