@@ -8,7 +8,7 @@ const BloodMain = () => {
 
   return (
     <main
-      className="md:h-[752px] w-dvw bg-main-gradient text-light-black"
+      className="h-[calc(100dvh-88px)] md:h-[752px] w-dvw bg-main-gradient text-light-black"
     >
       <div
         className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
@@ -28,7 +28,7 @@ const BloodMain = () => {
             <h2 className="text-black-text uppercase">
               {t('text1')}
             </h2>
-            <a target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
+            <a className="w-full md:w-max" target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
               <Button classNames="w-full md:w-64 mx-auto md:mx-0">{t('donateBtn')}</Button>
             </a>
           </div>

@@ -51,7 +51,7 @@ const Header = ({locale}) => {
 				    transition-[opacity,visibility,top] duration-300 shadow-md text-left items-stretch px-6 gap-0
 				    ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}
 				    md:relative md:flex-row md:bg-transparent md:py-0 md:shadow-none md:px-0 md:gap-12 md:opacity-100 md:visible
-				    md:items-center md:justify-center
+				    md:items-center /*md:justify-center*/ md:justify-end 
 				  `}
         >
           {menuItems(t).map((item) => (
@@ -112,7 +112,7 @@ const Header = ({locale}) => {
             <LanguageSwitcher locale={locale}/>
           </div>
         </nav>
-        <LanguageSwitcher classNames="hidden md:block" locale={locale}/>
+        {/*<LanguageSwitcher classNames="hidden md:block" locale={locale}/>*/}
       </div>
     </header>
   )

@@ -30,7 +30,7 @@ export function Modal({isOpen, onClose, classNames, children}) {
         className={`
           bg-background w-full h-full max-w-screen-xl relative
           md:h-auto md:max-h-[90vh] md:w-full md:mx-4 md:my-10 md:rounded-3xl
-          px-8 py-20 md:p-20
+          
           ${classNames}
         `}
       >
@@ -41,7 +41,9 @@ export function Modal({isOpen, onClose, classNames, children}) {
         >
           <CloseModal/>
         </button>
-        <div className="overflow-y-auto h-full">{children}</div>
+        <div className={`overflow-y-auto h-full px-8 py-20 md:p-20 ${classNames}`}>
+          {children}
+        </div>
       </div>
     </div>
   )

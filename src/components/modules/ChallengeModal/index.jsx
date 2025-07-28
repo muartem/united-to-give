@@ -32,7 +32,7 @@ const ChallengeModal = () => {
         />
       </div>
       <Image
-        className="hidden md:block w-full h-auto"
+        className="w-full h-auto"
         src={bloggers}
         alt={'our team'}
       />

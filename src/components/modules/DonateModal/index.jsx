@@ -1,4 +1,5 @@
 import mono from '@/assets/images/mono.png'
+import qr from '@/assets/images/qr.png'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
@@ -32,16 +33,16 @@ const DonateModal = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-9 justify-center items-start md:items-center">
-        <div className="flex gap-4 items-center">
+      <div className="flex flex-col gap-9 items-center">
+        <div className="flex gap-4 justify-center items-center">
           <Image src={mono} width={46} height={46} alt="monobank"/>
           <div>
             <h3 className="text-black-text font-bold flex items-center">{t('mono')}</h3>
             <span className="b1 text-black-text">{t('scan')}</span>
           </div>
         </div>
-        <a href="" target="_blank">
-          <Image src={mono} width={265} height={265} alt="qr monobank"/>
+        <a className="mx-auto" href="https://send.monobank.ua/jar/8xVHdLMwrZ" target="_blank">
+          <Image src={qr} width={265} height={265} alt="qr monobank"/>
         </a>
       </div>
     </div>

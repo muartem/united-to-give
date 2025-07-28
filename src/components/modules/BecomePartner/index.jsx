@@ -1,8 +1,6 @@
 import women from '@/assets/images/women.png'
-import Button from '@/components/ui/button'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const BecomePartner = () => {
   const t = useTranslations('blood.other.partner')
@@ -18,9 +16,9 @@ const BecomePartner = () => {
         <div className="flex flex-col gap-4 text-black-text md:pl-20 md:py-20 md:w-[120%]">
           <h1 className="text-light-black uppercase">{t('title')}</h1>
           <span className="b1 md:mb-8">{t('text')}</span>
-          <Link className="flex items-center w-max" href={'/become-partner'}>
+          {/*<Link className="flex items-center w-max" href={'/become-partner'}>
             <Button variant="secondary" classNames="!px-16 !py-4">{t('button')}</Button>
-          </Link>
+          </Link>*/}
         </div>
       </div>
       <Image

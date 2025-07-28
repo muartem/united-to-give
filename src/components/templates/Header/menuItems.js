@@ -14,11 +14,11 @@ const menuItems = (t) => [
     href: '/charity-event',
     submenu: null,
   },*/
-  {
+  /*{
     name: t('BecomePartner'),
     href: '/become-partner',
     submenu: null,
-  },
+  },*/
   {
     name: t('DonateFunds'),
     href: '/donate-funds',
@@ -39,7 +39,7 @@ export const menu2Footer = (t) => [
   },
   {
     name: t('Availability'),
-    href: '/availability',
+    href: 'https://www.blood.ca/en/blood/am-i-eligible-donate-blood',
     submenu: null,
   },
 ]
