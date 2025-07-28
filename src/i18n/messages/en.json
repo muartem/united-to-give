@@ -8,14 +8,27 @@
     "Challenge": "United to give challenge",
     "Availability": "Check donation eligibility"
   },
-  "home": {
-    "main": {
-      "title": "Donate blood add someone’s ",
-      "time": "time",
-      "subTitle": "Help in the way you can - join anytime between ",
-      "dateRange": "April 20 to May 10.",
-      "text1": "someone’s waiting for their tomorrow",
-      "donateBtn": "Donate Blood"
+  "main": {
+    "hero": {
+      "join": "Join the ",
+      "bd": "Blood Donation ",
+      "initiative": "Initiative",
+      "text1": "Donate once - save three lives anytime between ",
+      "date": "July 16 and December 16 ",
+      "text2": "Help in the way you can.",
+      "donateBtn": "Donate Blood",
+      "donors": "1000+",
+      "text3": "Our goal is to attract a thousand of new donors in Toronto.",
+      "funds": "$50,000",
+      "text4": "Collect funds that will be sent to support Ukrainian blood center.",
+      "attend" : "Attend ",
+      "charity" : "charity networking event",
+      "text5" : "Made by Ukrainians, for Ukrainians and friends. Do not hesitate - you know our quality and taste. You're going to love it.",
+      "attendBtn": "Attend Event",
+      "speakers": "speakers",
+      "text6": "People you all know will share their experiences in Canada.",
+      "attendee": "500+",
+      "text7": "Event attendees."
     }
   },
   "blood": {
@@ -23,7 +36,7 @@
       "title": "Donate blood add someone’s ",
       "time": "time",
       "subTitle": "Help in the way you can - join anytime between ",
-      "dateRange": "April 20 to May 10.",
+      "dateRange": "July 16 to December 16.",
       "text1": "someone’s waiting for their tomorrow",
       "donateBtn": "Donate Blood"
     },
@@ -39,18 +52,18 @@
       "3": {
         "title": "6 MONTHS",
         "text1": "The duration of",
-        "#": "#unitedtogive",
+        "#": "#UnitedToGive",
         "text2": "blood donation challenge"
       },
       "4": {
-        "title": "$5000",
+        "title": "$50,000",
         "text": "Collect funds that will be sent to support Ukrainian blood center"
       }
     },
     "video": {
       "title": "Watch the Story: A Ukrainian donated blood 9 times in Canada",
-      "text1": "When tragedy struck, hope came through a blood donor.",
-      "text2": "This is the real story of a young Ukrainian man who, after moving to Canada."
+      "text1": "When tragedy struck, hope came through a blood donation.",
+      "text2": "This is the real story of a young Ukrainian man who, after moving to Canada..."
     },
     "reason": {
       "be": "be the ",
@@ -67,24 +80,28 @@
     },
     "donateWhen": {
       "title": "Donate when it works for you",
-      "available": "Available: May 15 - June 15",
-      "location": "\uD83D\uDCCD Location: Any Canadian Blood Services location in Toronto",
+      "available": "Available: July 16 - December 16",
+      "location": "\uD83D\uDCCD Any Canadian Blood Services location",
       "your": "Your schedule. Your impact. One simple act that saves lives.",
       "li1": "Receive a digital certificate of appreciation",
-      "li2": "Get a free ticket to our charity event in Toronto",
+      "li2": "Get a chance to win a free ticket to our charity event in Toronto",
       "li3": "Join our Telegram group for easy reminders, support & next steps",
       "before": "Before registering, please, check your ",
       "eligibility": "donation eligibility.",
-      "more1": "For more information or to book an appointment, visit ",
-      "more2": "or call ",
+      "more": "For more information please contact as at ",
       "donate": "Donate Blood"
     },
     "donateTogether": {
-      "title": "donate together with other 20 volunteers in Toronto",
-      "description": "We post information about group donation in our Instagram. Check our profile to be updated",
-      "li1": "Our goal is to give a chance to 90+ people who need donated blood.",
-      "li2": "We plan to attract 1000+ new blood donors with Ukrainian roots in Canada",
-      "li3": "By donating blood in Canada, we will attract more investments to Ukraine.",
+      "title": "Donate Blood in Toronto on ",
+      "date": "July 26",
+      "time": "Time: 11:45 AM",
+      "location": "\uD83D\uDCCD Location: 67 College Street, 1st Floor, Victoria Hospital for Sick Children, Toronto, ON M5G 2M1",
+      "description": "4 easy steps to join first 20 volunteers for a life-saving mission:",
+      "li1": "Log in or create an account at Canadian Blood Services",
+      "li2": "Confirm your registration via the email",
+      "li3": "Click “Book” at at Canadian Blood Services to confirm your intention to become a donor",
+      "li4": "Join our Telegram group after registering to get the latest donation  updates and stay connected with the team.",
+      "jointg": "Join Telegram",
       "igshare": "Share your donation story. Inspire others.",
       "igdesc1": "Every drop counts - and your donation could save up to three lives. Join the ",
       "igdesc2": " movement and stand with Canadians and Ukrainians uniting for a life-saving cause.",
@@ -100,13 +117,14 @@
       "title": "How to Donate Blood in 4 Easy Steps",
       "1": {
         "title": "Book Your Appointment",
-        "text1": "Schedule online through out partner’s website or call ",
-        "check": " Check eligibility ",
-        "text2": "before booking."
+        "text1": "Log in or create an account at",
+        "cbs": " Canadian Blood Services ",
+        "text2": "and confirm your registration via the email."
       },
       "2": {
         "title": "Prepare to Donate",
-        "text": "Stay hydrated, eat a salty snack, and bring a valid photo ID."
+        "check": "Check eligibility",
+        "text": " before booking, stay hydrated, eat a salty snack, and bring a valid photo ID."
       },
       "3": {
         "title": "Screen & Donate",
@@ -120,8 +138,52 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "1": {
+        "title": "Who can donate blood?",
+        "desc": "To donate blood, you must:\n- Be at least 17 years old.\n- Be in good general health and able to perform your normal daily activities.\n- Meet height and weight requirements, especially if you're between 17 and 23 years old and a first-time donor.\n- Weigh at least 50 kg (110 lbs)\nThere is no upper age limit for donating blood. If you're unsure about your eligibility, you can take the Eligibility Quiz or call 1 888 2 DONATE (1-888-236-6283)."
+      },
+      "2": {
+        "title": "I've never donated before. What should I expect?",
+        "desc": "The donation process includes:\n1. Registration and ID verification.\n2. Health screening and questionnaire.\n3. The donation itself, which takes about 10–15 minutes.\n4. Post-donation refreshments and rest."
+      },
+      "3": {
+        "title": "Where can I donate?",
+        "desc": "On main action - we donate at 67 College Street location from at 11:45 AM.\n\nAny other day you can donate at any Canadian Blood Services donor centre in Toronto. We'll provide the address of the main event location, but you're welcome to choose a more convenient site if donating solo."
+      },
+      "4": {
+        "title": "Is donating blood safe? Could I get an infection?",
+        "desc": "Yes, donating blood is safe. All needles and equipment are sterile and used only once. The donation area is cleaned with a disinfectant before the needle is inserted to prevent any risk of infection."
+      },
+      "5": {
+        "title": "Will there be photos or videos taken during donation?",
+        "desc": "Only with your consent. During group donation events, we may have photographers or videographers present to capture the experience. You can choose whether or not to be included in any photos or videos."
+      },
+      "6": {
         "title": "I'm nervous about donating alone. Can I still participate?",
-        "desc": "Absolutely! \nMany first-time donors feel nervous. You can bring a friend or join a group donation event om ... of ..."
+        "desc": "Absolutely! \nMany first-time donors feel nervous. You can bring a friend or join a group donation event on July 26."
+      },
+      "7": {
+        "title": "What if I feel dizzy or faint after donating?",
+        "desc": "It's common to feel a bit lightheaded after donating. We provide a recovery area with snacks and drinks to help you feel better. Most people recover quickly and can resume their normal activities shortly after. \n\nDonating blood is safe for athletes and those with active lifestyles. It's recommended to avoid strenuous exercise for a few hours after donating. Plan your donation around your training or work schedule to ensure you have time to rest afterward."
+      },
+      "8": {
+        "title": "What if I can't join the group on the main donation day?",
+        "desc": "No problem! \nYou can donate at any time that suits your schedule between July 16 – December 16. \nYou'll still be part of the #UnitedToGive movement and receive a certificate and recognition as a project contributor."
+      },
+      "9": {
+        "title": "What should i do before donation?",
+        "desc": "- Make sure you drink lots of water; eat a healthy meal and get a good night’s sleep.\n- Have a salty snack and 500 mL of water just before you donate.\n- Make sure to bring valid ID that is government-issued with your full name and date-of-birth. We’ll then order you a blood donor card for next time. "
+      },
+      "10": {
+        "title": "Is donating blood free? Do I get paid?",
+        "desc": "Donating blood in Canada is a voluntary act, and donors are not paid. However, you receive tokens of appreciation, such as small gifts and recognition, and the immense satisfaction of helping save lives."
+      },
+      "11": {
+        "title": "I'm short on time. How long does the donation process take?",
+        "desc": "The whole process, from registration to post-donation rest, usually takes about an hour. The actual blood collection takes approximately 10–15 minutes."
+      },
+      "12": {
+        "title": "Do I receive anything for donating?",
+        "desc": "Yes! Donors receive:\n- A personalized digital certificate.\n- A small thank-you gift (e.g., t-shirt, discounts).\n- Recognition on our social media platforms (with your permission).\n- The satisfaction of contributing to a life-saving cause."
       }
     },
     "ones": {
@@ -339,5 +401,27 @@
     }
   },
   "footer": {
+  },
+  "modals": {
+    "challenge": {
+      "#u2g": "#UnitedToGive",
+      "@u2g": "@UnitedToGive",
+      "challenge": " challenge",
+      "text": "Every drop counts — your blood donation can save up to 3 lives",
+      "join": "Join our team to help in the way you can!",
+      "li": {
+        "1" : "Donate blood at any Canadian Blood Services location.",
+        "2" : "Take a photo or video at your donation.",
+        "3" : "Post it on Instagram with the hashtag ",
+        "4" : "Subscribe to our social media ",
+        "5" : "Feel proud - you just saved lives."
+      }
+    },
+    "donate": {
+      "title": "Donate in the Way That Works for You",
+      "text": "Blood or funds - both make a real impact.",
+      "mono": "Donate in familiar way",
+      "scan": "Scan QR to make it easy."
+    }
   }
 }

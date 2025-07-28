@@ -55,7 +55,11 @@ const config = {
           #e7e7e7 50%,
           #363B42 50%
         )`,
-
+				'pay-gradient': `linear-gradient(
+          90deg,
+          #F5F5F5 60%,
+          #FFFAFE 40%
+        )`,
 			},
 		},
 	},
