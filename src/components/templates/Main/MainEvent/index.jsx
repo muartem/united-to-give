@@ -1,6 +1,6 @@
 import EventBg from '@/assets/images/event-bg.jpg'
 import GentlemenImage from '@/assets/images/gentlemen.png'
-import ArrowRight from '@/assets/svg/Arrow-right'
+/*import ArrowRight from '@/assets/svg/Arrow-right'*/
 import Container from '@/components/ui/container'
 import Ul from '@/components/ui/ul'
 import Image from 'next/image'
@@ -9,7 +9,7 @@ const MainEvent = () => {
   return (
     <Container
       outerCls="bg-background"
-      innerCls="relative rounded-xl md:rounded-3xl bg-[#F5F5F5] overflow-hidden"
+      innerCls="relative rounded-0 md:rounded-3xl bg-[#F5F5F5] overflow-hidden"
     >
       <Image src={EventBg} alt="Hero background" className="absolute w-full h-full object-cover"/>
       <div className="relative z-10 flex items-center flex-col lg:flex-row">
@@ -22,7 +22,7 @@ const MainEvent = () => {
             variant="star"
             lis={['Free entrance for blood donors', '100% of tickets sales go to Ukrainian hospitals']}
           />
-          <button
+          {/*<button
             type="button"
             className="mt-4 mb-8 b2 font-bold text-golden-yellow flex items-center gap-2 hover:brightness-95"
           >
@@ -54,7 +54,7 @@ const MainEvent = () => {
 								Volunteer
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
         <Image src={GentlemenImage} alt="Gentlemen" width={608} height={479} className="object-cover"/>
       </div>

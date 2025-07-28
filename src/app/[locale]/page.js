@@ -3,7 +3,6 @@ import MainAttend from '@/components/templates/Main/MainAttend'
 import MainEvent from '@/components/templates/Main/MainEvent'
 import MainGoals from '@/components/templates/Main/MainGoals'
 import MainHero from '@/components/templates/Main/MainHero'
-import MainMentioned from '@/components/templates/Main/MainMentioned'
 import MainPartners from '@/components/templates/Main/MainPartners'
 import MainScale from '@/components/templates/Main/MainScale'
 import MainTeam from '@/components/templates/Main/MainTeam'
@@ -19,7 +18,7 @@ export default async function Home() {
       <MainWhatIs/>
       <MainScale/>
       <BecomeAPartner/>
-      <MainMentioned/>
+      {/*<MainMentioned/>*/}
       <BeReason/>
       <MainEvent/>
       <MainAttend/>

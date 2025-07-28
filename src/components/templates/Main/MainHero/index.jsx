@@ -8,7 +8,8 @@ const MainHero = () => {
 
   return (
     <main className="md:h-[752px] w-dvw bg-main-gradient md:bg-bw-gradient text-light-black">
-      <div className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left flex-col md:flex-row">
+      <div
+        className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left flex-col md:flex-row">
         <div className="flex flex-col w-auto md:w-1/2 justify-between pt-16 pb-12 px-6 xl:px-16 md:!pl-0">
           <div>
             <h1 className="uppercase text-black-text mb-0.5 md:mr-16">
@@ -23,11 +24,9 @@ const MainHero = () => {
             </div>
           </div>
           <div>
-            <div className="mb-4 md:mb-12">
-              <Button variant="primary" classNames="!px-16 !py-4">
-                {t('donateBtn')}
-              </Button>
-            </div>
+            <Button variant="primary" classNames="mb-4 md:mb-12 w-full md:w-max !px-16 !py-4">
+              {t('donateBtn')}
+            </Button>
             <div className="flex gap-4 md:gap-10 h-auto flex-col md:flex-row">
               <div className="flex-1">
                 <h2 className="text-primary">
@@ -49,7 +48,9 @@ const MainHero = () => {
           </div>
         </div>
         <div className="w-auto md:w-1/2 relative">
-          <Image src={HeroBg} alt="Hero background" height={568} className="w-full md:w-[50dvw] md:max-w-[50dvw] h-full object-cover object-center absolute top-0 left-0" />
+          <Image src={HeroBg} alt="Hero background" height={568}
+            className="w-full md:w-[50dvw] md:max-w-[50dvw] h-full object-cover object-center absolute top-0 left-0"
+          />
           <div className="flex flex-col pt-16 pb-12 px-6 xl:px-16 relative z-10 w-full">
             <h1 className="uppercase text-background mb-[2px]">
               <span className="text-primary">{t('attend')}</span>
@@ -58,11 +59,9 @@ const MainHero = () => {
             <div className="b2 text-background mb-[29px] md:pr-24">
               {t('text5')}
             </div>
-            <div className="mb-4 md:mb-12">
-              <Button variant="event" classNames="!px-16 !py-4">
-                {t('attendBtn')}
-              </Button>
-            </div>
+            <Button disabled variant="event" classNames="mb-4 md:mb-12 w-full md:w-max !px-16 !py-4">
+              {'Soon...' ?? t('attendBtn')}
+            </Button>
             <div className="flex gap-4 md:gap-10 md:h-[190px] h-auto flex-col md:flex-row">
               <div className="flex-1">
                 <h2 className="text-golden-yellow uppercase">
