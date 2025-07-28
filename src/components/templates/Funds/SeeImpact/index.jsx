@@ -22,7 +22,7 @@ const SeeImpact = () => {
             <h1 className="text-light-black uppercase text-center md:text-left">{t('title')}</h1>
             <span className="b1 text-black-text mb-2">{t('description')}</span>
             <Ul variant="blood" classNames="mb-6" lis={[t('li1'), t('li2'), t('li3')]}/>
-            <a href="#"
+            <a target="_blank" href="https://www.instagram.com/united_to_give"
 							 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
               <Image src={ig} alt="instagram"/>
               {t('iglink')}

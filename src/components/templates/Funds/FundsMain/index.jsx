@@ -11,13 +11,13 @@ const FundsMain = () => {
 
   return (
     <main
-      className="md:h-[752px] w-dvw bg-main-gradient text-light-black"
+      className="h-[calc(100dvh-88px)] md:h-[752px] w-dvw bg-main-gradient text-light-black"
     >
       <div
         className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
       >
         <div
-          className="flex z-10 flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
+          className="flex justify-center z-10 flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
         >
           <h1 className="uppercase font-normal">
             {t('Help')}
