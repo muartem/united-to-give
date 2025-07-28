@@ -9,8 +9,12 @@ const LanguageSwitcher = ({ locale, classNames }) => {
 
 	const handleLanguageChange = (e) => {
 		const newLocale = e.target.value
-		const path = pathname.split('/').slice(2).join('/')
-		router.push(`/${newLocale}/${path}`)
+		// const path = pathname.split('/').slice(2).join('/')
+		// router.push(`/${newLocale}/${path}`)
+		const pathSegments = pathname.split('/')
+pathSegments[1] = newLocale // Replace the locale segment
+const newPath = pathSegments.join('/')
+router.push(newPath)
 	}
 
 	return (

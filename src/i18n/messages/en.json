@@ -8,7 +8,16 @@
     "Challenge": "United to give challenge",
     "Availability": "Check donation eligibility"
   },
-  "main": {},
+  "home": {
+    "main": {
+      "title": "Donate blood add someone’s ",
+      "time": "time",
+      "subTitle": "Help in the way you can - join anytime between ",
+      "dateRange": "April 20 to May 10.",
+      "text1": "someone’s waiting for their tomorrow",
+      "donateBtn": "Donate Blood"
+    }
+  },
   "blood": {
     "main": {
       "title": "Donate blood add someone’s ",

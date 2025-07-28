@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
+import locales from '@/i18n/locales'
 
-const locales = ['en', 'fr', 'de']
+// const locales = ['en', 'fr', 'ua']
 const defaultLocale = 'en'
 const localesPattern = locales.join('|')
 
@@ -25,5 +26,9 @@ export function middleware(request) {
 }
 
 export const config = {
-	matcher: ['/', '/:path*'],
+	// matcher: ['/', '/:path*'],
+	matcher: [
+    // Matches all routes except _next, api, etc.
+    '/((?!_next|api|favicon.ico|.*\\..*).*)'
+  ],
 }

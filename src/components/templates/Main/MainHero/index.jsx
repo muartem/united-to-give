@@ -1,8 +1,13 @@
+'use client'
+
 import HeroBg from '@/assets/images/hero-bg.jpg'
 import Button from '@/components/ui/button'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 const MainHero = () => {
+	const t = useTranslations('home')
+
 	return (
 		<main className="md:h-[752px] w-dvw bg-main-gradient md:bg-bw-gradient text-light-black">
 			<div className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left flex-col md:flex-row">
