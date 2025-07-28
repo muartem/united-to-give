@@ -39,7 +39,7 @@ export const menu2Footer = (t) => [
   },
   {
     name: t('Availability'),
-    href: '/availability',
+    href: 'https://www.blood.ca/en/blood/am-i-eligible-donate-blood',
     submenu: null,
   },
 ]

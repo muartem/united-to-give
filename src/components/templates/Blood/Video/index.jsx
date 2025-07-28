@@ -9,7 +9,7 @@ const Video = () => {
       outerCls="text-light-black bg-white"
       innerCls="text-black-text"
     >
-      <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/ZEm378CNBy0?si=gKpYHIIz-DbYQ1yH"
+      <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/vDHgvDXHSt0?si=9DCjew9rTKszP1Yc"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen/>
