@@ -25,7 +25,7 @@ const DonateTogether = () => {
         <span className="b3 mb-4 md:mb-10">{t('location')}</span>
         <span className="b1 text-black-text mb-2">{t('description')}</span>
         <Ol classNames="mb-2" lis={[t('li1'), t('li2'), t('li3'), t('li4')]}/>
-        <a href="https://www.instagram.com/united_to_give" target="_blank"
+        <a href="#" target="_blank"
 					 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
           <Image src={tg} alt="telegram"/>
           {t('jointg')}
