@@ -14,11 +14,11 @@ const menuItems = (t) => [
     href: '/charity-event',
     submenu: null,
   },*/
-  {
+  /*{
     name: t('BecomePartner'),
     href: '/become-partner',
     submenu: null,
-  },
+  },*/
   {
     name: t('DonateFunds'),
     href: '/donate-funds',
