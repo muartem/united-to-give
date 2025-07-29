@@ -34,8 +34,8 @@ const BloodMain = () => {
           </div>
         </div>
         <div
-          className="max-h-dvh absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
-          <Image className="h-full" src={Kid} width={568} alt={'kid'}/>
+          className="max-h-dvh auto absolute opacity-30 w-dvw flex-none pt-24 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
+          <Image className="object-cover h-full" src={Kid} width={568} alt={'kid'}/>
         </div>
       </div>
     </main>

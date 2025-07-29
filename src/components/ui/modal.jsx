@@ -24,7 +24,7 @@ export function Modal({isOpen, onClose, classNames, children}) {
     <div
       id="modal-overlay"
       onClick={handleClickOutside}
-      className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
+      className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-60"
     >
       <div
         className={`
@@ -36,7 +36,7 @@ export function Modal({isOpen, onClose, classNames, children}) {
       >
         <button
           onClick={onClose}
-          className="absolute top-8 right-4 md:top-10 md:right-16 text-light-black hover:text-black-text text-xl p-4 hover:opacity-80"
+          className="absolute top-7 right-4 md:top-10 md:right-16 text-light-black hover:text-black-text text-xl p-4 hover:opacity-80"
           aria-label="Close modal"
         >
           <CloseModal/>

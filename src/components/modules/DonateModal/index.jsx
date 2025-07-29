@@ -33,17 +33,17 @@ const DonateModal = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-9 items-center">
-        <div className="flex gap-4 justify-center items-center">
+      <div className="flex flex-col gap-2 justify-center items-center pb-10">
+        <a className="mx-auto p-4 hover:opacity-80" href="https://send.monobank.ua/jar/8xVHdLMwrZ" target="_blank">
+          <Image src={qr} width={265} height={265} alt="qr monobank"/>
+        </a>
+        <div className="flex gap-2 justify-center items-center">
           <Image src={mono} width={46} height={46} alt="monobank"/>
           <div>
             <h3 className="text-black-text font-bold flex items-center">{t('mono')}</h3>
             <span className="b1 text-black-text">{t('scan')}</span>
           </div>
         </div>
-        <a className="mx-auto" href="https://send.monobank.ua/jar/8xVHdLMwrZ" target="_blank">
-          <Image src={qr} width={265} height={265} alt="qr monobank"/>
-        </a>
       </div>
     </div>
   )

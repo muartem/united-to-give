@@ -14,7 +14,7 @@ const DonateTogether = () => {
   return (
     <Container
       outerCls="bg-background"
-      innerCls="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 xl:gap-20 md:justify-between"
+      innerCls="grid grid-cols-1 md:grid-cols-2 !gap-10 !md:gap-20 !xl:gap-20 md:justify-between"
     >
       <div className="flex flex-col gap-2">
         <h2 className="text-light-black uppercase text-center md:text-left">
@@ -27,12 +27,12 @@ const DonateTogether = () => {
         <Ol classNames="mb-2" lis={[t('li1'), t('li2'), t('li3'), t('li4')]}/>
         <a href="#" target="_blank"
 					 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
-          <Image src={tg} alt="telegram"/>
+          <Image src={tg} width={24} height={24} alt="telegram"/>
           {t('jointg')}
           <ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
         </a>
       </div>
-      <div className="flex flex-col gap-6 md:gap-12">
+      <div className="flex flex-col gap-10 md:gap-12">
         <div className="flex flex-col gap-2">
           <h3 className="text-light-black uppercase flex items-center gap-4">
             <Image src={ig} alt="instagram"/>
