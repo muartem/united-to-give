@@ -1,5 +1,6 @@
 import Footer from '@/components/templates/Footer'
 import Header from '@/components/templates/Header'
+import locales from '@/i18n/locales.js'
 import {Analytics} from '@vercel/analytics/next'
 import {NextIntlClientProvider} from 'next-intl'
 import {getMessages} from 'next-intl/server'
@@ -58,6 +59,9 @@ export const metadata = {
   },
 }
 
+/*export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}*/
 
 export default async function RootLayout({
   children,
