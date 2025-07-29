@@ -91,7 +91,7 @@ const Header = ({locale}) => {
                 >
                   {item.submenu.map((subItem) => (
                     <Link
-                      key={`nav-submenu-${subItem.name}`} href={subItem.href}
+                      key={`nav-submenu-${subItem.name}`} href={`/${locale}${subItem.href}`}
                       className="block whitespace-nowrap text-white hover:text-dark-gray hover:no-underline"
                     >
                       {subItem.name}
@@ -101,7 +101,7 @@ const Header = ({locale}) => {
               </div>
             ) : (
               <Link
-                key={`nav-${item.name}`} href={item.href}
+                key={`nav-${item.name}`} href={`/${locale}${item.href}`}
                 className="block text-white hover:text-dark-gray border-b last:border-none border-grey-100 md:border-none py-3 md:py-0 hover:no-underline"
               >
                 {item.name}

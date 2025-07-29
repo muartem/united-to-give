@@ -14,7 +14,7 @@ const NotFound = () => {
       <Image src={NotFoundImage} width={300} height={300} alt="Not Found" />
       <h1 className="text-4xl font-bold mb-4">Page not found</h1>
       <p className="text-lg text-gray-500 mb-2">The page you are looking for does not exist.</p>
-      <Button variant="secondary" onClick={() => router.push('/en')}>Go to home</Button>
+      <Button variant="secondary" onClick={() => router.push('/en')} classNames="px-12">Go to home</Button>
     </div>
   )
 }
