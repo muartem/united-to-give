@@ -10,7 +10,7 @@ const MainHero = () => {
     <main className="md:h-[752px] w-dvw bg-main-gradient md:bg-bw-gradient text-light-black">
       <div
         className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left flex-col md:flex-row">
-        <div className="flex flex-col w-auto md:w-1/2 justify-between pt-16 pb-12 px-6 xl:px-16 md:!pl-0">
+        <div className="flex flex-col w-auto md:w-1/2 justify-between pt-16 pb-12 px-6 xl:px-16 md:!pl-2">
           <div>
             <h1 className="uppercase text-black-text mb-0.5 md:mr-16">
               {t('join')}

@@ -5,15 +5,15 @@ import tg from '@/assets/images/tg.png'
 import fb from '@/assets/images/fb.png'
 import li from '@/assets/images/li.png'
 import logo from '@/assets/svg/logo-b.svg'
-import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
+import ChallengeModal from '@/components/modules/ChallengeModal/index'
 import menuItems from '@/components/templates/Header/menuItems'
-import {ModalHandler} from '@/components/ui/modal.jsx'
+import {ModalHandler} from '@/components/ui/modal'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 
 
-const Footer = () => {
+const Footer = ({locale}) => {
   const t = useTranslations('nav')
 
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           {menuItems(t).map((item) => (
             <Link
-              key={`nav-${item.name}`} href={item.href}
+              key={`nav-${item.name}`} href={`/${locale}${item.href}`}
               className="block b2 p-1 font-bold text-light-black hover:text-black-text"
             >
               {item.name}

@@ -19,7 +19,7 @@ const Header = ({locale}) => {
     <header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white">
       <div className="max-w-screen-xl m-auto flex items-center justify-between">
         <div className="flex items-center">
-          <Link className="flex items-center" href="/">
+          <Link className="flex items-center" href={`/${locale}`}>
             <Image src={logo} alt="Logo" width={189} height={40}/>
           </Link>
         </div>
@@ -91,7 +91,7 @@ const Header = ({locale}) => {
                 >
                   {item.submenu.map((subItem) => (
                     <Link
-                      key={`nav-submenu-${subItem.name}`} href={subItem.href}
+                      key={`nav-submenu-${subItem.name}`} href={`/${locale}${subItem.href}`}
                       className="block whitespace-nowrap text-white hover:text-dark-gray hover:no-underline"
                     >
                       {subItem.name}
@@ -101,7 +101,7 @@ const Header = ({locale}) => {
               </div>
             ) : (
               <Link
-                key={`nav-${item.name}`} href={item.href}
+                key={`nav-${item.name}`} href={`/${locale}${item.href}`}
                 className="block text-white hover:text-dark-gray border-b last:border-none border-grey-100 md:border-none py-3 md:py-0 hover:no-underline"
               >
                 {item.name}
