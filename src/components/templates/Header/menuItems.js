@@ -3,14 +3,8 @@ const menuItems = (t) => [
     name: t('BloodDonation'),
     href: '/blood-donation',
     shouldHaveLocale: true,
-    /*submenu: [
-			{
-				name: 'Military',
-				href: '/industries',
-			},
-		],*/
   },
-  {
+  /*{
     name: t('CharityEvent'),
     href: '/charity-event',
     shouldHaveLocale: true,
@@ -21,7 +15,7 @@ const menuItems = (t) => [
     href: '/become-partner',
     shouldHaveLocale: true,
     submenu: null,
-  },
+  },*/
   {
     name: t('DonateFunds'),
     href: '/donate-funds',

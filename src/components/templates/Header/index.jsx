@@ -2,7 +2,7 @@
 
 import ArrowDown from '@/assets/svg/arrow-down'
 import logo from '@/assets/svg/logo-w.svg'
-import LanguageSwitcher from '@/components/ui/switcher'
+/*import LanguageSwitcher from '@/components/ui/switcher'*/
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,7 +10,7 @@ import {useState} from 'react'
 import menuItems from './menuItems'
 
 
-const Header = ({locale}) => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false)
   const t = useTranslations('nav')
@@ -19,7 +19,7 @@ const Header = ({locale}) => {
     <header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white">
       <div className="max-w-screen-xl m-auto flex items-center justify-between">
         <div className="flex items-center">
-          <Link className="flex items-center" href={`/${locale}`}>
+          <Link className="flex items-center" href={`/`}>
             <Image src={logo} alt="Logo" width={189} height={40}/>
           </Link>
         </div>
@@ -51,7 +51,7 @@ const Header = ({locale}) => {
 				    transition-[opacity,visibility,top] duration-300 shadow-md text-left items-stretch px-6 gap-0
 				    ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}
 				    md:relative md:flex-row md:bg-transparent md:py-0 md:shadow-none md:px-0 md:gap-12 md:opacity-100 md:visible
-				    md:items-center md:justify-center
+				    md:items-center md:justify-end
 				  `}
         >
           {menuItems(t).map((item) => (
@@ -91,7 +91,7 @@ const Header = ({locale}) => {
                 >
                   {item.submenu.map((subItem) => (
                     <Link
-                      key={`nav-submenu-${subItem.name}`} href={`/${locale}${subItem.href}`}
+                      key={`nav-submenu-${subItem.name}`} href={`${subItem.href}`}
                       className="block whitespace-nowrap text-white hover:text-dark-gray hover:no-underline"
                     >
                       {subItem.name}
@@ -101,18 +101,18 @@ const Header = ({locale}) => {
               </div>
             ) : (
               <Link
-                key={`nav-${item.name}`} href={`/${locale}${item.href}`}
+                key={`nav-${item.name}`} href={`${item.href}`}
                 className="block text-white hover:text-dark-gray border-b last:border-none border-grey-100 md:border-none py-3 md:py-0 hover:no-underline"
               >
                 {item.name}
               </Link>
             )
           ))}
-          <div className="md:hidden p-6 m-auto">
+          {/*<div className="md:hidden p-6 m-auto">
             <LanguageSwitcher locale={locale}/>
-          </div>
+          </div>*/}
         </nav>
-        <LanguageSwitcher classNames="hidden md:block" locale={locale}/>
+        {/*<LanguageSwitcher classNames="hidden md:block" locale={locale}/>*/}
       </div>
     </header>
   )

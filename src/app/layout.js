@@ -1,5 +1,5 @@
-import Footer from '@/components/templates/Footer'
-import Header from '@/components/templates/Header'
+import Footer from '@/components/templates/Footer/index.jsx'
+import Header from '@/components/templates/Header/index.jsx'
 /*import locales from '@/i18n/locales.js'*/
 import {Analytics} from '@vercel/analytics/next'
 import {NextIntlClientProvider} from 'next-intl'
@@ -10,6 +10,7 @@ import '@/app/globals.css'
 export const metadata = {
   title: 'United to Give - Ukrainian Blood Donation Campaign in Canada',
   manifest: '/manifest.json',
+  metadataBase: new URL('https://www.unitedtogive.ca/'),
   description:
     'Ukrainians across Canada are donating blood to give back to the country that welcomed us. Join us in supporting Canadian patients and showing appreciation through meaningful action.',
   keywords: [

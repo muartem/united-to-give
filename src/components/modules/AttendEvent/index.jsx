@@ -21,7 +21,7 @@ const AttendEvent = () => {
           <span className="b1">{t('text')}</span>
           <Ul variant="star" lis={[t('li1'), t('li2'), t('li3'), t('li4')]}/>
         </div>
-        <Button disabled variant="event">{'Soon...' || t('button')}</Button>
+        <Button classNames="invisible" disabled variant="event">{'Soon...' || t('button')}</Button>
       </div>
       <Image className="rounded-xl md:rounded-3xl" src={event} alt={t('title')}/>
     </div>
