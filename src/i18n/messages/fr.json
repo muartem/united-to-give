@@ -3,87 +3,424 @@
     "BloodDonation": "Don de sang",
     "CharityEvent": "Événement caritatif",
     "BecomePartner": "Devenir partenaire",
-    "DonateFunds": "Faire un don"
+    "DonateFunds": "Faire un don",
+    "ReferralProgram": "Programme de parrainage",
+    "Challenge": "Défi Unis pour donner",
+    "Availability": "Vérifier l’éligibilité au don"
   },
-  "home": {
+  "main": {
+    "hero": {
+      "join": "Rejoignez l’",
+      "bd": "Initiative Don de Sang",
+      "initiative": "",
+      "text1": "Faites un don une seule fois – sauvez trois vies entre le ",
+      "date": "16 juillet et le 16 décembre",
+      "text2": "Aidez comme vous le pouvez.",
+      "donateBtn": "Faire un don de sang",
+      "donors": "1000+",
+      "text3": "Notre objectif est d’attirer mille nouveaux donneurs à Toronto.",
+      "funds": "50 000 $",
+      "text4": "Recueillir des fonds qui seront envoyés pour soutenir le centre du sang ukrainien.",
+      "attend": "Assister à ",
+      "charity": "un événement caritatif de réseautage",
+      "text5": "Créé par des Ukrainiens, pour des Ukrainiens et leurs amis. N’hésitez pas – vous connaissez notre qualité et notre goût. Vous allez adorer.",
+      "attendBtn": "Assister à l’événement",
+      "speakers": "conférenciers",
+      "text6": "Des personnes que vous connaissez partageront leurs expériences au Canada.",
+      "attendee": "500+",
+      "text7": "Participants à l’événement."
+    }
+  },
+  "blood": {
     "main": {
-      "title": "Donnez votre sang, offrez un ",
-      "time": "avenir",
-      "subTitle": "Aidez comme vous le pouvez - rejoignez-nous entre le ",
-      "dateRange": "20 avril et 10 mai.",
-      "text1": "quelqu’un attend son lendemain",
-      "donateBtn": "Donner son sang"
+      "title": "Faire un don de sang, offrir du ",
+      "time": "temps",
+      "subTitle": "Aidez comme vous le pouvez – rejoignez-nous entre le ",
+      "dateRange": "16 juillet au 16 décembre.",
+      "text1": "quelqu’un attend son demain",
+      "donateBtn": "Faire un don de sang"
     },
     "numbers": {
       "1": {
         "title": "1000+",
-        "text": "Notre objectif est d’attirer un millier de nouveaux donneurs à Toronto"
+        "text": "Notre objectif est d’attirer mille nouveaux donneurs à Toronto"
       },
       "2": {
         "title": "3000+",
-        "text": "Vies sauvées au Canada"
+        "text": "Vies sauves au Canada"
       },
       "3": {
         "title": "6 MOIS",
-        "text1": "La durée du",
-        "#": "#unitedtogive",
+        "text1": "Durée du",
+        "#": "#UnisPourDonner",
         "text2": "défi de don de sang"
       },
       "4": {
-        "title": "5 000 $",
-        "text": "Collecter des fonds pour soutenir le centre de sang ukrainien"
+        "title": "50 000 $",
+        "text": "Recueillir des fonds qui seront envoyés pour soutenir le centre du sang ukrainien"
       }
     },
     "video": {
-      "title": "Regardez l’histoire : Un Ukrainien a donné son sang 9 fois au Canada",
-      "text1": "Quand la tragédie a frappé, l’espoir est venu d’un donneur de sang.",
-      "text2": "Voici l’histoire réelle d’un jeune Ukrainien, arrivé récemment au Canada."
+      "title": "Regardez l’histoire : un Ukrainien a donné son sang 9 fois au Canada",
+      "text1": "Quand la tragédie a frappé, l’espoir est venu grâce à un don de sang.",
+      "text2": "Voici la véritable histoire d’un jeune homme ukrainien qui, après avoir déménagé au Canada…"
+    },
+    "reason": {
+      "be": "soyez la ",
+      "reason": "raison ",
+      "someone": "pour que quelqu’un voie ",
+      "tomorrow": "l’avenir"
     },
     "whoNeeds": {
-      "title": "who needs the donated blood?",
+      "title": "Qui a besoin du sang donné ?",
+      "1": "Enfants atteints de cancer",
+      "2": "Personnes blessées dans des accidents de voiture",
+      "3": "Patients atteints de maladies chroniques",
+      "4": "Mères lors d’accouchements compliqués"
+    },
+    "donateWhen": {
+      "title": "Donnez quand cela vous convient",
+      "available": "Disponible : du 16 juillet au 16 décembre",
+      "location": "📍 Tout site de Canadian Blood Services au Canada",
+      "your": "Votre emploi du temps. Votre impact. Un simple geste qui sauve des vies.",
+      "li1": "Recevez un certificat de remerciement numérique",
+      "li2": "Tentez de gagner un billet gratuit pour notre événement caritatif à Toronto",
+      "li3": "Rejoignez notre groupe Telegram pour des rappels faciles, du soutien et les prochaines étapes",
+      "before": "Avant de vous inscrire, vérifiez votre ",
+      "eligibility": "éligibilité au don.",
+      "more": "Pour plus d’informations, contactez-nous à ",
+      "donate": "Faire un don de sang"
+    },
+    "donateTogether": {
+      "title": "Donnez votre sang à Toronto le ",
+      "date": "26 juillet",
+      "time": "Heure : 11h45",
+      "location": "📍 67 College Street, 1er étage, Hôpital pour enfants de Victoria, Toronto, ON M5G 2M1",
+      "description": "4 étapes simples pour rejoindre les 20 premiers volontaires pour une mission qui sauve des vies :",
+      "li1": "Connectez‑vous ou créez un compte sur Canadian Blood Services",
+      "li2": "Confirmez votre inscription via l’e-mail",
+      "li3": "Cliquez sur “Réserver” sur Canadian Blood Services pour confirmer votre intention de devenir donneur",
+      "li4": "Rejoignez notre groupe Telegram après inscription pour recevoir les dernières mises à jour donation et rester connecté avec l’équipe.",
+      "jointg": "Rejoindre Telegram",
+      "igshare": "Partagez votre histoire de don. Inspirez les autres.",
+      "igdesc1": "Chaque goutte compte – et votre don peut sauver jusqu’à trois vies. Rejoignez le mouvement ",
+      "igdesc2": " et faites partie des Canadiens et Ukrainiens unis pour une cause vitale.",
+      "iglink1": "Rejoignez le ",
+      "iglink2": "Défi",
+      "#": "#UnisPourDonner",
+      "view": "Voir les mises à jour",
+      "tgshare": "Rejoignez notre communauté Telegram.",
+      "tgdesc": "Restez informé(e) des événements à venir, des mises à jour et des façons de vous impliquer – tout au même endroit.",
+      "tglink": "Rejoignez maintenant"
+    },
+    "howDonate": {
+      "title": "Comment faire un don de sang en 4 étapes simples",
       "1": {
-        "title": "Children with Cancer",
-        "text": "During chemotherapy, young patients often require regular blood transfusions to support their treatment and recovery."
+        "title": "Prenez rendez‑vous",
+        "text1": "Connectez‑vous ou créez un compte sur",
+        "cbs": " Canadian Blood Services ",
+        "text2": "et confirmez votre inscription via l’e-mail."
       },
       "2": {
-        "title": "People Injured in Car Crashes or Accidents",
-        "text": "Blood is needed urgently in emergencies — it can’t be bought, only donated in advance to save lives when seconds matter."
+        "title": "Préparez‑vous à donner",
+        "check": "Vérifiez l’éligibilité",
+        "text": "avant de réserver, restez hydraté, mangez une collation salée et apportez une pièce d’identité valide avec photo."
       },
       "3": {
-        "title": "Patients with Chronic Illnesses",
-        "text": "Conditions like anemia, hemophilia, or kidney failure often require long-term treatment with blood components."
+        "title": "Examen & don",
+        "text": "Remplissez un questionnaire de santé, passez un rapide contrôle, puis donnez (environ 10 min)."
       },
       "4": {
-        "title": "Mothers in Complicated Births",
-        "text": "In some cases, childbirth can involve severe bleeding — donated blood can save both the mother and the baby."
+        "title": "Récupérez & rafraîchissez‑vous",
+        "text": "Profitez d’une collation, détendez‑vous et ressentez la satisfaction de savoir que vous avez aidé à sauver des vies."
       }
     },
-    "groupDonation": {},
-    "form": {
-      "title": "COMPLETE THE FORM TO JOIN THE",
-      "groupForm": "GROUP DONATION",
-      "desc": "Fill up the form and we will complete the registration with Canadian Blood Services for you.",
-      "fName": "Full name",
-      "fnPH": "Enter your first and last name",
-      "email": "Email",
-      "emailPH": "Enter your email",
-      "dob": "Date of birth",
-      "yyyy": "YYYY",
-      "mm":"MM",
-      "dd": "DD",
-      "number": "Phone number",
-      "donated": "Have you donated blood before?",
-      "yes": "Yes",
-      "no": "No",
-      "time": "Select the time when you can join the group donation",
-      "reminders": "By submitting this form you agree to receive reminders.",
-      "terms": "By submitting this form, you agree to our Privacy Policy and Terms of Service.",
-      "submit": "Join Group Donation",
-      "required": "Required",
-      "emailER": "Email is not valid",
-      "numberER": "Phone number is not valid",
-      "termsER": "You must accept terms"
+    "faq": {
+      "title": "Foire aux questions",
+      "1": {
+        "title": "Qui peut donner du sang ?",
+        "desc": "Pour donner du sang, vous devez :\n‑ Avoir au moins 17 ans.\n‑ Être en bonne santé générale et capable d’effectuer vos activités quotidiennes normales.\n‑ Répondre aux exigences de taille et de poids, surtout si vous avez entre 17 et 23 ans et que c’est votre premier don.\n‑ Peser au moins 50 kg (110 lb)\nIl n’y a pas de limite d’âge supérieure pour donner du sang. Si vous n’êtes pas sûr(e) de votre éligibilité, vous pouvez faire le Quiz d’éligibilité ou appeler le 1 888 2 DONATE (1‑888‑236‑6283)."
+      },
+      "2": {
+        "title": "Je n’ai jamais donné auparavant. À quoi dois‑je m’attendre ?",
+        "desc": "Le processus de don inclut :\n1. Inscription et vérification d’identité.\n2. Dépistage de santé et questionnaire.\n3. Le don lui‑même, qui dure environ 10 à 15 minutes.\n4. Collation et repos après le don."
+      },
+      "3": {
+        "title": "Où puis‑je donner ?",
+        "desc": "Pour l’action principale – nous faisons un don à l’emplacement du 67 College Street à 11h45.\n\nTout autre jour, vous pouvez donner dans n’importe quel centre de don Canadian Blood Services à Toronto. Nous fournirons l’adresse du lieu principal de l’événement, mais vous êtes libre de choisir un site plus pratique si vous donnez seul(e)."
+      },
+      "4": {
+        "title": "Donner du sang est‑il sécuritaire ? Puis‑je contracter une infection ?",
+        "desc": "Oui, donner du sang est sûr. Toutes les aiguilles et équipements sont stériles et utilisés une seule fois. La zone de don est nettoyée avec un désinfectant avant l’insertion de l’aiguille pour prévenir tout risque d’infection."
+      },
+      "5": {
+        "title": "Y aura‑t‑il des photos ou vidéos prises pendant le don ?",
+        "desc": "Seulement avec votre consentement. Lors d’événements de don de groupe, des photographes ou vidéastes peuvent être présents pour capturer l’expérience. Vous pouvez choisir si vous souhaitez apparaître ou non dans les photos ou vidéos."
+      },
+      "6": {
+        "title": "Je suis nerveux(se) à l’idée de donner seul(e). Puis‑je toujours participer ?",
+        "desc": "Absolument ! \nBeaucoup de donneurs la première fois se sentent nerveux. Vous pouvez venir avec un ami ou rejoindre un événement de don en groupe le 26 juillet."
+      },
+      "7": {
+        "title": "Que faire si je me sens étourdi ou évanoui après le don ?",
+        "desc": "Il est courant de se sentir un peu faible après un don. Nous proposons une zone de récupération avec collations et boissons pour vous aider à vous sentir mieux. La plupart des gens se rétablissent rapidement et peuvent reprendre leurs activités normalement peu après.\n\nDonner du sang est sûr pour les athlètes et les personnes ayant un style de vie actif. Il est recommandé d’éviter l’exercice intense pendant quelques heures après avoir donné. Planifiez votre don en fonction de votre entraînement ou emploi du temps afin de vous assurer d’avoir le temps de vous reposer ensuite."
+      },
+      "8": {
+        "title": "Et si je ne peux pas participer le jour principal de don de groupe ?",
+        "desc": "Pas de problème ! \nVous pouvez donner à tout moment qui vous convient entre le 16 juillet et le 16 décembre.\nVous ferez toujours partie du mouvement #UnisPourDonner et recevrez un certificat et une reconnaissance en tant que contributeur du projet."
+      },
+      "9": {
+        "title": "Que dois‑je faire avant le don ?",
+        "desc": "‑ Assurez‑vous de boire beaucoup d’eau ; de manger sainement et de bien dormir la veille.\n‑ Prenez une collation salée et 500 mL d’eau juste avant de donner.\n‑ Apportez une pièce d’identité valide émise par le gouvernement avec votre nom complet et votre date de naissance. Nous vous délivrerons ensuite une carte de donneur de sang pour la prochaine fois."
+      },
+      "10": {
+        "title": "Donner du sang est‑ce gratuit ? Suis‑je rémunéré(e) ?",
+        "desc": "Donner du sang au Canada est un acte volontaire et les donneurs ne sont pas rémunérés. Cependant, vous recevez des signes de reconnaissance, comme des petits cadeaux et une reconnaissance, ainsi que la satisfaction immense d’aider à sauver des vies."
+      },
+      "11": {
+        "title": "Je suis pressé(e). Combien de temps dure le processus de don ?",
+        "desc": "Le processus complet, de l’inscription au repos après don, prend généralement environ une heure. La collecte de sang elle‑même prend environ 10 à 15 minutes."
+      },
+      "12": {
+        "title": "Reçois‑je quelque chose en échange de mon don ?",
+        "desc": "Oui ! Les donneurs reçoivent :\n‑ Un certificat numérique personnalisé.\n‑ Un petit cadeau de remerciement (ex. t‑shirt, rabais).\n‑ Une reconnaissance sur nos réseaux sociaux (avec votre permission).\n‑ La satisfaction de contribuer à une cause vitale."
+      }
+    },
+    "ones": {
+      "title": "Un seul don de sang – sauve trois vies",
+      "button": "Faire un don de sang"
+    },
+    "other": {
+      "title": "Autres façons de donner",
+      "attend": {
+        "title": "Assister à l’événement caritatif",
+        "date": "17 mai",
+        "location": "📍 Hôtel Sheraton Centre Toronto, 123 Queen St W, Toronto, ON M5H 2M9",
+        "text": "Si vous souhaitez assister à l’événement, mais n’avez pas donné de sang – vous êtes aussi les bienvenus ! Assistez à l’événement caritatif – toutes les ventes de billets et dons financiers sont reversés à l’Ukraine.",
+        "li1": "L’une des plus grandes soirées caritatives ukrainiennes à Toronto",
+        "li2": "Opportunités de réseautage avec des entrepreneurs ukrainiens et canadiens‑ukrainiens, partenaires et blogueurs.",
+        "li3": "Écoutez des conférenciers célèbres",
+        "li4": "Établissez des connexions professionnelles et distribuez des candidatures",
+        "button": "Assister à l’événement"
+      },
+      "help": {
+        "title": "Aider l’Ukraine",
+        "text1": "Nous recueillons des fonds pour soutenir le Centre ukrainien de don de sang – car chaque vie sauvée commence par quelqu’un qui se soucie. Grâce à ",
+        "link": "United Together Humanitarian Relief Inc.",
+        "text2": ", votre don contribuera à fournir des fournitures médicales essentielles, de l’équipement et de l’espoir à ceux qui en ont le plus besoin.",
+        "li1": "100 % des fonds vont aux hôpitaux ukrainiens",
+        "li2": "Faire une différence de n’importe où",
+        "li3": "Faire un don en tant que partenaire",
+        "button": "Faire un don"
+      },
+      "partner": {
+        "title": "devenez notre partenaire",
+        "text": "Que vous soyez une entreprise, une organisation ou un particulier passionné, devenir partenaire signifie débloquer de nouvelles façons de grandir, de connecter et de faire une différence.",
+        "button": "Explorer le partenariat"
+      }
     }
-
+  },
+  "funds": {
+    "main": {
+      "Help": "Aidez ",
+      "U": "l’",
+      "k": "Ukraine",
+      "raine": "",
+      "subTitle": "Nous recueillons des fonds pour soutenir le Centre ukrainien de don de sang – car chaque vie sauvée commence par quelqu’un qui se soucie.",
+      "li1": "100 % des fonds vont aux hôpitaux ukrainiens",
+      "li2": "Faites une différence de n’importe où",
+      "li3": "Faire un don en tant que partenaire",
+      "button": "Faire un don"
+    },
+    "numbers": {
+      "1": {
+        "title": "98 439 $",
+        "text": "Total des fonds recueillis"
+      },
+      "2": {
+        "title": "2022",
+        "text": "Initiative active depuis 2022"
+      },
+      "3": {
+        "title": "3000+",
+        "text": "Familles aidées"
+      },
+      "4": {
+        "title": "Équipement",
+        "text": "Équipement acheté pour une clinique pour enfants à Dnipro"
+      }
+    },
+    "whereGoes": {
+      "title": "Où va votre don",
+      "text": "Nous avons établi un partenariat avec United Together Humanitarian Relief Inc. : une ONG canadienne de confiance venant en aide aux Ukrainiens touchés par la guerre. Ils travaillent directement avec des hôpitaux et des associations locales en Ukraine pour acheminer des fournitures médicales vitales, du matériel et une aide.",
+      "button": "Faire un don"
+    },
+    "whyTrust": {
+      "title": "Pourquoi leur faire confiance",
+      "1": {
+        "title": "Ils sont locaux et enregistrés au Canada",
+        "text": "United Together Humanitarian Relief Inc. est une ONG officielle basée à Toronto."
+      },
+      "2": {
+        "title": "Ils maintiennent la transparence",
+        "text": "Vous verrez de vraies mises à jour sur l’utilisation de votre don — y compris des photos et des histoires d’impact."
+      },
+      "3": {
+        "title": "Ils travaillent directement avec des hôpitaux en Ukraine",
+        "text": "Votre argent aide à acheter des médicaments, du matériel et des fournitures d’urgence là où c’est le plus nécessaire."
+      }
+    },
+    "seeImpact": {
+      "title": "Voir l’impact",
+      "description": "Nous allons partager :",
+      "li1": "Photos des fournitures livrées",
+      "li2": "Messages de médecins et de patients",
+      "li3": "Mises à jour sur ce que votre don a permis d’accomplir",
+      "iglink": "Voir les mises à jour"
+    },
+    "uthr": {
+      "text": "« Ce partenariat signifie que votre soutien va plus loin – et atteint vraiment ceux qui en ont besoin. »",
+      "quest": "Vous avez encore des questions ? Contactez‑nous n’importe quand :"
+    }
+  },
+  "partner": {
+    "main": {
+      "title": "devenez notre partenaire",
+      "text": "Que vous soyez une entreprise, une organisation ou un particulier passionné, devenir partenaire signifie débloquer de nouvelles façons de grandir, de connecter et de faire une différence.",
+      "button": "Explorer le partenariat"
+    },
+    "goodTeam": {
+      "title": "vous êtes dans une bonne équipe",
+      "desc": "Le monde des affaires peut sauver des vies. La vôtre le fera‑t‑elle ?",
+      "1": {
+        "title": "Canadian Blood Services",
+        "text": "United Together Humanitarian Relief Inc. est une ONG officielle basée à Toronto."
+      },
+      "2": {
+        "title": "United Together Humanitarian Relief Inc.",
+        "text": "ONG officielle basée à Toronto."
+      },
+      "3": {
+        "title": "Canadian Blood Services",
+        "text": "United Together Humanitarian Relief Inc. est une ONG officielle basée à Toronto."
+      },
+      "4": {
+        "title": "Canadian Blood Services",
+        "text": "United Together Humanitarian Relief Inc. est une ONG officielle basée à Toronto."
+      }
+    },
+    "packages": {
+      "title": "Formules de parrainage pour l’événement caritatif",
+      "1": {
+        "title": "Partenaire Argent",
+        "desc": "Formule pour les entreprises qui veulent allier action et impact.",
+        "price": "1 000 $",
+        "li": {
+          "1": "Présence sur scène",
+          "2": "Discours de 2 minutes pendant le programme principal"
+        },
+        "perks": {
+          "1": {
+            "title": "Logo sur",
+            "1": "Écran principal pendant l’événement",
+            "2": "Signalisation dans la zone restauration",
+            "3": "Bannières de l’événement"
+          },
+          "2": {
+            "title": "Couverture sur les réseaux sociaux :",
+            "1": "Publication Instagram dédiée",
+            "2": "Mention dans le récapitulatif photo/vidéo"
+          },
+          "3": {
+            "title": "Promotion sur site",
+            "1": "Espace stand (table + bannières)"
+          },
+          "4": {
+            "title": "Accès VIP",
+            "1": "4 billets inclus"
+          }
+        },
+        "button": "Postuler"
+      }
+    },
+    "faq": {
+      "title": "Avantages partenaires lors de l’événement",
+      "1": {
+        "title": "Je suis nerveux(se) de participer seul(e). Puis‑je toujours y participer ?",
+        "desc": "Absolument ! \nBeaucoup de premiers donneurs se sentent nerveux. Vous pouvez venir avec un ami ou rejoindre un événement de don en groupe…"
+      }
+    },
+    "partners": {
+      "title": "nos partenaires"
+    },
+    "money": {
+      "title": "Où va votre argent",
+      "text": "Tous les fonds sont soigneusement gérés et suivis en partenariat avec notre ONG partenaire enregistrée, United Together Humanitarian Relief Inc.\nSi vous souhaitez consulter des rapports ou en savoir plus sur l’utilisation des fonds, contactez‑nous – nous sommes là pour partager.",
+      "1": {
+        "title": "Campagnes de don de sang au Canada",
+        "li1": "Promotion et coordination de collectes de dons avec Canadian Blood Services",
+        "li2": "Création de matériaux éducatifs et sensibilisation numérique ciblée",
+        "li3": "Logistique et coordination de bénévoles pour organiser des événements sûrs et à fort impact"
+      },
+      "2": {
+        "title": "Lieu de l’événement, restauration & hospitalité",
+        "li1": "Location d’espaces accueillants et accessibles",
+        "li2": "Restauration, boissons et hospitalité pour les invités",
+        "li3": "Logistique de l’événement et soutien du personnel pour garantir une expérience de qualité"
+      },
+      "3": {
+        "title": "Engagement communautaire & sensibilisation",
+        "li1": "Organisation d’événements caritatifs qui unissent les communautés ukrainienne et canadienne",
+        "li2": "Production de contenu média et narration inspirante",
+        "li3": "Développement de partenariats avec entreprises et ONG pour étendre l’impact"
+      }
+    },
+    "haveQ": {
+      "support": "« Votre soutien fait partie d’une mission plus large – sauver des vies là où cela compte le plus. »",
+      "still": "Vous avez encore des questions ? Contactez‑nous n’importe quand :",
+      "form": {
+        "title": "Des questions ? Parlons‑en.",
+        "desc": "Nous vous contacterons sous 24 heures",
+        "fName": "Nom complet",
+        "fnPH": "Entrez votre prénom et nom",
+        "email": "Courriel",
+        "emailPH": "Entrez votre courriel",
+        "number": "Numéro de téléphone",
+        "company": "Entreprise",
+        "companyPH": "Entrez le nom de votre entreprise",
+        "message": "Votre message",
+        "messagePH": "Entrez votre message",
+        "reminders": "En soumettant ce formulaire, vous acceptez de recevoir des rappels.",
+        "terms": "En soumettant ce formulaire, vous acceptez notre politique de confidentialité et nos conditions d’utilisation.",
+        "submit": "Contactez-moi",
+        "required": "Obligatoire",
+        "emailER": "Le courriel n’est pas valide",
+        "numberER": "Le numéro de téléphone n’est pas valide",
+        "termsER": "Vous devez accepter les conditions"
+      }
+    }
+  },
+  "footer": {},
+  "modals": {
+    "challenge": {
+      "#u2g": "#UnisPourDonner",
+      "@u2g": "@UnisPourDonner",
+      "challenge": " défi",
+      "text": "Chaque goutte compte — votre don de sang peut sauver jusqu’à 3 vies",
+      "join": "Rejoignez notre équipe pour aider selon vos moyens !",
+      "li": {
+        "1" : "Faites un don de sang dans n’importe quel site de Canadian Blood Services.",
+        "2" : "Prenez une photo ou vidéo lors de votre don.",
+        "3" : "Publiez‑la sur Instagram avec le hashtag ",
+        "4" : "Abonnez‑vous à nos réseaux sociaux ",
+        "5" : "Soyez fier – vous venez de sauver des vies."
+      }
+    },
+    "donate": {
+      "title": "Donnez de la manière qui vous convient",
+      "text": "Sang ou fonds – les deux font une réelle différence.",
+      "mono": "Donnez de façon familière",
+      "scan": "Scannez le QR pour faciliter l’action."
+    }
   }
 }
