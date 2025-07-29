@@ -11,7 +11,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-const Footer = () => {
+const Footer = ({locale}) => {
   const t = useTranslations('nav')
 
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           {menuItems(t).map((item) => (
             <Link
-              key={`nav-${item.name}`} href={item.href}
+              key={`nav-${item.name}`} href={`/${locale}${item.href}`}
               className="block b2 font-bold text-light-black hover:text-black-text"
             >
               {item.name}
@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           {menu2Footer(t).map((item) => (
             <Link
-              key={`nav-${item.name}`} href={item.href}
+              key={`nav-${item.name}`} href={item.shouldHaveLocale ? `/${locale}${item.href}` : item.href}
               className="block b2 font-bold text-light-black hover:text-black-text"
             >
               {item.name}
