@@ -19,7 +19,7 @@ const Header = ({locale}) => {
     <header className="sticky px-4 py-5 xl:px-0 top-0 inset-x-0 mx-auto z-50 w-dvw bg-light-black text-white">
       <div className="max-w-screen-xl m-auto flex items-center justify-between">
         <div className="flex items-center">
-          <Link className="flex items-center" href="/">
+          <Link className="flex items-center" href={`/${locale}`}>
             <Image src={logo} alt="Logo" width={189} height={40}/>
           </Link>
         </div>
