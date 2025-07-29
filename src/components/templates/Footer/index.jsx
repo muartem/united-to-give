@@ -5,7 +5,9 @@ import tg from '@/assets/images/tg.png'
 import fb from '@/assets/images/fb.png'
 import li from '@/assets/images/li.png'
 import logo from '@/assets/svg/logo-b.svg'
-import menuItems, {menu2Footer} from '@/components/templates/Header/menuItems'
+import ChallengeModal from '@/components/modules/ChallengeModal/index.jsx'
+import menuItems from '@/components/templates/Header/menuItems'
+import {ModalHandler} from '@/components/ui/modal.jsx'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -33,25 +35,31 @@ const Footer = () => {
           {menuItems(t).map((item) => (
             <Link
               key={`nav-${item.name}`} href={item.href}
-              className="block b2 font-bold text-light-black hover:text-black-text"
+              className="block b2 p-1 font-bold text-light-black hover:text-black-text"
             >
               {item.name}
             </Link>
           ))}
         </div>
         <div className="flex flex-col gap-4">
-          {menu2Footer(t).map((item) => (
-            <Link
-              key={`nav-${item.name}`} href={item.href}
-              className="block b2 font-bold text-light-black hover:text-black-text"
-            >
-              {item.name}
-            </Link>
-          ))}
+          <a
+            href="https://www.blood.ca/en/blood/am-i-eligible-donate-blood"
+            target="_blank"
+            className="block b2 p-1 font-bold text-light-black hover:text-black-text"
+          >
+            {t('Availability')}
+          </a>
+          <ModalHandler
+            handler={<span className="block b2 p-1 font-bold text-light-black hover:text-black-text">
+              {t('Challenge')}
+            </span>}
+            modalContent={<ChallengeModal/>}
+            modalStyles="md:!pb-0"
+          />
         </div>
-        <div>
-          <a href="#" className="block b2 font-bold text-light-black hover:text-black-text">Phone</a>
-          <a href="#" className="block b2 font-bold text-light-black hover:text-black-text">Email</a>
+        <div className="flex flex-col gap-4">
+          <a href="tel:+19053018321" className="block b2 p-1 font-bold text-light-black hover:text-black-text">+1 (905) 301-8321</a>
+          <a href="mailto:unitedtogive@gmail.com" className="block b2 p-1 font-bold text-light-black hover:text-black-text">UnitedToGive@gmail.com</a>
         </div>
       </div>
     </footer>
