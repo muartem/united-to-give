@@ -17,7 +17,7 @@ const HelpUkraine = () => {
         <div className="flex flex-col gap-4">
           <span className="b1">
             {t('text1')}
-            <a href="#">{t('link')}</a>
+            <a target="_blank" href="https://utogetherhr.com">{t('link')}</a>
             {t('text2')}
           </span>
           <Ul variant="blood" lis={[t('li1'), t('li2'), t('li3')]}/>

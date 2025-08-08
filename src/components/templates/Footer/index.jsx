@@ -1,17 +1,19 @@
 'use client'
 
-import ig from '@/assets/images/ig.png'
-import tg from '@/assets/images/tg.png'
 import fb from '@/assets/images/fb.png'
+import ig from '@/assets/images/ig.png'
 import li from '@/assets/images/li.png'
+import tg from '@/assets/images/tg.png'
 import logo from '@/assets/svg/logo-b.svg'
-import menuItems, {menu2Footer} from '@/components/templates/Header/menuItems'
+import ChallengeModal from '@/components/modules/ChallengeModal/index'
+import menuItems from '@/components/templates/Header/menuItems'
+import {ModalHandler} from '@/components/ui/modal'
 import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 
 
-const Footer = () => {
+const Footer = ({locale}) => {
   const t = useTranslations('nav')
 
   return (
@@ -22,36 +24,59 @@ const Footer = () => {
           <Link className="flex items-center hover:opacity-80" href="#">
             <Image src={logo} alt="Logo"/>
           </Link>
-          <div className="flex gap-6 justify-between">
-            <a target="_blank" href="#"><Image src={tg} alt="Telegram" className="w-[40px] h-auto" width={40} height={40}/></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61577007384568"><Image src={fb} alt="Facebook" className="w-[40px] h-auto" width={40} height={40}/></a>
-            <a target="_blank" href="https://www.instagram.com/united_to_give"><Image src={ig} alt="Instagram" className="w-[40px] h-auto" width={40} height={40}/></a>
-            <a target="_blank" href="https://www.linkedin.com/company/united-to-give"><Image src={li} alt="LinkedIn" className="w-[48px] h-auto" width={48} height={40}/></a>
-          </div>
         </div>
         <div className="flex flex-col gap-4">
           {menuItems(t).map((item) => (
             <Link
-              key={`nav-${item.name}`} href={item.href}
-              className="block b2 font-bold text-light-black hover:text-black-text"
+              key={`nav-${item.name}`} href={`/${locale}${item.href}`}
+              className="block b2 p-1 font-bold text-light-black hover:text-black-text"
             >
               {item.name}
             </Link>
           ))}
         </div>
         <div className="flex flex-col gap-4">
-          {menu2Footer(t).map((item) => (
-            <Link
-              key={`nav-${item.name}`} href={item.href}
-              className="block b2 font-bold text-light-black hover:text-black-text"
-            >
-              {item.name}
-            </Link>
-          ))}
+          <a
+            href="https://www.blood.ca/en/blood/am-i-eligible-donate-blood"
+            target="_blank"
+            className="block b2 p-1 font-bold text-light-black hover:text-black-text"
+          >
+            {t('Availability')}
+          </a>
+          <ModalHandler
+            handler={<span className="block b2 p-1 font-bold text-light-black hover:text-black-text">
+              {t('Challenge')}
+            </span>}
+            modalContent={<ChallengeModal/>}
+            modalStyles="md:!pb-0"
+          />
         </div>
-        <div>
-          <a href="#" className="block b2 font-bold text-light-black hover:text-black-text">Phone</a>
-          <a href="#" className="block b2 font-bold text-light-black hover:text-black-text">Email</a>
+        <div className="flex flex-col gap-4">
+          <a href="tel:+19053018321" className="block b2 p-1 font-bold text-light-black hover:text-black-text">+1 (905)
+            301-8321</a>
+          <a href="mailto:unitedtogive@gmail.com"
+            className="block b2 p-1 font-bold text-light-black hover:text-black-text">UnitedToGive@gmail.com</a>
+          <div className="p-1 flex gap-6 justify-between">
+            <a className="hover:brightness-110" target="_blank" href="https://t.me/unitedtogive_donors">
+              <Image src={tg}
+                alt="Telegram"
+                className="w-[40px] h-auto"
+                width={40}
+                height={40}/>
+            </a>
+            <a className="hover:brightness-110" target="_blank" href="https://www.facebook.com/profile.php?id=61577007384568">
+              <Image src={fb} alt="Facebook"
+                className="w-[40px] h-auto"
+                width={40} height={40}
+              />
+            </a>
+            <a className="hover:brightness-110" target="_blank" href="https://www.instagram.com/united_to_give"><Image
+              src={ig} alt="Instagram" className="w-[40px] h-auto" width={40} height={40}/></a>
+            <a className="hover:brightness-110" target="_blank"
+              href="https://www.linkedin.com/company/united-to-give"><Image src={li} alt="LinkedIn"
+                className="w-[40px] h-auto" width={48}
+                height={40}/></a>
+          </div>
         </div>
       </div>
     </footer>

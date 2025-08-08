@@ -11,7 +11,7 @@ const FundsMain = () => {
 
   return (
     <main
-      className="h-[calc(100dvh-88px)] md:h-[752px] w-dvw bg-main-gradient text-light-black"
+      className="h-[calc(100dvh-88px)] md:h-[752px] w-dvw bg-main-gradient text-light-black md:overflow-hidden"
     >
       <div
         className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
@@ -37,8 +37,8 @@ const FundsMain = () => {
           />
         </div>
         <div
-          className="max-h-dvh absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
-          <Image className="h-full" src={funds} alt={'funds'}/>
+          className="max-h-dvh md:-mr-72 absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
+          <Image className="object-cover h-full md:w-full" src={funds} alt={'funds'}/>
         </div>
       </div>
     </main>

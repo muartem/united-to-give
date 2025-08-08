@@ -5,15 +5,16 @@ import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
 import Ul from '@/components/ui/ul'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const MainGoals = () => {
   return (
     <Container
       outerCls="bg-background"
-      innerCls="relative"
+      innerCls="relative flex flex-col gap-10"
     >
-      <h2 className="text-[32px] font-bold text-center uppercase mb-8 text-light-black">Our Goals</h2>
-      <div className="flex justify-between items-center gap-10 md:gap-20 mb-8 flex-col md:flex-row">
+      <h2 className="text-[32px] font-bold text-center uppercase text-light-black">Our Goals</h2>
+      <div className="flex justify-between items-stretch md:items-center gap-10 md:gap-20 flex-col md:flex-row">
         <div className="flex-1 order-2 md:order-1">
           <h3 className="font-bold text-light-black mb-4">
 						Solidarity And Gratitude
@@ -29,12 +30,12 @@ const MainGoals = () => {
 						responsible, and engaged global partner committed to humanitarian values and civic contribution.
           </div>
         </div>
-        <Image className="order-1 md:order-2 m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={GirlSun}
+        <Image className="flex-1 order-1 md:order-2 h-max w-auto md:h-auto rounded-xl md:rounded-3xl" src={GirlSun}
 							 alt="Goal Image"
         />
       </div>
-      <div className="flex justify-between items-center gap-10 md:gap-20 mb-16 flex-col md:flex-row">
-        <Image className="m-auto w-auto h-auto rounded-xl md:rounded-3xl" src={GirlFun}
+      <div className="flex justify-between items-stretch md:items-center gap-10 md:gap-20 flex-col md:flex-row">
+        <Image className="flex-1 h-max w-auto md:h-auto rounded-xl md:rounded-3xl" src={GirlFun}
 							 alt="young-adults-having-fun-while-folk-dancing"
         />
         <div className="flex-1">
@@ -51,26 +52,26 @@ const MainGoals = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-stretch md:items-center gap-20 mb-8 flex-col md:flex-row">
-        <div className="flex flex-col gap-4 flex-1 order-2 md:order-1">
+      <div className="flex justify-between items-stretch md:items-center gap-20 flex-col md:flex-row">
+        <div className="flex-1 flex flex-col gap-4 order-2 md:order-1">
           <h3 className="text-light-black">
 						Help Ukraine
           </h3>
           <div className="b2 text-black-text">
 						We’re raising funds to support the Ukrainian Blood Donation Center -because every life saved begins with
 						someone who cares. Through
-            <a href="" className="text-mid-link"> United Together Humanitarian Relief Inc.</a>, your donation will help
+            <a target="_blank" href="https://utogetherhr.com" className="text-mid-link"> United Together Humanitarian Relief Inc.</a>, your donation will help
 						provide
 						critical medical supplies, equipment, and hope to those who need it most.
           </div>
           <Ul variant="blood" lis={[
             '100% of funds go to Ukrainian hospitals', 'Make a difference from anywhere', 'Donate as a partner'
           ]}/>
-          <Button variant="secondary" classNames="w-full md:w-max !px-20 mt-2">
-						Donate Funds
-          </Button>
+          <Link className="flex items-center w-full" href={'/donate-funds'}>
+            <Button classNames="w-full md:w-max !px-20 mt-2" variant="secondary">Donate Funds</Button>
+          </Link>
         </div>
-        <Image className="order-1 md:order-2 m-auto h-max w-auto md:h-auto rounded-xl md:rounded-3xl" src={GoalImage}
+        <Image className="flex-1 order-1 md:order-2 h-max w-auto md:h-auto rounded-xl md:rounded-3xl" src={GoalImage}
           alt="Goal Image"
         />
       </div>

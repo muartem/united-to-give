@@ -36,7 +36,7 @@ const MainAttend = () => {
             'Make business connections and give away job applications'
           ]}
         />
-        <Button disabled variant="event" classNames="w-full mt-4">Soon...{/*Attend Event*/}</Button>
+        <Button disabled variant="event" classNames="invisible w-full mt-4">Soon...{/*Attend Event*/}</Button>
       </div>
     </Container>
   )

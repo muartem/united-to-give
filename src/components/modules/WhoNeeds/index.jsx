@@ -9,7 +9,7 @@ const WhoNeeds = () => {
   const t = useTranslations('blood.whoNeeds')
 
   return (
-    <div className="grid items-start i grid-cols-2 md:grid-cols-4 gap-4 text-center md:text-left">
+    <div className="grid items-start grid-cols-4 gap-4 text-center md:text-left">
       <div className="flex flex-col gap-4">
         <Image className="flex-1 rounded-xl md:rounded-3xl w-full" src={Needs1} alt={t('1')}/>
         <span className="b3 text-light-black">{t('1')}</span>

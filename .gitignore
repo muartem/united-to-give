@@ -27,6 +27,8 @@
 .DS_Store
 *.pem
 
+.history/*
+
 # debug
 npm-debug.log*
 yarn-debug.log*

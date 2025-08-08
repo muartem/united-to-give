@@ -74,7 +74,7 @@
     "whoNeeds": {
       "title": "who needs the donated blood?",
       "1": "Children with Cancer",
-      "2": "People Injured in Car Crashes or Accidents",
+      "2": "People Injured in Car Accidents",
       "3": "Patients with Chronic Illnesses",
       "4": "Mothers in Complicated Births"
     },
@@ -415,7 +415,8 @@
         "3" : "Post it on Instagram with the hashtag ",
         "4" : "Subscribe to our social media ",
         "5" : "Feel proud - you just saved lives."
-      }
+      },
+      "iglink": "Join now"
     },
     "donate": {
       "title": "Donate in the Way That Works for You",
