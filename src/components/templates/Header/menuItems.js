@@ -9,8 +9,8 @@ const menuItems = (t) => [
     href: '/charity-event',
     shouldHaveLocale: true,
     submenu: null,
-  },
-  {
+  },*/
+  /*{
     name: t('BecomePartner'),
     href: '/become-partner',
     shouldHaveLocale: true,
