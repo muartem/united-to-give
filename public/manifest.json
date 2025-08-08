@@ -1,0 +1,23 @@
+{
+  "name": "United to Give",
+  "short_name": "UnitedToGive",
+  "description": "Ukrainian blood donation campaign as a thank-you to Canada.",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#FFFAFEFF",
+  "theme_color": "#C5161D",
+  "orientation": "portrait",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
