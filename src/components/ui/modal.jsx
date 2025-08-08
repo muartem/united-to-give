@@ -24,7 +24,7 @@ export function Modal({isOpen, onClose, classNames, children}) {
     <div
       id="modal-overlay"
       onClick={handleClickOutside}
-      className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-60"
+      className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-[100]"
     >
       <div
         className={`
