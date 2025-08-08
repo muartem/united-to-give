@@ -1,4 +1,4 @@
-import NotFoundImage from '@/assets/images/404.png'
+/*import NotFoundImage from '@/assets/images/404.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import ArrowRight from '@/assets/svg/Arrow-right.jsx'
@@ -18,4 +18,4 @@ const NotFound = () => {
   )
 }
 
-export default NotFound
+export default NotFound*/

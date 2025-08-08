@@ -1,6 +1,8 @@
 'use client'
 
 import LiIcon from '@/assets/images/li.png'
+import BhIcon from '@/assets/images/bh.png'
+import TgIcon from '@/assets/images/tg.png'
 import IgIcon from '@/assets/images/icons/ig.svg'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container.jsx'
@@ -37,15 +39,21 @@ const MainTeam = () => {
             <div className="b2 text-light-black font-bold">
               {item.name}
             </div>
-            <div className="b3 text-black-text mb-2">
+            <div className="flex-1 b3 text-black-text mb-2">
               {item.description}
             </div>
             <div className="flex items-center gap-4">
-              {item.igLink && <a href={item.igLink} target="_blank" rel="noopener noreferrer">
+              {item.igLink && <a className="hover:brightness-110" href={item.igLink} target="_blank" rel="noopener noreferrer">
                 <Image src={IgIcon} alt={item.name} width={24} height={24}/>
               </a>}
-              {item.liLink && <a href={item.liLink} target="_blank" rel="noopener noreferrer">
-                <Image src={LiIcon} alt={item.name} width={28} height={24}/>
+              {item.liLink && <a className="hover:brightness-110" href={item.liLink} target="_blank" rel="noopener noreferrer">
+                <Image src={LiIcon} alt={item.name} width={24} height={24}/>
+              </a>}
+              {item.bhLink && <a className="hover:brightness-110" href={item.bhLink} target="_blank" rel="noopener noreferrer">
+                <Image src={BhIcon} alt={item.name} width={24} height={24}/>
+              </a>}
+              {item.tgLink && <a className="hover:brightness-110" href={item.tgLink} target="_blank" rel="noopener noreferrer">
+                <Image src={TgIcon} alt={item.name} width={24} height={24}/>
               </a>}
             </div>
           </div>

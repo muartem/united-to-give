@@ -9,6 +9,7 @@ import '@/app/globals.css'
 
 export const metadata = {
   title: 'United to Give - Ukrainian Blood Donation Campaign in Canada',
+  manifest: '/manifest.json',
   description:
     'Ukrainians across Canada are donating blood to give back to the country that welcomed us. Join us in supporting Canadian patients and showing appreciation through meaningful action.',
   keywords: [
@@ -40,14 +41,14 @@ export const metadata = {
       ],
       apple: '/icons/apple-touch-icon.png',
     },
-    /*images: [
+    images: [
       {
-        url: 'https://www.unitedtogive.ca/og-image.jpg',
-        width: 1200,
-        height: 630,
+        url: '/og-image.png',
+        width: 1526,
+        height: 877,
         alt: 'United to Give – Blood Donation Campaign',
       },
-    ],*/
+    ],
   },
   alternates: {
     canonical: 'https://www.unitedtogive.ca/',
