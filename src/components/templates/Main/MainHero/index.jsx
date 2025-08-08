@@ -25,7 +25,7 @@ const MainHero = () => {
           </div>
           <div>
             <a className="w-full md:w-max mb-4 md:mb-12" target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
-              <Button classNames="w-full md:w-64 mx-auto md:mx-0 !px-16 !py-4">">{t('donateBtn')}</Button>
+              <Button classNames="w-full md:w-64 mx-auto md:mx-0 !px-16 !py-4">{t('donateBtn')}</Button>
             </a>
             <div className="flex gap-4 md:gap-10 h-auto flex-col md:flex-row">
               <div className="flex-1">
