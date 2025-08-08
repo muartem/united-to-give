@@ -25,7 +25,7 @@ const DonateTogether = () => {
         <span className="b3 mb-4 md:mb-10">{t('location')}</span>
         <span className="b1 text-black-text mb-2">{t('description')}</span>
         <Ol classNames="mb-2" lis={[t('li1'), t('li2'), t('li3'), t('li4')]}/>
-        <a href="#" target="_blank"
+        <a href="https://t.me/unitedtogive_donors" target="_blank"
 					 className="flex b2 text-primary font-bold justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
           <Image src={tg} width={24} height={24} alt="telegram"/>
           {t('jointg')}
@@ -69,7 +69,7 @@ const DonateTogether = () => {
             {t('tgshare')}
           </h3>
           <span className="b2 text-black-text mb-2">{t('tgdesc')}</span>
-          <a href="#"
+          <a href="https://t.me/unitedtogive_donors"
 						 className="b2 text-primary font-bold flex justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
             {t('tglink')}
             <ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>

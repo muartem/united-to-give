@@ -25,10 +25,10 @@ const DonateWhen = () => {
         <a className="contents" target="_blank" href="https://myaccount.blood.ca/en/join-team/UNIT0126631">
           <Button>{t('donate')}</Button>
         </a>
-        <span className="b3 text-logo-gray">
+        {/*<span className="b3 text-logo-gray">
           {t('more')}
           <a className="text-logo-gray underline" target="_blank" href="mailto:unitedtogive@gmail.com">unitedtogive@gmail.com</a>
-        </span>
+        </span>*/}
       </div>
     </div>
   )

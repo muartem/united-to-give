@@ -59,7 +59,7 @@ const MainHero = () => {
             <div className="b2 text-background mb-[29px] md:pr-24">
               {t('text5')}
             </div>
-            <Button disabled variant="event" classNames="mb-4 md:mb-12 w-full md:w-max !px-16 !py-4">
+            <Button disabled variant="event" classNames="invisible mb-4 md:mb-12 w-full md:w-max !px-16 !py-4">
               {'Soon...' ?? t('attendBtn')}
             </Button>
             <div className="flex gap-4 md:gap-10 md:h-[190px] h-auto flex-col md:flex-row">
