@@ -44,16 +44,16 @@ const MainTeam = () => {
             </div>
             <div className="flex items-center gap-4">
               {item.igLink && <a className="hover:brightness-110" href={item.igLink} target="_blank" rel="noopener noreferrer">
-                <Image src={IgIcon} alt={item.name} width={24} height={24}/>
+                <Image src={IgIcon} alt="IG" width={24} height={24}/>
               </a>}
               {item.liLink && <a className="hover:brightness-110" href={item.liLink} target="_blank" rel="noopener noreferrer">
-                <Image src={LiIcon} alt={item.name} width={24} height={24}/>
+                <Image src={LiIcon} alt="LI"  width={24} height={24}/>
               </a>}
               {item.bhLink && <a className="hover:brightness-110" href={item.bhLink} target="_blank" rel="noopener noreferrer">
-                <Image src={BhIcon} alt={item.name} width={24} height={24}/>
+                <Image src={BhIcon} alt="BH" width={24} height={24}/>
               </a>}
               {item.tgLink && <a className="hover:brightness-110" href={item.tgLink} target="_blank" rel="noopener noreferrer">
-                <Image src={TgIcon} alt={item.name} width={24} height={24}/>
+                <Image src={TgIcon} alt="TG" width={24} height={24}/>
               </a>}
             </div>
           </div>
