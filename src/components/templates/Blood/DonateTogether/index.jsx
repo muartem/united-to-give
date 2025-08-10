@@ -69,7 +69,7 @@ const DonateTogether = () => {
             {t('tgshare')}
           </h3>
           <span className="b2 text-black-text mb-2">{t('tgdesc')}</span>
-          <a href="https://t.me/unitedtogive_donors"
+          <a href="https://t.me/unitedtogive_donors" target="_blank"
 						 className="b2 text-primary font-bold flex justify-end md:justify-start items-center gap-4 hover:text-dark-primary">
             {t('tglink')}
             <ArrowRight className="[&>path:hover]:fill-dark-primary -ml-2"/>
