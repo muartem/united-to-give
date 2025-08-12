@@ -21,7 +21,7 @@ const FundsMain = () => {
           <Image className="object-cover h-full md:w-full" src={funds} alt={'funds'}/>
         </div>
         <div
-          className="order-1 relative flex justify-center flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
+          className="order-1 max-w-[550px] relative flex justify-center flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
         >
           <h1 className="uppercase font-normal">
             {t('Help')}

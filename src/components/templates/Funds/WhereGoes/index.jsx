@@ -12,7 +12,7 @@ const WhereGoes = () => {
   return (
     <Container
       outerCls="bg-light-gray"
-      innerCls="flex flex-col md:flex-row md:gap-20 xl:gap-20 md:justify-between"
+      innerCls="flex flex-col md:flex-row md:gap-20 xl:gap-20 items-center md:justify-between"
     >
       <div className="flex flex-col gap-4 md:gap-8">
         <h2 className="text-light-black uppercase">
@@ -25,7 +25,7 @@ const WhereGoes = () => {
           modalStyles="bg-light-gray md:bg-pay-gradient"
         />
       </div>
-      <Image className="rounded-xl md:rounded-3xl" src={certificate} alt="Certificate"/>
+      <Image className="flex-shrink-0 rounded-xl md:rounded-3xl" src={certificate} alt="Certificate"/>
     </Container>
   )
 }
