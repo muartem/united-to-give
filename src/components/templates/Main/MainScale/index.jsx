@@ -1,5 +1,6 @@
-import CbsLogo from '@/assets/images/partners/cbs.svg'
-import UtLogo from '@/assets/images/partners/ut.svg'
+import CbsLogo from '@/assets/images/partners/cbs.png'
+import UtLogo from '@/assets/images/partners/ut.png'
+import UccLogo from '@/assets/images/partners/ucc.png'
 import Container from '@/components/ui/container'
 import Image from 'next/image'
 
@@ -34,7 +35,7 @@ const MainScale = () => {
         <div className="flex flex-col gap-2">
           <div
             className="flex justify-center items-center h-[140px] px-[10px] bg-light-gray rounded-xl md:rounded-3xl mb-2">
-            <Image src={UtLogo} alt="Hero background" width={90} height={94}/>
+            <Image className="rounded-full" src={UtLogo} alt="Hero background" width={94} height={94}/>
           </div>
           <div className="b2 font-bold">Connections</div>
           <div className="b2 text-black-text">
@@ -44,7 +45,7 @@ const MainScale = () => {
         <div className="flex flex-col gap-2">
           <div
             className="flex justify-center items-center h-[140px] px-[10px] bg-light-gray rounded-xl md:rounded-3xl mb-2">
-            <Image src={CbsLogo} alt="Hero background" width={236} height={48}/>
+            <Image src={UccLogo} alt="Hero background" width={94} height={94}/>
           </div>
           <div className="b2 font-bold">Community</div>
           <div className="b2 text-black-text">
