@@ -9,6 +9,7 @@ import {notFound} from 'next/navigation'
 
 
 export const metadata = {
+  metadataBase: new URL('https://www.unitedtogive.ca/'),
   title: 'United to Give - Ukrainian Blood Donation Campaign in Canada',
   manifest: '/manifest.json',
   description:
