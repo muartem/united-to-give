@@ -17,11 +17,11 @@ const FundsMain = () => {
         className="relative max-w-screen-xl m-auto h-full flex justify-between items-stretch text-center md:text-left"
       >
         <div
-          className="max-h-dvh md:-mr-72 absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
+          className="order-2 max-h-dvh md:-mr-72 absolute opacity-30 w-dvw flex-none pt-8 h-full md:pt-0 md:static md:flex md:opacity-100 md:w-max">
           <Image className="object-cover h-full md:w-full" src={funds} alt={'funds'}/>
         </div>
         <div
-          className="relative flex justify-center flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
+          className="order-1 max-w-[550px] relative flex justify-center flex-col gap-6 py-16 px-4 xl:px-0 md:py-24"
         >
           <h1 className="uppercase font-normal">
             {t('Help')}

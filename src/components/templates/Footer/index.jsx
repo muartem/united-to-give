@@ -64,7 +64,7 @@ const Footer = ({locale}) => {
                 width={40}
                 height={40}/>
             </a>
-            <a className="hover:brightness-110" target="_blank" href="https://www.facebook.com/profile.php?id=61577007384568">
+            <a className="hover:brightness-110" target="_blank" href="https://www.facebook.com/united.to.give">
               <Image src={fb} alt="Facebook"
                 className="w-[40px] h-auto"
                 width={40} height={40}

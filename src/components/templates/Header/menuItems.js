@@ -10,7 +10,7 @@ const menuItems = (t) => [
 			},
 		],*/
   },
-  {
+  /*{
     name: t('CharityEvent'),
     href: '/charity-event',
     shouldHaveLocale: true,
@@ -21,7 +21,7 @@ const menuItems = (t) => [
     href: '/become-partner',
     shouldHaveLocale: true,
     submenu: null,
-  },
+  },*/
   {
     name: t('DonateFunds'),
     href: '/donate-funds',
