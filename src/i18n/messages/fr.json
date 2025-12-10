@@ -29,6 +29,80 @@
       "text6": "Des personnes que vous connaissez partageront leur expérience de vie au Canada.",
       "attendee": "500+",
       "text7": "Participants à l’événement."
+    },
+    "goals": {
+      "title": "Nos objectifs",
+      "1": {
+        "title": "Solidarité et reconnaissance",
+        "text1": "Notre objectif est de soutenir le système national de don de sang du Canada comme un geste fort de solidarité et de reconnaissance de la part de la communauté ukrainienne. En participant activement à cet effort vital, nous voulons démontrer que les Ukrainiens ne sont pas seulement reconnaissants du soutien reçu, mais qu’ils sont aussi prêts à redonner et à se tenir aux côtés des Canadiens de façon concrète.",
+        "text2": "Par cette initiative, nous souhaitons également renforcer le rôle et la réputation de l’Ukraine comme partenaire mondial compatissant, responsable et engagé, fidèle aux valeurs humanitaires et à la participation citoyenne."
+      },
+      "2": {
+        "title": "Sensibilisation",
+        "text1": "Notre objectif est de rappeler aux gens au Canada l’existence et la réalité de l’Ukraine, pas seulement à travers la guerre et la crise, mais aussi par les contributions positives et visibles de la communauté ukrainienne.",
+        "text2": "En prenant part à des actions humanitaires comme le don de sang, nous cherchons à changer le récit et à présenter l’Ukraine comme une nation de force, de compassion et de responsabilité citoyenne."
+      },
+      "3": {
+        "title": "Aider l’Ukraine",
+        "text1": "Nous recueillons des fonds pour soutenir le Centre ukrainien de don de sang — parce que chaque vie sauvée commence par quelqu’un qui s’en soucie réellement. Par l’entremise de ",
+        "uthr": "United Together Humanitarian Relief Inc.,",
+        "text2": " votre don permettra de fournir du matériel médical essentiel, de l’équipement et de l’espoir à ceux qui en ont le plus besoin.",
+        "li1": "100 % des fonds vont aux hôpitaux ukrainiens",
+        "li2": "Faites une différence, peu importe où vous êtes",
+        "li3": "Devenez partenaire donateur",
+        "btn": "Faire un don"
+      }
+    },
+    "what": {
+      "is": "Qu’est-ce que",
+      "text1": "“United to Give est une campagne humanitaire nationale qui rassemble les Ukrainiens à travers le Canada afin de soutenir le système national de don de sang et démontrer la force de la communauté.",
+      "text2": "C’est bien plus qu’un simple don de sang — c’est une façon de montrer les Ukrainiens comme une communauté active, reconnaissante et compatissante, prête à partager la vie même dans les moments les plus difficiles.”"
+    },
+    "scale": {
+      "title": "Portée de l’initiative",
+      "duration": "Durée: 6 mois",
+      "target": "Objectif: mobiliser des milliers de donneurs partout au Canada",
+      "1": {
+        "title": "Emplacement",
+        "text": "Lancement à Toronto avec expansion vers d’autres villes canadiennes."
+      },
+      "2": {
+        "title": "Partenariats",
+        "text": "Collaboration avec des organisations bénévoles, des entreprises, des clubs d’affaires, des créateurs de contenu, des médias et des groupes religieux."
+      },
+      "3": {
+        "title": "Communauté",
+        "text": "Mobilisation nationale de la diaspora ukrainienne, avec un accent sur l’engagement des communautés locales."
+      },
+      "4": {
+        "title": "Vision",
+        "text": "Combinaison d’événements locaux et de campagnes nationales."
+      }
+    },
+    "event": {
+      "title": "Vous avez déjà donné votre sang?",
+      "get": "Obtenez ",
+      "ticket": "un billet gratuit",
+      "event": " pour l’événement caritatif!",
+      "li1": "Entrée gratuite pour les donneurs de sang",
+      "li2": "100 % des ventes de billets sont versées aux hôpitaux ukrainiens",
+      "btn": "Obtenir mon billet"
+    },
+    "attend": {
+      "title": "Assister à l’événement caritatif",
+      "text": "Vous souhaitez venir à l’événement sans avoir encore donné votre sang? Vous êtes les bienvenus! Tous les revenus des billets et les dons financiers iront au soutien de l’Ukraine.",
+      "li1": "L’une des plus grandes soirées caritatives ukrainiennes à Toronto",
+      "li2": "Occasions de réseautage avec des entrepreneurs ukrainiens et canado-ukrainiens, des partenaires et des blogueurs",
+      "li3": "Conférences de personnalités reconnues",
+      "li4": "Créer des contacts professionnels et déposer vos candidatures",
+      "btn": "Participer à l’événement"
+    },
+    "team": {
+      "who": "Qui est notre",
+      "team": " équipe?",
+      "text": "«Notre équipe, c’est chaque Ukrainien au Canada et ailleurs dans le monde qui croit au don, à l’unité et à l’impact par l’action.»",
+      "ext": "Voir toute l’équipe",
+      "col": "Réduire"
     }
   },
   "blood": {

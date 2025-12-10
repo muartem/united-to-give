@@ -29,6 +29,80 @@
       "text6": "People you all know will share their experiences in Canada.",
       "attendee": "500+",
       "text7": "Event attendees."
+    },
+    "goals": {
+      "title": "Our Goals",
+      "1": {
+        "title": "Solidarity And Gratitude",
+        "text1": "Our goal is to support Canada’s national blood donation system as a powerful expression of solidarity and gratitude from the Ukrainian community. By actively participating in this life-saving effort, we aim to show that Ukrainians are not only grateful for the support they’ve received, but are also willing to give back and stand with Canadians in meaningful ways.",
+        "text2": "Through this initiative, we also strive to strengthen Ukraine’s role and reputation as a compassionate, responsible, and engaged global partner committed to humanitarian values and civic contribution."
+      },
+      "2": {
+        "title": "Raise awareness",
+        "text1": "Our goal is to remind people in Canada about Ukraine - not only through the lens of war and crisis, but through positive, visible contributions by the Ukrainian community.",
+        "text2": "By leading and participating in humanitarian actions like blood donation, we aim to shift the narrative and show Ukraine as a nation of strength, compassion, and civic responsibility."
+      },
+      "3": {
+        "title": "Help Ukraine",
+        "text1": "We’re raising funds to support the Ukrainian Blood Donation Center -because every life saved begins with someone who cares. Through ",
+        "uthr": "United Together Humanitarian Relief Inc.,",
+        "text2": " your donation will help provide critical medical supplies, equipment, and hope to those who need it most.",
+        "li1": "100% of funds go to Ukrainian hospitals",
+        "li2": "Make a difference from anywhere",
+        "li3": "Donate as a partner",
+        "btn": "Donate Funds"
+      }
+    },
+    "what": {
+      "is": "What Is",
+      "text1": "“United to Give is a nationwide humanitarian campaign that unites Ukrainians across Canada to support the national blood donation system and show the power of community.",
+      "text2": "It’s more than just donating blood - it’s about showing Ukrainians as an active, grateful, and compassionate group, ready to share life even in the most difficult times.”"
+    },
+    "scale": {
+      "title": "Scale of the Initiative",
+      "duration": "Duration: 6 months",
+      "target": "arget: Engage thousands of donors across Canada",
+      "1": {
+        "title": "Location",
+        "text": "Launch in Toronto with expansion to other cities across Canada."
+      },
+      "2": {
+        "title": "Connections",
+        "text": "Partnerships with volunteer organizations, businesses, business clubs, bloggers, media, and faith groups."
+      },
+      "3": {
+        "title": "Community",
+        "text": "Nationwide outreach to the Ukrainian diaspora, with a focus on engaging local communities."
+      },
+      "4": {
+        "title": "Vision",
+        "text": "Combination of local events and national campaigns."
+      }
+    },
+    "event": {
+      "title": "Already donated Blood?",
+      "get": "get ",
+      "ticket": "free ticket",
+      "event": " to charity event!",
+      "li1": "Free entrance for blood donors",
+      "li2": "100% of tickets sales go to Ukrainian hospitals",
+      "btn": "Get my ticket"
+    },
+    "attend": {
+      "title": "Attend Charity Event",
+      "text": "If you want to join the event, but have not donated blood - you are welcome too! Attend Charity Event - all ticket sales and financial donations go to Ukraine.",
+      "li1": "One of the biggest charity Ukrainian parties in Toronto",
+      "li2": "Networking opportunities with Ukrainian and Canadian-Ukrainian business owners, partners and bloggers",
+      "li3": "Listen to famous speakers",
+      "li4": "Make business connections and give away job applications\n",
+      "btn": "Attend Event"
+    },
+    "team":{
+      "who": "Who is our",
+      "team": " team?",
+      "text": "“Our team is every Ukrainian - in Canada and around the world - who believes in giving back, standing united, and creating impact through action.”",
+      "ext": "See all team",
+      "col": "Collapse"
     }
   },
   "blood": {

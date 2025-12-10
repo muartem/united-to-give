@@ -2,9 +2,12 @@ import AttendImage from '@/assets/images/attend.png'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container'
 import Ul from '@/components/ui/ul.jsx'
+import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
 const MainAttend = () => {
+  const t = useTranslations('main.attend')
+
   return (
     <Container
       outerCls="bg-background"
@@ -15,28 +18,24 @@ const MainAttend = () => {
       />
       <div className="order-1 md:order-2 flex flex-col gap-4">
         <div className="h2 uppercase text-light-black mb-2">
-          Attend Charity Event
+          {t('title')}
         </div>
         {/*<div className="b2 font-bold text-primary">
-						17 of May
+						📅 17 of May
           </div>
           <div className="b3 text-black-text">
 						📍 Location: Sheraton Centre Toronto Hotel, 123 Queen St W, Toronto, ON M5H 2M9
           </div>*/}
         <div className="b1 text-black-text">
-          If you want to join the event, but have not donated blood - you are welcome too! Attend Charity Event - all
-          ticket sales and financial donations go to Ukraine.
+          {t('text')}
         </div>
         <Ul
           variant="star"
           lis={[
-            'One of the biggest charity Ukrainian parties in Toronto',
-            'Networking opportunities with Ukrainian and Canadian-Ukrainian business owners, partners and bloggers',
-            'Listen to famous speakers',
-            'Make business connections and give away job applications'
+            t('li1'), t('li2'), t('li3'), t('li4')
           ]}
         />
-        <Button disabled variant="event" classNames="invisible w-full mt-4">Soon...{/*Attend Event*/}</Button>
+        <Button variant="event" classNames="invisible w-full mt-4">{t('btn')}</Button>
       </div>
     </Container>
   )

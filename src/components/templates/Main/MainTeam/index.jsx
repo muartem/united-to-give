@@ -6,11 +6,13 @@ import TgIcon from '@/assets/images/tg.png'
 import IgIcon from '@/assets/images/icons/ig.svg'
 import Button from '@/components/ui/button'
 import Container from '@/components/ui/container.jsx'
+import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 import {useState} from 'react'
 import team from './team.js'
 
 const MainTeam = () => {
+  const t = useTranslations('main.team')
   const [isExpanded, setExpanded] = useState(false)
 
   return (
@@ -18,15 +20,14 @@ const MainTeam = () => {
       outerCls="bg-background"
       innerCls="relative"
     >
-      <div className="flex flex-col items-center md:flex-row gap-4 md:gap-20">
-        <h1 className="text-light-black uppercase max-w-screen-xs">
-          Who is our
-          <span className="text-primary"> team?</span>
+      <div className="flex flex-col md:items-center md:flex-row gap-4 md:gap-20">
+        <h1 className="text-light-black uppercase md:text-nowrap md:max-w-max">
+          {t('who')}
+          <div className="text-primary">{t('team')}</div>
         </h1>
         <div className="flex-1">
           <div className="b1 text-black-text">
-            “Our team is every Ukrainian - in Canada and around the world - who believes in giving back, standing
-            united, and creating impact through action.”
+            {t('text')}
           </div>
         </div>
       </div>
@@ -65,7 +66,7 @@ const MainTeam = () => {
         variant="secondary"
         customPX
       >
-        {!isExpanded ? 'See all team' : 'Collapse'}
+        {!isExpanded ? t('ext') : t('col')}
       </Button>
     </Container>
   )

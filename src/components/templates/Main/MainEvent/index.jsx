@@ -3,9 +3,12 @@ import GentlemenImage from '@/assets/images/gentlemen.png'
 /*import ArrowRight from '@/assets/svg/Arrow-right'*/
 import Container from '@/components/ui/container'
 import Ul from '@/components/ui/ul'
+import {useTranslations} from 'next-intl'
 import Image from 'next/image'
 
 const MainEvent = () => {
+  const t = useTranslations('main.event')
+
   return (
     <Container
       outerCls="bg-background"
@@ -14,19 +17,21 @@ const MainEvent = () => {
       <Image src={EventBg} alt="Hero background" className="absolute w-full h-full object-cover"/>
       <div className="relative z-10 flex items-center gap-4 md:gap-10 flex-col lg:flex-row">
         <div className="flex flex-col justify-center gap-1 flex-1 pl-6 md:pl-20 pr-6 md:pr-0 pt-10 md:py-16 ">
-          <h3 className="h3 text-light-black uppercase">Already donated Blood?</h3>
+          <h3 className="h3 text-light-black uppercase">{t('title')}</h3>
           <h2 className="h2 text-light-black mb-4 uppercase">
-						Get <span className="text-golden-yellow">free ticket</span> to charity event!
+            {t('get')}
+            <span className="text-golden-yellow">{t('ticket')}</span>
+            {t('event')}
           </h2>
           <Ul
             variant="star"
-            lis={['Free entrance for blood donors', '100% of tickets sales go to Ukrainian hospitals']}
+            lis={[t('li1'), t('li2')]}
           />
           {/*<button
             type="button"
             className="mt-4 mb-8 b2 font-bold text-golden-yellow flex items-center gap-2 hover:brightness-95"
           >
-						Get my ticket
+						{t('btn')}
             <ArrowRight color="#FFC75F"/>
           </button>
           <div className="flex justify-between gap-8">
