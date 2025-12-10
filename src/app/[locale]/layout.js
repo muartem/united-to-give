@@ -1,10 +1,11 @@
 import Footer from '@/components/templates/Footer'
 import Header from '@/components/templates/Header'
-/*import locales from '@/i18n/locales.js'*/
+import locales from '@/i18n/locales.js'
 import {Analytics} from '@vercel/analytics/next'
+import {hasLocale} from 'next-intl'
 import {NextIntlClientProvider} from 'next-intl'
-import {getMessages} from 'next-intl/server'
 import '@/app/globals.css'
+import {notFound} from 'next/navigation'
 
 
 export const metadata = {
@@ -53,30 +54,29 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.unitedtogive.ca/',
     languages: {
-      'en-CA': 'https://www.unitedtogive.ca/en',
+      'en-CA': 'https://www.unitedtogive.ca/',
       'fr-CA': 'https://www.unitedtogive.ca/fr',
       'uk-UA': 'https://www.unitedtogive.ca/uk',
     },
   },
 }
 
-/*export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
-}*/
-
 export default async function RootLayout({
   children,
   params
 }) {
-  const messages = await getMessages()
-  const locale = await params.locale
+  const {locale} = await params
+
+  if (!hasLocale(locales, locale)) {
+    notFound()
+  }
 
   return (
     <html lang={locale}>
       <body
         className={`antialiased`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider>
           <div className="w-dvw h-dvh">
             <Header locale={locale}/>
             {children}
