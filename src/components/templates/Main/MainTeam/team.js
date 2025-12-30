@@ -4,6 +4,7 @@ import savchenko from '@/assets/images/team/savchenko.png'
 import taran from '@/assets/images/team/taran.png'
 import kolomiiets from '@/assets/images/team/kolomiiets.png'
 import martyniuk from '@/assets/images/team/Martyniuk.png'
+import povolotska from '@/assets/images/team/Povolotska.png'
 import karaptan from '@/assets/images/team/Karaptan.png'
 import filon from '@/assets/images/team/filon.png'
 import bobkov from '@/assets/images/team/Bobkov.png'
@@ -16,6 +17,8 @@ import Kabanets from '@/assets/images/team/Kabanets.png'
 import Shmalii from '@/assets/images/team/Shmalii.png'
 import Burenin from '@/assets/images/team/Burenin.png'
 import votre from '@/assets/images/team/votre.png'
+import khomiak from '@/assets/images/team/Khomiak.png'
+import khabal from '@/assets/images/team/Khabal.png'
 
 const team = [
   {
@@ -59,6 +62,13 @@ const team = [
     igLink: 'https://www.instagram.com/muartem',
   },
   {
+    image: povolotska,
+    name: 'Victoria Povolotska',
+    description: 'QA Engineer',
+    liLink: 'https://www.linkedin.com/in/victoria-povolotska/',
+    igLink: 'https://www.instagram.com/tori_ray',
+  },
+  {
     image: karaptan,
     name: 'Kateryna Karaptan',
     description: 'UI/UX Designer',
@@ -83,6 +93,12 @@ const team = [
     description: 'Video Producer and Videographer',
     igLink: 'https://www.instagram.com/violaa.bobkova',
     tgLink: 'https://t.me/violaa_kh',
+  },
+  {
+    image: khabal,
+    name: 'Diana Khabal',
+    description: 'Media',
+    igLink: 'https://www.instagram.com/diana_khabal',
   },
   {
     image: Tkachenko,
@@ -133,6 +149,11 @@ const team = [
     name: 'Lora Votre',
     description: 'Influencer',
     igLink: 'https://www.instagram.com/lora.votre',
+  },
+  {
+    image: khomiak,
+    name: 'Roman Khomyak',
+    description: 'Operations Manager',
   },
 ]
 

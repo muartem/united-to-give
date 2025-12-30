@@ -12,9 +12,9 @@
     "hero": {
       "join": "Joignez-vous à la ",
       "bd": "Campagne de don de sang ",
-      "initiative": "Initiative",
+      "initiative": "",
       "text1": "Donnez une fois — sauvez jusqu’à trois vies entre ",
-      "date": "Le 16 juillet et le 16 décembre ",
+      "date": "du 16 juillet au 16 décembre ",
       "text2": "Aidez de la manière qui vous convient.",
       "donateBtn": "Donner du sang",
       "donors": "1000+",
@@ -34,7 +34,7 @@
       "title": "Nos objectifs",
       "1": {
         "title": "Solidarité et reconnaissance",
-        "text1": "Notre objectif est de soutenir le système national de don de sang du Canada comme un geste fort de solidarité et de reconnaissance de la part de la communauté ukrainienne. En participant activement à cet effort vital, nous voulons démontrer que les Ukrainiens ne sont pas seulement reconnaissants du soutien reçu, mais qu’ils sont aussi prêts à redonner et à se tenir aux côtés des Canadiens de façon concrète.",
+        "text1": "Notre objectif est de soutenir le système national de don de sang du Canada comme un geste fort de solidarité et de reconnaissance de la part de la communauté ukrainienne. En participant activement à cet effort vital, nous voulons démontrer que les Ukrainiens ne sont pas seulement reconnaissants du soutien reçu, mais qu’ils sont aussi prêts à redonner et à se tenir aux côtés des Canadiens de manière concrète.",
         "text2": "Par cette initiative, nous souhaitons également renforcer le rôle et la réputation de l’Ukraine comme partenaire mondial compatissant, responsable et engagé, fidèle aux valeurs humanitaires et à la participation citoyenne."
       },
       "2": {
@@ -47,7 +47,7 @@
         "text1": "Nous recueillons des fonds pour soutenir le Centre ukrainien de don de sang — parce que chaque vie sauvée commence par quelqu’un qui s’en soucie réellement. Par l’entremise de ",
         "uthr": "United Together Humanitarian Relief Inc.,",
         "text2": " votre don permettra de fournir du matériel médical essentiel, de l’équipement et de l’espoir à ceux qui en ont le plus besoin.",
-        "li1": "100 % des fonds vont aux hôpitaux ukrainiens",
+        "li1": "100 % des fonds sont versés aux hôpitaux ukrainiens",
         "li2": "Faites une différence, peu importe où vous êtes",
         "li3": "Devenez partenaire donateur",
         "btn": "Faire un don"
@@ -60,8 +60,8 @@
     },
     "scale": {
       "title": "Portée de l’initiative",
-      "duration": "Durée: 6 mois",
-      "target": "Objectif: mobiliser des milliers de donneurs partout au Canada",
+      "duration": "Durée : 6 mois",
+      "target": "Objectif : mobiliser des milliers de donneurs partout au Canada",
       "1": {
         "title": "Emplacement",
         "text": "Lancement à Toronto avec expansion vers d’autres villes canadiennes."
@@ -80,17 +80,17 @@
       }
     },
     "event": {
-      "title": "Vous avez déjà donné votre sang?",
+      "title": "Vous avez déjà donné votre sang ?",
       "get": "Obtenez ",
       "ticket": "un billet gratuit",
-      "event": " pour l’événement caritatif!",
+      "event": " pour l’événement caritatif !",
       "li1": "Entrée gratuite pour les donneurs de sang",
-      "li2": "100 % des ventes de billets sont versées aux hôpitaux ukrainiens",
+      "li2": "100  % des ventes de billets sont versées aux hôpitaux ukrainiens",
       "btn": "Obtenir mon billet"
     },
     "attend": {
       "title": "Assister à l’événement caritatif",
-      "text": "Vous souhaitez venir à l’événement sans avoir encore donné votre sang? Vous êtes les bienvenus! Tous les revenus des billets et les dons financiers iront au soutien de l’Ukraine.",
+      "text": "Vous souhaitez venir à l’événement sans avoir encore donné votre sang ? Vous êtes les bienvenus ! Tous les revenus des billets et les dons financiers iront au soutien de l’Ukraine.",
       "li1": "L’une des plus grandes soirées caritatives ukrainiennes à Toronto",
       "li2": "Occasions de réseautage avec des entrepreneurs ukrainiens et canado-ukrainiens, des partenaires et des blogueurs",
       "li3": "Conférences de personnalités reconnues",
@@ -99,7 +99,7 @@
     },
     "team": {
       "who": "Qui est notre",
-      "team": " équipe?",
+      "team": " équipe ?",
       "text": "«Notre équipe, c’est chaque Ukrainien au Canada et ailleurs dans le monde qui croit au don, à l’unité et à l’impact par l’action.»",
       "ext": "Voir toute l’équipe",
       "col": "Réduire"
@@ -110,7 +110,7 @@
       "title": "Donner du sang donne à quelqu’un du ",
       "time": "temps",
       "subTitle": "Aidez de la manière qui vous convient — participez entre ",
-      "dateRange": "le 16 juillet et le 16 décembre.",
+      "dateRange": "du 16 juillet au 16 décembre.",
       "text1": "quelqu’un attend son lendemain",
       "donateBtn": "Donner du sang"
     },
@@ -146,7 +146,7 @@
       "tomorrow": "demain"
     },
     "whoNeeds": {
-      "title": "qui a besoin du sang donné?",
+      "title": "qui a besoin du sang donné ?",
       "1": "Enfants atteints de cancer",
       "2": "Personnes blessées dans des accidents de voiture",
       "3": "Patients atteints de maladies chroniques",
@@ -212,52 +212,52 @@
     "faq": {
       "title": "Questions fréquentes",
       "1": {
-        "title": "Qui peut donner du sang?",
-        "desc": "Pour donner du sang, vous devez:\n- Avoir au moins 17 ans.\n- Être en bonne condition physique.\n- Respecter les exigences de taille et de poids.\n- Peser au moins 50 kg.\nIl n’y a pas de limite d’âge maximale. En cas de doute, utilisez le questionnaire d’admissibilité ou appelez au 1-888-2-DONATE."
+        "title": "Qui peut donner du sang ?",
+        "desc": "Pour donner du sang, vous devez :\n- Avoir au moins 17 ans.\n- Être en bonne condition physique.\n- Respecter les exigences de taille et de poids.\n- Peser au moins 50 kg.\nIl n’y a pas de limite d’âge maximale. En cas de doute, utilisez le questionnaire d’admissibilité ou appelez au 1-888-2-DONATE."
       },
       "2": {
-        "title": "Je n’ai jamais donné auparavant. À quoi dois-je m’attendre?",
-        "desc": "Le processus comprend:\n1. Inscription et vérification de l’identité.\n2. Questionnaire santé.\n3. Don (~10–15 minutes).\n4. Collation et repos après le don."
+        "title": "Je n’ai jamais donné auparavant. À quoi dois-je m’attendre ?",
+        "desc": "Le processus comprend :\n1. Inscription et vérification de l’identité.\n2. Questionnaire santé.\n3. Don (~10–15 minutes).\n4. Collation et repos après le don."
       },
       "3": {
-        "title": "Où puis-je donner?",
+        "title": "Où puis-je donner ?",
         "desc": "Lors de l’événement principal, rendez-vous au 67 College Street à 11 h 45.\n\nSinon, vous pouvez donner dans n’importe quel centre de Services canadiens du sang."
       },
       "4": {
-        "title": "Est-ce sécuritaire de donner du sang?",
+        "title": "Est-ce sécuritaire de donner du sang ?",
         "desc": "Oui. Tout le matériel est stérile et à usage unique. La zone est désinfectée avant l’insertion de l’aiguille."
       },
       "5": {
-        "title": "Y aura-t-il des photos ou vidéos?",
+        "title": "Y aura-t-il des photos ou vidéos ?",
         "desc": "Seulement avec votre consentement. Vous pouvez refuser d’être filmé ou photographié."
       },
       "6": {
-        "title": "Je suis nerveux de donner seul. Puis-je participer quand même?",
-        "desc": "Absolument! Amenez un ami ou joignez-vous à notre événement du 26 juillet."
+        "title": "Je suis nerveux de donner seul. Puis-je participer quand même ?",
+        "desc": "Absolument ! Amenez un ami ou joignez-vous à notre événement du 26 juillet."
       },
       "7": {
-        "title": "Et si je me sens étourdi après le don?",
+        "title": "Et si je me sens étourdi après le don ?",
         "desc": "Une légère étourdissement est normale. Vous aurez accès à des collations et boissons. Évitez l’exercice intense pendant quelques heures."
       },
       "8": {
-        "title": "Et si je ne peux pas donner le jour principal?",
-        "desc": "Aucun problème! Vous pouvez donner entre le 16 juillet et le 16 décembre."
+        "title": "Et si je ne peux pas donner le jour principal ?",
+        "desc": "Aucun problème ! Vous pouvez donner entre le 16 juillet et le 16 décembre."
       },
       "9": {
-        "title": "Que devrais-je faire avant de donner?",
+        "title": "Que devrais-je faire avant de donner ?",
         "desc": "- Boire beaucoup d’eau\n- Bien manger\n- Apporter une carte d’identité valide"
       },
       "10": {
-        "title": "Est-ce que je suis payé?",
+        "title": "Est-ce que je suis payé ?",
         "desc": "Non. Le don est volontaire, mais vous recevrez de la reconnaissance."
       },
       "11": {
-        "title": "Combien de temps ça prend?",
+        "title": "Combien de temps ça prend ?",
         "desc": "Environ une heure au total."
       },
       "12": {
-        "title": "Est-ce que je reçois quelque chose?",
-        "desc": "Oui!\n- Certificat numérique\n- Cadeau\n- Reconnaissance sur nos réseaux sociaux"
+        "title": "Est-ce que je reçois quelque chose ?",
+        "desc": "Oui !\n- Certificat numérique\n- Cadeau\n- Reconnaissance sur nos réseaux sociaux"
       }
     },
     "ones": {
@@ -282,7 +282,7 @@
         "text1": "Nous recueillons des fonds pour soutenir le centre de don du sang ukrainien par ",
         "link": "United Together Humanitarian Relief Inc.",
         "text2": ".",
-        "li1": "100 % des fonds vont aux hôpitaux",
+        "li1": "100  % des fonds vont aux hôpitaux",
         "li2": "Aidez de partout",
         "li3": "Devenir partenaire",
         "button": "Faire un don"
@@ -301,7 +301,7 @@
       "k": "U",
       "raine": "kraine",
       "subTitle": "Nous recueillons des fonds pour soutenir un centre de don du sang en Ukraine.",
-      "li1": "100 % des fonds vont aux hôpitaux",
+      "li1": "100  % des fonds vont aux hôpitaux",
       "li2": "Impact mondial",
       "li3": "Devenir partenaire",
       "button": "Faire un don"
@@ -354,7 +354,7 @@
     },
     "uthr": {
       "text": "« Ce partenariat permet à votre soutien d’aller encore plus loin — jusqu’aux personnes qui en ont réellement besoin. »",
-      "quest": "Vous avez encore des questions? Contactez-nous en tout temps :"
+      "quest": "Vous avez encore des questions ? Contactez-nous en tout temps :"
     }
   },
   "partner": {
@@ -365,7 +365,7 @@
     },
     "goodTeam": {
       "title": "Vous êtes en bonne compagnie",
-      "desc": "Les entreprises peuvent sauver des vies. La vôtre aussi?",
+      "desc": "Les entreprises peuvent sauver des vies. La vôtre aussi ?",
       "1": {
         "title": "Société canadienne du sang",
         "text": "United Together Humanitarian Relief Inc. est un organisme officiel basé à Toronto."
@@ -420,8 +420,8 @@
     "faq": {
       "title": "Avantages pour les partenaires",
       "1": {
-        "title": "Je suis nerveux(se) à l’idée de donner seul(e). Puis-je quand même participer?",
-        "desc": "Absolument!\nBeaucoup de nouveaux donneurs se sentent nerveux. Vous pouvez venir avec un ami ou participer à un don de groupe…"
+        "title": "Je suis nerveux(se) à l’idée de donner seul(e). Puis-je quand même participer ?",
+        "desc": "Absolument !\nBeaucoup de nouveaux donneurs se sentent nerveux. Vous pouvez venir avec un ami ou participer à un don de groupe…"
       }
     },
     "partners": {
@@ -451,9 +451,9 @@
     },
     "haveQ": {
       "support": "« Votre soutien s’inscrit dans une mission plus vaste — sauver des vies là où c’est le plus important. »",
-      "still": "Vous avez des questions? Écrivez-nous :",
+      "still": "Vous avez des questions ? Écrivez-nous :",
       "form": {
-        "title": "Vous avez des questions? Parlons-en.",
+        "title": "Vous avez des questions ? Parlons-en.",
         "desc": "Nous vous contacterons dans les 24 prochaines heures",
         "fName": "Nom complet",
         "fnPH": "Entrez votre nom complet",
@@ -482,7 +482,7 @@
       "@u2g": "@UnitedToGive",
       "challenge": " défi",
       "text": "Chaque goutte compte — votre don peut sauver jusqu’à trois vies",
-      "join": "Joignez-vous à nous!",
+      "join": "Joignez-vous à nous !",
       "li": {
         "1": "Donnez du sang dans un centre canadien",
         "2": "Prenez une photo",
